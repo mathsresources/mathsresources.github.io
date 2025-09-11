@@ -1,3 +1,18 @@
+h1 {text-align: center;
+  font-weight: bold;
+}
+
+h0 {
+  font-size: 200%;
+  font-weight: bold;
+  color:#01579b;
+  text-decoration: none;
+}
+
+#indent div {
+  margin-left: 40px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
