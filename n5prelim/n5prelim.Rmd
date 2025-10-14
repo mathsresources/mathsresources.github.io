@@ -1,0 +1,1748 @@
+---
+title: "N5 Prelim Revision Booklet - Web Version"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+`r hide("N5 Formula Sheet")`
+
+![](images/n5formulasheet.jpg)
+
+`r unhide()`
+
+<hr>
+
+## Volume
+
+![](images/Q1.png)
+
+`r hide("Hint")`
+
+The formula sheet shows how to calculate the volume of a sphere.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$7400\text{ cm}^3$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A1.png)
+
+`r unhide()`
+
+![](images/Q2.png)
+
+`r hide("Hint")`
+
+What is the height of the cylinder itself, without the hemisphere on top?
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$3900\text{ cm}^3$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A2.png)
+
+`r unhide()`
+
+![](images/Q3.png)
+
+`r hide("Hint")`
+
+How can we deal with the fraction, $\frac{1}{3}$?
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$10.0\text{ cm}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A3.png)
+
+`r unhide()`
+
+<hr>
+
+## Equations and Inequations
+
+![](images/Q4.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A4.png)
+
+`r unhide()`
+
+![](images/Q5.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A5.png)
+
+`r unhide()`
+
+![](images/Q6.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A6.png)
+
+`r unhide()`
+
+![](images/Q7.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A7.png)
+
+`r unhide()`
+
+![](images/Q8.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A8.png)
+
+`r unhide()`
+
+<hr>
+
+## Circle Geometry
+
+![](images/Q9.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A9.png)
+
+`r unhide()`
+
+![](images/Q10.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A10.png)
+
+`r unhide()`
+
+<hr>
+
+## Scientific Notation
+
+![](images/Q11.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A11.png)
+
+`r unhide()`
+
+![](images/Q12.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A12.png)
+
+`r unhide()`
+
+<hr>
+
+## Expanding Brackets
+
+![](images/Q13.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A13.png)
+
+`r unhide()`
+
+![](images/Q14.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A14.png)
+
+`r unhide()`
+
+![](images/Q15.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A15.png)
+
+`r unhide()`
+
+![](images/Q16.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A16.png)
+
+`r unhide()`
+
+<hr>
+
+## Similar Shapes
+
+![](images/Q17.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A17.png)
+
+`r unhide()`
+
+![](images/Q18.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A18.png)
+
+`r unhide()`
+
+<hr>
+
+## Percentages
+
+![](images/Q19.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A19.png)
+
+`r unhide()`
+
+![](images/Q20.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A20.png)
+
+`r unhide()`
+
+![](images/Q21.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A21.png)
+
+`r unhide()`
+
+![](images/Q22.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A22.png)
+
+`r unhide()`
+
+<hr>
+
+## Numerical Fractions
+
+![](images/Q23.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A23.png)
+
+`r unhide()`
+
+![](images/Q24.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A24.png)
+
+`r unhide()`
+
+![](images/Q25.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A25.png)
+
+`r unhide()`
+
+![](images/Q26.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A26.png)
+
+`r unhide()`
+
+<hr>
+
+## Pythagoras
+
+![](images/Q27.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A27.png)
+
+`r unhide()`
+
+![](images/Q28.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A28.png)
+
+`r unhide()`
+
+![](images/Q29.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A29.png)
+
+`r unhide()`
+
+<hr>
+
+## Straight Lines
+
+![](images/Q30.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A30.png)
+
+`r unhide()`
+
+![](images/Q31.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A31.png)
+
+`r unhide()`
+
+![](images/Q32.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A32.png)
+
+`r unhide()`
+
+![](images/Q33.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A33.png)
+
+`r unhide()`
+
+![](images/Q34.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A34.png)
+
+`r unhide()`
+
+<hr>
+
+## Functions
+
+![](images/Q35.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A35.png)
+
+`r unhide()`
+
+![](images/Q36.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A36.png)
+
+`r unhide()`
+
+![](images/Q37.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A37.png)
+
+`r unhide()`
+
+![](images/Q38.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A38.png)
+
+`r unhide()`
+
+<hr>
+
+## Factorising
+
+![](images/Q39.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A39.png)
+
+`r unhide()`
+
+![](images/Q40.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A40.png)
+
+`r unhide()`
+
+![](images/Q41.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A41.png)
+
+`r unhide()`
+
+![](images/Q42.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A42.png)
+
+`r unhide()`
+
+![](images/Q43.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A43.png)
+
+`r unhide()`
+
+![](images/Q44.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A44.png)
+
+`r unhide()`
+
+![](images/Q45.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A45.png)
+
+`r unhide()`
+
+<hr>
+
+## Statistics
+
+![](images/Q46.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A46.png)
+
+`r unhide()`
+
+![](images/Q47.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A47.png)
+
+`r unhide()`
+
+<hr>
+
+## Quadratics
+
+![](images/Q48.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A48.png)
+
+`r unhide()`
+
+![](images/Q49.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A49.png)
+
+`r unhide()`
+
+![](images/Q50.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A50.png)
+
+`r unhide()`
+
+<hr>
+
+## Arcs and Sectors
+
+![](images/Q51.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A51.png)
+
+`r unhide()`
+
+![](images/Q52.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A52.png)
+
+`r unhide()`
+
+<hr>
+
+## Changing the Subject
+
+![](images/Q53.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A53.png)
+
+`r unhide()`
+
+![](images/Q54.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A54.png)
+
+`r unhide()`
+
+![](images/Q55.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A55.png)
+
+`r unhide()`
+
+<hr>
+
+## Surds
+
+![](images/Q56.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A56.png)
+
+`r unhide()`
+
+![](images/Q57.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A57.png)
+
+`r unhide()`
+
+![](images/Q58.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A58.png)
+
+`r unhide()`
+
+![](images/Q59.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A59.png)
+
+`r unhide()`
+
+![](images/Q60.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A60.png)
+
+`r unhide()`
+
+<hr>
+
+## Indices
+
+![](images/Q61.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A61.png)
+
+`r unhide()`
+
+![](images/Q62.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A62.png)
+
+`r unhide()`
+
+![](images/Q63.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A63.png)
+
+`r unhide()`
+
+![](images/Q64.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A64.png)
+
+`r unhide()`
+
+<hr>
+
+## Trig Graphs
+
+![](images/Q65.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A65.png)
+
+`r unhide()`
+
+![](images/Q66.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A66.png)
+
+`r unhide()`
+
+![](images/Q67.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A67.png)
+
+`r unhide()`
+
+<hr>
+
+## Simultaneous Equations
+
+![](images/Q68.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A68.png)
+
+`r unhide()`
+
+![](images/Q69.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A69.png)
+
+`r unhide()`
+
+![](images/Q70.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A70.png)
+
+`r unhide()`
+
+<hr>
+
+## Area and Sine Rules
+
+![](images/Q71.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A71.png)
+
+`r unhide()`
+
+![](images/Q72.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A72.png)
+
+`r unhide()`
+
+![](images/Q73.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A73.png)
+
+`r unhide()`
+
+<hr>
+
+## Algebraic Fractions
+
+![](images/Q74.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A74.png)
+
+`r unhide()`
+
+![](images/Q75.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A75.png)
+
+`r unhide()`
+
+![](images/Q76.png)
+
+`r hide("Hint")`
+
+Hint goes here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$Answer$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A76.png)
+
+`r unhide()`
+
+
+
+**NOTE: To use the widgets in the compiled HTML file, you need to have a JavaScript-enabled browser.**
+
+## Fill-In-The-Blanks (`fitb()`)
+
+Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument.
+
+- 2 + 2 is `r fitb(4)`
+
+You can also create these questions dynamically, using variables from your R session.
+
+```{r}
+x <- sample(2:8, 1)
+```
+
+- The square root of `r x^2` is: `r fitb(x)`
+
+The blanks are case-sensitive; if you don't care about case, use the argument `ignore_case = TRUE`.
+
+- What is the letter after D? `r fitb("E", ignore_case = TRUE)`
+
+If you want to ignore differences in whitespace use, use the argument `ignore_ws = TRUE` (which is the default) and include spaces in your answer anywhere they could be acceptable.
+
+- How do you load the tidyverse package? `r fitb(c("library( tidyverse )", "library( \"tidyverse\" )", "library( 'tidyverse' )"), ignore_ws = TRUE, width = "20")`
+
+You can set more than one possible correct answer by setting the answers as a vector.
+
+- Type a vowel: `r fitb(c("A", "E", "I", "O" , "U"), ignore_case = TRUE)`
+
+You can use regular expressions to test answers against more complex rules.
+
+- Type any 3 letters: `r fitb("^[a-zA-Z]{3}$", width = 3, regex = TRUE)`
+
+## Multiple Choice (`mcq()`)
+
+- "Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
+- "I `r mcq(c(answer = "bless the rains", "guess it rains", "sense the rain"))` down in Africa" -Toto
+
+## True or False (`torf()`)
+
+- True or False? You can permute values in a vector using `sample()`. `r torf(TRUE)`
+
+## Longer MCQs (`longmcq()`)
+
+When your answers are very long, sometimes a drop-down select box gets formatted oddly. You can use `longmcq()` to deal with this. Since the answers are long, It's probably best to set up the options inside an R chunk with `echo=FALSE`. 
+
+**What is a p-value?**
+
+```{r}
+opts_p <- c(
+   "the probability that the null hypothesis is true",
+   answer = "the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true",
+   "the probability of making an error in your conclusion"
+)
+```
+
+`r longmcq(opts_p)`
+
+**What is true about a 95% confidence interval of the mean?**
+
+```{r}
+# use sample() to randomise the order
+opts_ci <- sample(c(
+  answer = "if you repeated the process many times, 95% of intervals calculated in this way contain the true mean",
+  "there is a 95% probability that the true mean lies within this range",
+  "95% of the data fall within this range"
+))
+```
+
+`r longmcq(opts_ci)`
+
+## Checked sections
+
+Create sections with the class `webex-check` to add a button that hides feedback until it is pressed. Add the class `webex-box` to draw a box around the section (or use your own styles).
+
+::: {.webex-check .webex-box}
+
+I am going to learn a lot: `r torf(TRUE)`
+
+```{r, results='asis'}
+opts <- c(
+   "the probability that the null hypothesis is true",
+   answer = "the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true",
+   "the probability of making an error in your conclusion"
+)
+
+cat("What is a p-value?", longmcq(opts))
+```
+
+:::
+
+## Hidden solutions and hints
+
+You can fence off a solution area that will be hidden behind a button using `hide()` before the solution and `unhide()` after, each as inline R code.  Pass the text you want to appear on the button to the `hide()` function.
+
+If the solution is an RMarkdown code chunk, instead of using `hide()` and `unhide()`, simply set the `webex.hide` chunk option to TRUE, or set it to the string you wish to display on the button.
+
+**Recreate the scatterplot below, using the built-in `cars` dataset.**
+
+```{r}
+with(cars, plot(speed, dist))
+```
+
+
+`r hide("I need a hint")`
+
+See the documentation for `plot()` (`?plot`)
+
+`r unhide()`
+
+
+<!-- note: you could also just set webex.hide to TRUE -->
+
+```{r, echo = TRUE, eval = FALSE, webex.hide="Click here to see the solution"}
+plot(cars$speed, cars$dist)
+```
+
