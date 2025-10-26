@@ -330,7 +330,7 @@ Take care with *multiplying a negative by a negative*.
 
 `r hide("Answer")`
 
-$2x^3-5x^2-13x-4$
+$2x^3-5x^2-13x+4$
 
 `r unhide()`
 
@@ -1288,7 +1288,7 @@ Numerical terms can be collected together, and surds which are alike can be coll
 
 `r hide("Answer")`
 
-$Answer$
+$2\sqrt{3}-6$
 
 `r unhide()`
 
