@@ -28,13 +28,13 @@ library(webexercises)
 
 `r hide("Hint")`
 
-The formula sheet shows how to calculate the volume of a sphere.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$7400\text{ cm}^3$
+Coming soon.
 
 `r unhide()`
 
@@ -48,13 +48,13 @@ $7400\text{ cm}^3$
 
 `r hide("Hint")`
 
-What is the height of the cylinder itself, without the hemisphere on top?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$3900\text{ cm}^3$
+Coming soon.
 
 `r unhide()`
 
@@ -68,13 +68,13 @@ $3900\text{ cm}^3$
 
 `r hide("Hint")`
 
-Substitute the values you know into the formula provided on the formula sheet.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$10.0\text{ cm}$
+Coming soon.
 
 `r unhide()`
 
@@ -90,13 +90,13 @@ $10.0\text{ cm}$
 
 `r hide("Hint")`
 
-Be very careful if you find yourself dividing *by a negative number*. It is usually best to avoid it.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$3>x$ or $x<3$
+Coming soon.
 
 `r unhide()`
 
@@ -110,13 +110,13 @@ $3>x$ or $x<3$
 
 `r hide("Hint")`
 
-The bracket in the first line is being multiplied by *negative* 2.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x<\frac{3}{2}$ or $\frac{3}{2}>x$
+Coming soon.
 
 `r unhide()`
 
@@ -132,13 +132,13 @@ $x<\frac{3}{2}$ or $\frac{3}{2}>x$
 
 `r hide("Hint")`
 
-*Multiplying* through carefully by the *denominator* will deal with the fraction.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x=\frac{13}{2}$
+Coming soon.
 
 `r unhide()`
 
@@ -152,13 +152,13 @@ $x=\frac{13}{2}$
 
 `r hide("Hint")`
 
-Multiplying by the denominator is a good strategy even when the denominator contains a letter.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x=3$
+Coming soon.
 
 `r unhide()`
 
@@ -172,13 +172,13 @@ $x=3$
 
 `r hide("Hint")`
 
-Find an expression for the *perimeter* of each shape first. You are told they have *equal* perimeter...
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$10\text{ cm}$
+Coming soon.
 
 `r unhide()`
 
@@ -194,13 +194,13 @@ $10\text{ cm}$
 
 `r hide("Hint")`
 
-Look for right-angles, and isosceles triangles.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\angle ABD=61^{\circ}$
+Coming soon.
 
 `r unhide()`
 
@@ -214,13 +214,13 @@ $\angle ABD=61^{\circ}$
 
 `r hide("Hint")`
 
-Look for right-angles, and isosceles triangles.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\angle PQR = 34^{\circ}$
+Coming soon.
 
 `r unhide()`
 
@@ -238,13 +238,13 @@ $\angle PQR = 34^{\circ}$
 
 `r hide("Hint")`
 
-Make sure you can enter numbers in scientific notation *into your calculator* to perform calculations.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$8.72\times10^{10}\text{ miles}$
+Coming soon.
 
 `r unhide()`
 
@@ -258,13 +258,13 @@ $8.72\times10^{10}\text{ miles}$
 
 `r hide("Hint")`
 
-Make sure you can enter numbers in scientific notation into your calculator, and consider whether they should be put them in *brackets* when performing calculators. 
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$18$
+Coming soon.
 
 `r unhide()`
 
@@ -281,13 +281,13 @@ $18$
 
 `r hide("Hint")`
 
-Take care with *negatives* when expanding brackets.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$6x^2+5x-3$
+Coming soon.
 
 `r unhide()`
 
@@ -301,13 +301,13 @@ $6x^2+5x-3$
 
 `r hide("Hint")`
 
-Check the *six terms* obtained from expanding these brackets are correct carefully before you collect like terms.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x^3+2x^2-13x+10$
+Coming soon.
 
 `r unhide()`
 
@@ -321,13 +321,13 @@ $x^3+2x^2-13x+10$
 
 `r hide("Hint")`
 
-Take care with *multiplying a negative by a negative*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$2x^3-5x^2-13x+4$
+Coming soon.
 
 `r unhide()`
 
@@ -341,13 +341,13 @@ $2x^3-5x^2-13x+4$
 
 `r hide("Hint")`
 
-Tackle the expansion of $(x-3)(x+1)$ then consider the "$-$" that lies in front of it.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$-x+3$
+Coming soon.
 
 `r unhide()`
 
@@ -365,13 +365,13 @@ $-x+3$
 
 `r hide("Hint")`
 
-Draw the *two triangles separately*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x=6$
+Coming soon.
 
 `r unhide()`
 
@@ -385,13 +385,13 @@ $x=6$
 
 `r hide("Hint")`
 
-Obtain the LSF *first*, and then think about which scale factor is *needed*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$7500\text{ cm}^3$
+Coming soon.
 
 `r unhide()`
 
@@ -408,13 +408,13 @@ $7500\text{ cm}^3$
 
 `r hide("Hint")`
 
-*"100\% + 2.5\%"*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$£344.61$
+Coming soon.
 
 `r unhide()`
 
@@ -428,13 +428,13 @@ $£344.61$
 
 `r hide("Hint")`
 
-What does *appreciate* mean?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$£148 000$
+Coming soon.
 
 `r unhide()`
 
@@ -448,13 +448,13 @@ $£148 000$
 
 `r hide("Hint")`
 
-What percentage *of their original pay* is £11.18?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$£10.75$
+Coming soon.
 
 `r unhide()`
 
@@ -468,13 +468,13 @@ $£10.75$
 
 `r hide("Hint")`
 
-Without a calculator, finding 1\% will be awkward. What *other percentage* could be reached, which would let you then find 100\% quickly?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$32$
+Coming soon.
 
 `r unhide()`
 
@@ -490,13 +490,13 @@ $32$
 
 `r hide("Hint")`
 
-When multiplying (or dividing) factions, the denominators *don't need to be the same*. However, you don't want either to be a *mixed fraction*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{26}{11}$ or $2\dfrac{4}{11}$
+Coming soon.
 
 `r unhide()`
 
@@ -510,13 +510,13 @@ $\dfrac{26}{11}$ or $2\dfrac{4}{11}$
 
 `r hide("Hint")`
 
-How can a division by a fraction be rewritten as a *multiplication*?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{20}{9}$ or $2\dfrac{2}{9}$
+Coming soon.
 
 `r unhide()`
 
@@ -530,13 +530,13 @@ $\dfrac{20}{9}$ or $2\dfrac{2}{9}$
 
 `r hide("Hint")`
 
-When adding (or subtracting) fractions, the *denominators need to be equal*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{193}{30}$ or $6\dfrac{13}{30}$
+Coming soon.
 
 `r unhide()`
 
@@ -552,13 +552,13 @@ $\dfrac{193}{30}$ or $6\dfrac{13}{30}$
 
 `r hide("Hint")`
 
-"$\dfrac{3}{4}$ *of...*" is the same as "$\dfrac{3}{4}\times$..."
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{15}{8}$ or $1\dfrac{7}{8}$
+Coming soon.
 
 `r unhide()`
 
@@ -574,13 +574,13 @@ $\dfrac{15}{8}$ or $1\dfrac{7}{8}$
 
 `r hide("Hint")`
 
-Isolate a *right-angled triangle* within the diagram to focus on.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$6.56\text{ mm}$
+Coming soon.
 
 `r unhide()`
 
@@ -594,13 +594,13 @@ $6.56\text{ mm}$
 
 `r hide("Hint")`
 
-Start by calculating the length of line *AC*, which lies *beneath* line AD.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$8.37\text{ m}$
+Coming soon.
 
 `r unhide()`
 
@@ -614,13 +614,13 @@ $8.37\text{ m}$
 
 `r hide("Hint")`
 
-Since line JF lies East-West, the question is asking whether line FS makes a *right-angle* with JF.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-No, the Second Buoy is not directly South of the First Buoy (with justification).
+Coming soon.
 
 `r unhide()`
 
@@ -637,13 +637,13 @@ No, the Second Buoy is not directly South of the First Buoy (with justification)
 
 `r hide("Hint")`
 
-Start by using a formula to find the *gradient* between the points.
+Start by using a formula to find the *gradient* between the points.Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$y=2x+8$
+Coming soon.
 
 `r unhide()`
 
@@ -657,13 +657,13 @@ $y=2x+8$
 
 `r hide("Hint")`
 
-Start by using a formula to find the *gradient* between the points.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$y=-\frac{3}{2}x+11$ or $2y=-3x+22$
+Coming soon.
 
 `r unhide()`
 
@@ -677,13 +677,13 @@ $y=-\frac{3}{2}x+11$ or $2y=-3x+22$
 
 `r hide("Hint")`
 
-First rearrange the equation to make $y$ the subject: $y=\dots$
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(0,2)$
+Coming soon.
 
 `r unhide()`
 
@@ -699,13 +699,13 @@ $(0,2)$
 
 `r hide("Hint")`
 
-First rearrange the equation to make $y$ the subject: $y=\dots$
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$m=\frac{3}{2}$
+Coming soon.
 
 `r unhide()`
 
@@ -719,15 +719,13 @@ $m=\frac{3}{2}$
 
 `r hide("Hint")`
 
-Start by finding two data points which lie *directly on the line of best fit*, and write down their coordinates.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Equation: $W=10H+10$
-
-Weight: $250\text{ grams}$
+Coming soon.
 
 `r unhide()`
 
@@ -744,13 +742,13 @@ Weight: $250\text{ grams}$
 
 `r hide("Hint")`
 
-Use brackets when *substituting* values into functions.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$68$
+Coming soon.
 
 `r unhide()`
 
@@ -764,13 +762,13 @@ $68$
 
 `r hide("Hint")`
 
-Take care with *negatives*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$-2$
+Coming soon.
 
 `r unhide()`
 
@@ -784,13 +782,13 @@ $-2$
 
 `r hide("Hint")`
 
-The questions is *not* asking for 17 to be substituted *into* the function in place of $x$.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$a=7$
+Coming soon.
 
 `r unhide()`
 
@@ -804,13 +802,13 @@ $a=7$
 
 `r hide("Hint")`
 
-You can always *check* your answer for $t$ is correct by substituting into *into* the function afterwards.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$t=-\frac{4}{3}$
+Coming soon.
 
 `r unhide()`
 
@@ -827,13 +825,13 @@ $t=-\frac{4}{3}$
 
 `r hide("Hint")`
 
-There are three kinds of factorising to consider in turn: *common factor*, *difference of two squares* and *trinomials/double brackets*. Sometimes more than one kind is needed in a single factorising question.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$2(x+3)(x-3)$
+Coming soon.
 
 `r unhide()`
 
@@ -849,13 +847,13 @@ $2(x+3)(x-3)$
 
 `r hide("Hint")`
 
-$9m^2$ can be written as $(\dots)^2$?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(3m+5)(3m-5)$
+Coming soon.
 
 `r unhide()`
 
@@ -869,13 +867,13 @@ $(3m+5)(3m-5)$
 
 `r hide("Hint")`
 
-$9m^2$ can be written as $(\dots)^2$?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(3m+5)(3m-5)$
+Coming soon.
 
 `r unhide()`
 
@@ -889,13 +887,13 @@ $(3m+5)(3m-5)$
 
 `r hide("Hint")`
 
-$9m^2$ can be written as $(\dots)^2$?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(3m+5)(3m-5)$
+Coming soon.
 
 `r unhide()`
 
@@ -909,13 +907,13 @@ $(3m+5)(3m-5)$
 
 `r hide("Hint")`
 
-*"Think of two numbers that multiple to give... and add to give..."*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(x-4)(x-2)$
+Coming soon.
 
 `r unhide()`
 
@@ -929,13 +927,13 @@ $(x-4)(x-2)$
 
 `r hide("Hint")`
 
-*"Think of two numbers that multiple to give... and add to give..."*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(x-4)(x-2)$
+Coming soon.
 
 `r unhide()`
 
@@ -949,13 +947,13 @@ $(x-4)(x-2)$
 
 `r hide("Hint")`
 
-*"Think of two numbers that multiple to give... and add to give..."*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(x-4)(x-2)$
+Coming soon.
 
 `r unhide()`
 
@@ -971,13 +969,13 @@ $(x-4)(x-2)$
 
 `r hide("Hint")`
 
-It can help to write out all of the possible pairs of whole numbers that *multiply to give -20*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(y+5)(y-4)$
+Coming soon.
 
 `r unhide()`
 
@@ -991,13 +989,13 @@ $(y+5)(y-4)$
 
 `r hide("Hint")`
 
-Always look to take a *common factor* first. However, there may still be *more to do* afterwards...
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$3(x+3)(x-1)$
+Coming soon.
 
 `r unhide()`
 
@@ -1011,13 +1009,13 @@ $3(x+3)(x-1)$
 
 `r hide("Hint")`
 
-One approach is to find a pair of numbers that multiply to give 5, but that add to give -11 *when one of them is multiplied by 2 first.*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(2x-1)(x-5)$
+Coming soon.
 
 `r unhide()`
 
@@ -1031,13 +1029,13 @@ $(2x-1)(x-5)$
 
 `r hide("Hint")`
 
-Once you think you have the correct answer, you can always multiply your brackets out again to *check you get back to the original expression*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$(3x-1)(x+2)$
+Coming soon.
 
 `r unhide()`
 
@@ -1054,14 +1052,13 @@ $(3x-1)(x+2)$
 
 `r hide("Hint")`
 
-Start by putting the numbers *in order*...
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-a) Median = 21, interquartile range = 16.
-b) Compare your comments to those in the solution, or ask your teacher to check them.
+Coming soon.
 
 `r unhide()`
 
@@ -1077,14 +1074,13 @@ b) Compare your comments to those in the solution, or ask your teacher to check 
 
 `r hide("Hint")`
 
-There are *two formulae* on the formula sheet for standard deviation. Check your notes to see *which one* your teacher taught you how to use.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-a) Mean = 17, standard deviation = 9.7.
-b) Compare your comments to those in the solution, or ask your teacher to check them.
+Coming soon.
 
 `r unhide()`
 
@@ -1101,13 +1097,13 @@ b) Compare your comments to those in the solution, or ask your teacher to check 
 
 `r hide("Hint")`
 
-To solve a quadratic equation, you will usually want to *factorise* first.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x=-2,x=5$
+Coming soon.
 
 `r unhide()`
 
@@ -1121,17 +1117,13 @@ $x=-2,x=5$
 
 `r hide("Hint")`
 
-"$y$-*intercepts when* $x=0$..." 
-"*Roots when* $y=0$..."
-"*The* $x$-*coordinate of the turning point lies in the middle of the roots... *"
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$y$-intercept at $(0,-15)$
-Roots at $(5,0)$ and $(-3,0)$
-Minimum turning point at $(1,-16)$
+Coming soon.
 
 `r unhide()`
 
@@ -1145,15 +1137,13 @@ Minimum turning point at $(1,-16)$
 
 `r hide("Hint")`
 
-Make sure you label all your coordinates *on the sketch*. If any numbers don't make sense, check to see if you have done something wrong.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$y$-intercept at $(0,-7)$
-Roots at $(1,0)$ and $(-7,0)$
-Minimum turning point at $(-3,-16)$
+Coming soon.
 
 `r unhide()`
 
@@ -1170,13 +1160,13 @@ Minimum turning point at $(-3,-16)$
 
 `r hide("Hint")`
 
-An arc is a *fraction of a circumference*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$59.9\text{ cm}$
+Coming soon.
 
 `r unhide()`
 
@@ -1190,13 +1180,13 @@ $59.9\text{ cm}$
 
 `r hide("Hint")`
 
-This is another example of substituting into a formula then *rearranging*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$60.8^{\circ}$
+Coming soon.
 
 `r unhide()`
 
@@ -1213,13 +1203,13 @@ $60.8^{\circ}$
 
 `r hide("Hint")`
 
-Deal with $r$ being within a *fraction* first.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$r=\dfrac{3P+k}{2}$
+Coming soon.
 
 `r unhide()`
 
@@ -1233,13 +1223,13 @@ $r=\dfrac{3P+k}{2}$
 
 `r hide("Hint")`
 
-Deal with $m$ being within a *square root* first.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$m=t^2+a^2$
+Coming soon.
 
 `r unhide()`
 
@@ -1255,13 +1245,13 @@ $m=t^2+a^2$
 
 `r hide("Hint")`
 
-As with the previous example, the letter is within a square root. But that doesn't mean you should deal with the square root *right away*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$k=(y-pr)^2$
+Coming soon.
 
 `r unhide()`
 
@@ -1278,13 +1268,13 @@ $k=(y-pr)^2$
 
 `r hide("Hint")`
 
-Think of the *highest square factor* of each number within a root.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$11\sqrt{3}$
+Coming soon.
 
 `r unhide()`
 
@@ -1298,13 +1288,13 @@ $11\sqrt{3}$
 
 `r hide("Hint")`
 
-Take care not to forget the 3 *in front of the first surd*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$19\sqrt{2}$
+Coming soon.
 
 `r unhide()`
 
@@ -1318,13 +1308,13 @@ $19\sqrt{2}$
 
 `r hide("Hint")`
 
-*Multiply by* $\dfrac{?}{?}$...
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{3\sqrt{35}}{7}$
+Coming soon.
 
 `r unhide()`
 
@@ -1338,13 +1328,13 @@ $\dfrac{3\sqrt{35}}{7}$
 
 `r hide("Hint")`
 
-Always check whether the *surd can be simplified*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{2\sqrt{3}}{3}$
+Coming soon.
 
 `r unhide()`
 
@@ -1358,13 +1348,13 @@ $\dfrac{2\sqrt{3}}{3}$
 
 `r hide("Hint")`
 
-Numerical terms can be collected together, and surds which are alike can be collected together. *It isn't always possible to collect things together...*
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$2\sqrt{3}-6$
+Coming soon.
 
 `r unhide()`
 
@@ -1382,13 +1372,13 @@ $2\sqrt{3}-6$
 
 `r hide("Hint")`
 
-Learn your *index laws* carefully.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$6x^2$
+Coming soon.
 
 `r unhide()`
 
@@ -1402,13 +1392,13 @@ $6x^2$
 
 `r hide("Hint")`
 
-Remember that a *negative power* means *division*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{4}{x^2}$
+Coming soon.
 
 `r unhide()`
 
@@ -1422,13 +1412,13 @@ $\dfrac{4}{x^2}$
 
 `r hide("Hint")`
 
-The *order of operations* means apply the *power* (of a power) before the *multiplication* (of powers).
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{1}{p^5}$
+Coming soon.
 
 `r unhide()`
 
@@ -1442,13 +1432,13 @@ $\dfrac{1}{p^5}$
 
 `r hide("Hint")`
 
-Remember that both the $y$ *term* and the *fraction in front* are being *squared*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{9}{16}y^{10}$
+Coming soon.
 
 `r unhide()`
 
@@ -1465,13 +1455,13 @@ $\dfrac{9}{16}y^{10}$
 
 `r hide("Hint")`
 
-One of the letters is the *amplitude*, the other is the *number of waves in 360 degrees*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$a=5,b=3$
+Coming soon.
 
 `r unhide()`
 
@@ -1485,13 +1475,13 @@ $a=5,b=3$
 
 `r hide("Hint")`
 
-The graph is only shown up to *180 degrees*...
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$a=3,b=2$
+Coming soon.
 
 `r unhide()`
 
@@ -1507,13 +1497,13 @@ $a=3,b=2$
 
 `r hide("Hint")`
 
-The graphs has been *moved up*, compared to a $y=a\sin{x^\circ}$ graph.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$a=3,b=2$
+Coming soon.
 
 `r unhide()`
 
@@ -1530,13 +1520,13 @@ $a=3,b=2$
 
 `r hide("Hint")`
 
-The equations must be *scaled* first.
+TComing soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$x=5,y=1$
+Coming soon.
 
 `r unhide()`
 
@@ -1550,13 +1540,13 @@ $x=5,y=1$
 
 `r hide("Hint")`
 
-Take care with *negatives*, as usual.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$p=3,q=-2$
+Coming soon.
 
 `r unhide()`
 
@@ -1570,14 +1560,13 @@ $p=3,q=-2$
 
 `r hide("Hint")`
 
-*Communicate* your answer fully at the end.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-A full price ticket costs £7.
-A concession ticket costs £5.
+Coming soon.
 
 `r unhide()`
 
@@ -1594,13 +1583,13 @@ A concession ticket costs £5.
 
 `r hide("Hint")`
 
-Make your you give a *complete* answer, including *units*.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$11.6\text{ m}^2$
+Coming soon.
 
 `r unhide()`
 
@@ -1616,13 +1605,13 @@ $11.6\text{ m}^2$
 
 `r hide("Hint")`
 
-Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$3.7 \text{ cm}$
+Coming soon.
 
 `r unhide()`
 
@@ -1636,13 +1625,13 @@ $3.7 \text{ cm}$
 
 `r hide("Hint")`
 
-Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$34.0^\circ$
+Coming soon.
 
 `r unhide()`
 
@@ -1658,13 +1647,13 @@ $34.0^\circ$
 
 `r hide("Hint")`
 
-In an SQA exam question, it is likely that the numerator and denominator will have *something in common* after factorising.
+Coming soon.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{x-5}{x-3}$
+Coming soon.
 
 `r unhide()`
 
