@@ -28,13 +28,13 @@ library(webexercises)
 
 `r hide("Hint")`
 
-Coming soon.
+Perpendicular bisectors pass through the *midpoint* of a line segment, and run *perpendicular* to them.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$4y=3x-6$ or $y=\frac{3}{4}x-\frac{3}{2}$
 
 `r unhide()`
 
@@ -48,13 +48,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+A straight line equation must be rearranged to make $y$ the subject ($y=\dots$) before its gradient can be determined.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$
 
 `r unhide()`
 
@@ -68,13 +68,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The formula $m=\tan{\theta}$ links a line's gradient to the angle it makes *with the positive direction of the *$x$*-axis*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$y=-x-2$
 
 `r unhide()`
 
@@ -90,13 +90,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Calculate the gradients of PQ and QR first. The conclusion to a collinearity problem needs to be learned *carefully*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$m_{PQ}=m_{QR}=-3$, valid statement
 
 `r unhide()`
 
@@ -110,13 +110,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Check the properties of *altitudes* and *medians* of triangles using your notes. Once you have obtained each equation, check that it *matches the diagram* in terms of gradient and $y$-intercept.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $y=-3x-5$ (b) $2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$ (c) $(3,-4)$
 
 `r unhide()`
 
