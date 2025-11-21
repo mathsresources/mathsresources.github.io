@@ -34,7 +34,9 @@ Perpendicular bisectors pass through the *midpoint* of a line segment, and run *
 
 `r hide("Answer")`
 
-$4y=3x-6$ or $y=\frac{3}{4}x-\frac{3}{2}$
+$4y=-3x+29$ or $y=-\frac{3}{4}x+\frac{29}{2}$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 15, Exercise 1.8, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
@@ -56,6 +58,8 @@ A straight line equation must be rearranged to make $y$ the subject ($y=\dots$) 
 
 $2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$
 
+*For more practice, try:* **Zeta Higher Textbook, Page 13, Exercise 1.6, Questions 3, 4 and 5**
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -74,7 +78,9 @@ The formula $m=\tan{\theta}$ links a line's gradient to the angle it makes *with
 
 `r hide("Answer")`
 
-$y=-x-2$
+$y=-x+2$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 9, Exercise 1.4A, Questions 1, 2 and 3**
 
 `r unhide()`
 
@@ -98,6 +104,8 @@ Calculate the gradients of PQ and QR first. The conclusion to a collinearity pro
 
 $m_{PQ}=m_{QR}=-3$, valid statement
 
+*For more practice, try:* **Zeta Higher Textbook, Page 12, Exercise 1.5, Questions 1(a), 1(b) and 1(c)**
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -110,19 +118,41 @@ $m_{PQ}=m_{QR}=-3$, valid statement
 
 `r hide("Hint")`
 
-Check the properties of *altitudes* and *medians* of triangles using your notes. Once you have obtained each equation, check that it *matches the diagram* in terms of gradient and $y$-intercept.
+a) *Medians* meet opposite sides at the *midpoint*.
+
+b) *Altitudes* meet opposite sides at an angle of *90 degrees*.
+
+c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-(a) $y=-3x-5$ (b) $2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$ (c) $(3,-4)$
+(a) $y=-3x+5$ 
+
+(b) $2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$ 
+
+(c) $(3,-4)$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 21, Exercise 1.11B, Questions 1, 2 and 3**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A05.png)
+![](images/A05a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A05b.png)
+
+`r unhide()`
+
+`r hide("Solution (c)")`
+
+![](images/A05c.png)
 
 `r unhide()`
 
@@ -132,19 +162,35 @@ Check the properties of *altitudes* and *medians* of triangles using your notes.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Calculate $u_1$ first using the value of $u_0$ as a starting point.
+
+(b) 
+(i) What is the value of $a$? 
+(ii) What is the formula for the *limit* of a recurrence relation?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $15$
+
+(b) 
+(i) $-1<a<1$, valid statement
+(ii) $9$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 90, Exercise 6.1, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A06.png)
+![](images/A06a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A06b.png)
 
 `r unhide()`
 
@@ -152,19 +198,31 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Can you put both $u_2$ and $u_3$ into the recurrence relation? Where does each one go?
+
+(b) What is the value of $a$?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $-4$
+
+(b) $a>1$, valid statement
+
+*For more practice, try:* **Zeta Higher Textbook, Page 93, Exercise 6.3, Questions 1(f), 1(i) and 1(l)**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A07.png)
+![](images/A07a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A07b.png)
 
 `r unhide()`
 
@@ -172,19 +230,31 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Substitute the value of $u_4$ into the recurrence relation.
+
+(b) Use your expression from part (a), and the new information that $u_5=-1$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $6k-4$
+
+(b) $k=\frac{1}{2}$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 15, Exercise 1.8, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A08.png)
+![](images/A08a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A08b.png)
 
 `r unhide()`
 
@@ -194,19 +264,31 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) What *"12% is subtracted (from the original 100%)* as a decimal?
+
+(b) Since dividing by $0.12$ is tricky, multiply both parts of the fraction by $100$ and work from there.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $a=0.88,b-30$
+
+(b) 250 squirrels
+
+*For more practice, try:* **Zeta Higher Textbook, Page 96, Exercise 6.5B, Questions 1, 2 and 3**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A09.png)
+![](images/A09a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A09b.png)
 
 `r unhide()`
 
@@ -214,19 +296,21 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Create *two* equations: one linking the first two terms, and a second linking the second term and the third term. Solve *simultaneously*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$p=-\frac{1}{2},q=2$
+
+*For more practice, try:* **Zeta Higher Textbook, Page 91, Exercise 6.2, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
 `r hide("Solution")`
 
-![](images/A10.png)
+![](images/a10.png)
 
 `r unhide()`
 
