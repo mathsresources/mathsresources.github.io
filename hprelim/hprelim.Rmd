@@ -322,13 +322,13 @@ $p=-\frac{1}{2},q=2$
 
 `r hide("Hint")`
 
-Coming soon.
+To differentiate, *multiply by the power and then reduce the power by 1...*
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$-19$
 
 `r unhide()`
 
@@ -342,13 +342,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by *splitting the fraction into two fractions*, each with a denominator of $3x^2$, and prepare each part for differentiation.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$2x^2+2x^{-3}$
 
 `r unhide()`
 
@@ -365,13 +365,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The gradient of a tangent to a curve is described by its *derivative*, $\dfrac{dy}{dx}$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$9$
 
 `r unhide()`
 
@@ -385,13 +385,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The *gradient* of a tangent was found in the last question. To find its *equation*, we also need to know a coordinate the tangent passes through.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$y=6x-14$
 
 `r unhide()`
 
@@ -405,13 +405,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The *rate of change* of a function is described by its *derivative*, $h'(t)$. A square root $\sqrt{x}$ can also be written in index as $x^{\frac{1}{2}}$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$2$
 
 `r unhide()`
 
@@ -425,13 +425,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Find the *derivative*, $\dfrac{dy}{dx}$, first.
+
+If a value of $x$ is substituted into the derivative, the result will be the gradient. Here, when $x=2$ is substituted in, what value would the output be equal to?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$k=-\frac{1}{2}$
 
 `r unhide()`
 
@@ -449,13 +451,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+A few methods may be used.
+
+One begins by fully expanding $p(x+q)^2+r$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$3(x-4)^2+9$
 
 `r unhide()`
 
@@ -469,13 +473,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+A few methods may be used.
+
+One begins by fully expanding $a(x+b)^2+c$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$-(x-2)^2+7$
 
 `r unhide()`
 
@@ -492,13 +498,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by considering the *roots* of the equation $2x^2+8x-10$. Notice the *common factor*.
+
+*You need to draw a sketch.*
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x<-5,x>1$
 
 `r unhide()`
 
@@ -512,7 +520,11 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by considering the *roots* of the equation $m^2-m-20$.
+
+*You need to draw a sketch.*
+
+Since $m$ is the variable, your answer *must be in terms of *$m$.
 
 `r unhide()`
 
@@ -532,13 +544,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+An equation has *(real) equal roots* when $b^2-4ac=0$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$p=\pm6$
 
 `r unhide()`
 
@@ -552,13 +564,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+An equation has *no real roots* when $b^2-4ac<0$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$q<-\frac{6}{5}$
 
 `r unhide()`
 
@@ -574,13 +586,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+An equation has *real, distinct roots* when $b^2-4ac>0$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$k<-2,k>6$
 
 `r unhide()`
 
@@ -594,13 +606,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Points of intersection can be found by solving $y=y$...
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$(-2,1)$ and $(4,5)$
 
 `r unhide()`
 
@@ -614,13 +626,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Tangency can be explored by solving $y=y$ are for generally finding points of intersection, then considering how the resulting equation can be *factorised* or $b^2-4ac$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$(2,5)$
 
 `r unhide()`
 
@@ -636,13 +648,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by writing it in the form $y=...$ and then rearrange to make $x$ the subject.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$h^{-1}(x)=3x+4$
 
 `r unhide()`
 
@@ -658,14 +670,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by writing it in the form $y=...$ and then rearrange to make $x$ the subject.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
-
+$f^{-1}(x)=\left(\dfrac{x+3}{2}\right)^2$
 `r unhide()`
 
 `r hide("Solution")`
@@ -678,13 +689,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+*Division by zero* is undefined.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x\ne \frac{1}{2}$
 
 `r unhide()`
 
@@ -698,13 +709,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The *square root of a negative* is undefined.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x<3$
 
 `r unhide()`
 
@@ -721,14 +732,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Start by using a formula to find the *gradient* between the points.Coming soon.
+The expression for $g(x)$ needs to be substituted *into* the expression for $f(x)$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
-
+$f(g(x))=2x-1$
 `r unhide()`
 
 `r hide("Solution")`
