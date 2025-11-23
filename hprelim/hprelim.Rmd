@@ -751,13 +751,21 @@ $f(g(x))=2x-1$
 
 `r hide("Hint")`
 
-Coming soon.
+(a)
+
+The expression for $f(x)$ needs to be substituted *into* the expression for $g(x)$.
+
+Simplify it fully.
+
+(b) Applying $f$ to $x$ and then applying $g$ to the result leads *back* to $x$. What is happening here?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $g(f(x))=x$
+
+(b) $f$ and $g$ are inverse to each other.
 
 `r unhide()`
 
@@ -771,13 +779,19 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Substitute $g(x)$ into $f(x)$ and simplify.
+
+(b) Observe the results from part (a) *before* simplifying, when it when written in completed square form, $(x-a)^2+b$. What is the lowest possible value of $k(x)$?
+
+(c) Begin by factorising $k(x)$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $k(x)=x^2-6x+8$
+
+(b) $k(x)\geqslant-1$.
 
 `r unhide()`
 
@@ -793,13 +807,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Rearrange to make $\sin x$ the subject. Give your final answer in *radians*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=\frac{\pi}{6},\frac{5\pi}{6}$
 
 `r unhide()`
 
@@ -813,13 +827,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Use a CAST diagram carefully to identify quadrants in which $\tan x$ is *negative*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=\frac{5\pi}{12},\frac{11\pi}{12}$
 
 `r unhide()`
 
@@ -836,13 +850,17 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) At which angle is $y=4\cos x$ at its minimum, and how low does it go? Answer in *radians*.
+
+(b) The *points of intersection* Q and R can be obtained by solving the set of equations $y=4\cos x$ and $y=2$ simultaneously.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) P$(\pi,-4)$
+
+(b) Q$\left(\frac{\pi}{3},2\right)$, R$\left(\frac{5\pi}{3},2\right)$
 
 `r unhide()`
 
@@ -856,13 +874,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+For a $2x$ trig equation from 0 to 360 degrees, *expect 4 solutions*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=30,150,210,330$
 
 `r unhide()`
 
@@ -876,13 +894,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+For a $2x$ trig equation from 0 to 360 degrees, *expect 4 solutions*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=120,150,300,330$
 
 `r unhide()`
 
@@ -896,13 +914,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Remember that $\frac{\pi}{6}$ radians is equal to $30\degree$.
+
+Find $x\degree-30\degree$ solutions then add $30\degree$ to solve for $x$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=\frac{11\pi}{12},\frac{23\pi}{12}$
 
 `r unhide()`
 
@@ -919,13 +939,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+*Expect 4 solutions...* Use a combination of skills from the previous questions.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=\frac{\pi}{4},\frac{5\pi}{12}.\frac{5\pi}{4}.\frac{17\pi}{12}$
 
 `r unhide()`
 
@@ -941,13 +961,21 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Make a list of all coordinates on the *original* graph (here there are 3).
+
+Everything *outside* the $(x)$ bracket affects $y$-coordinates.
+These transformations are usually seen as *intuitive*.
+
+Everything *inside* the $(x)$ bracket affects $x$-coordinates.
+These transformations are usually seen as *counterintuitive*.
+
+Make sure your final graph has *all* the transformed *images* of the original coordinates clearly shown.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -961,13 +989,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Remember to apply the two transformations following the rules of operation: $\times(-1)$ *then* $-1$
+
+As well as changing the coordinates, think about how the transformations will change the *shape* and *position* of the graph. Here, $-f(x)$ will *flip the graph upside down*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -981,13 +1011,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+If $-f(x)$ is a *vertical* flip, what is $f(-x)$?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -1001,13 +1031,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Don't ignore the coordinate of $(0,0)$ on the original graph.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -1021,13 +1051,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+$2-g(x)$ can be rewritten as $-g(x)+2$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -1041,13 +1071,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+$\frac{1}{2}g(x)$ is a *vertical compression* by factor 2.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See full solution below for the graph and coordinates.
 
 `r unhide()`
 
@@ -1063,19 +1093,31 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Find the components of vectors $\overrightarrow{PQ}$ and $\overrightarrow{QR}$.
+
+Make sure your collinearity statement is *carefully and fully worded*.
+
+Draw a *sketch* to make (b) easier to see.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $2\overrightarrow{PQ}=\overrightarrow{QR}$, valid statement.
+
+(b) $1:2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A42.png)
+![](images/A42a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A42b.png)
 
 `r unhide()`
 
@@ -1083,13 +1125,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Check which method your teacher taught you to use. One option is the *section formula*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+E$(5,-1,4)$
 
 `r unhide()`
 
@@ -1103,19 +1145,49 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Use $\overrightarrow{AB}=\mathbf{b}-\mathbf{a}$
+
+(b) The formula sheet reminds you how to do this.
+
+(c) Use the formula $\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}||\mathbf{b}|\cos{\theta}$, rearranged and in terms of $\overrightarrow{EM}$ and $\overrightarrow{ER}$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $\overrightarrow{EM}$=\begin{pmatrix}
+            \phantom{-}2\\
+            -6\\
+            -1
+        \end{pmatrix}
+         and $\overrightarrow{ER}=$
+        \begin{pmatrix}
+            -3\\
+            -2\\
+            \phantom{-}3
+        \end{pmatrix}
+
+(b) 3
+
+(c) $84.3^{\circ}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A44.png)
+![](images/A44a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A44b.png)
+
+`r unhide()`
+
+`r hide("Solution (c)")`
+
+![](images/A44c.png)
 
 `r unhide()`
 
