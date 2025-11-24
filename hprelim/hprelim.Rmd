@@ -1195,13 +1195,18 @@ E$(5,-1,4)$
 
 `r hide("Hint")`
 
-Coming soon.
+If a vector has a magnitude of $k$, multiplying that vector by $\frac{1}{k}$ will create a parallel vector with a length of $1$ (a unit vector).
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\begin{pmatrix}
+\frac{1}{3}\\
+-\frac{2}{3}\\
+\frac{2}{3}
+\end{pmatrix}$
+
 
 `r unhide()`
 
@@ -1218,19 +1223,45 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+(a) Start by expressing vector BF as BA$+$AC$+$CF.
+
+(b) Start similar to the above hint.
+
+(c) The following approaches will help:
+
+- For all vectors, $\mathbf{a}\cdot\mathbf{a}=|\mathbf{a}|^2$
+
+- If $\mathbf{a}$ and $\mathbf{b}$ are *perpendicular* then $\mathbf{a}\cdot\mathbf{b}=0$
+
+- If the angle $\theta$ between two vectors and their magnitudes are known, then $\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}||\mathbf{b}|\cos{\theta}$ can be used.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a) $-\mathbf{u}+\mathbf{v}+\mathbf{w}$
+
+(b) $-\frac{2}{3}\mathbf{w}-\mathbf{v}+\mathbf{w}$
+
+(c) (i) $\frac{9}{2}$ (ii) $\frac{9}{2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A46.png)
+![](images/A46a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A46b.png)
+
+`r unhide()`
+
+`r hide("Solution (c)")`
+
+![](images/A46c.png)
 
 `r unhide()`
 
