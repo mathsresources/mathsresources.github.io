@@ -24,7 +24,7 @@ library(webexercises)
 
 ## 1 Straight Line
 
-![](images/Q01.png)
+<hr>![](images/Q01.png)
 
 `r hide("Hint")`
 
@@ -46,7 +46,7 @@ $4y=-3x+29$ or $y=-\frac{3}{4}x+\frac{29}{2}$
 
 `r unhide()`
 
-![](images/Q02.png)
+<hr>![](images/Q02.png)
 
 `r hide("Hint")`
 
@@ -68,7 +68,7 @@ $2y=-x-5$ or $y=-\frac{1}{2}x-\frac{5}{2}$
 
 `r unhide()`
 
-![](images/Q03.png)
+<hr>![](images/Q03.png)
 
 `r hide("Hint")`
 
@@ -90,7 +90,7 @@ $y=-x+2$
 
 `r unhide()`
 
-![](images/Q04.png)
+<hr>![](images/Q04.png)
 
 `r hide("Hint")`
 
@@ -112,7 +112,7 @@ $m_{PQ}=m_{QR}=-3$, valid statement
 
 `r unhide()`
 
-![](images/Q05.png)
+<hr>![](images/Q05.png)
 
 `r hide("Hint")`
 
@@ -158,7 +158,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 ## 2 Recurrence Relations
 
-![](images/Q06.png)
+<hr><hr>![](images/Q06.png)
 
 `r hide("Hint")`
 
@@ -194,7 +194,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
-![](images/Q07.png)
+<hr>![](images/Q07.png)
 
 `r hide("Hint")`
 
@@ -226,7 +226,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
-![](images/Q08.png)
+<hr>![](images/Q08.png)
 
 `r hide("Hint")`
 
@@ -258,7 +258,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
-![](images/Q09.png)
+<hr>![](images/Q09.png)
 
 `r hide("Hint")`
 
@@ -290,7 +290,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
-![](images/Q10.png)
+<hr>![](images/Q10.png)
 
 `r hide("Hint")`
 
@@ -316,7 +316,7 @@ $p=-\frac{1}{2},q=2$
 
 ## 3 Differentiation I
 
-![](images/Q11.png)
+<hr>![](images/Q11.png)
 
 `r hide("Hint")`
 
@@ -336,7 +336,7 @@ $-19$
 
 `r unhide()`
 
-![](images/Q12.png)
+<hr>![](images/Q12.png)
 
 `r hide("Hint")`
 
@@ -357,7 +357,7 @@ $2x^2+2x^{-3}$
 `r unhide()`
 
 
-![](images/Q13.png)
+<hr>![](images/Q13.png)
 
 `r hide("Hint")`
 
@@ -377,7 +377,7 @@ $9$
 
 `r unhide()`
 
-![](images/Q14.png)
+<hr>![](images/Q14.png)
 
 `r hide("Hint")`
 
@@ -397,7 +397,7 @@ $y=6x-14$
 
 `r unhide()`
 
-![](images/Q15.png)
+<hr>![](images/Q15.png)
 
 `r hide("Hint")`
 
@@ -417,7 +417,7 @@ $2$
 
 `r unhide()`
 
-![](images/Q16.png)
+<hr>![](images/Q16.png)
 
 `r hide("Hint")`
 
@@ -443,7 +443,7 @@ $k=-\frac{1}{2}$
 
 ## 4 Quadratic Theory
 
-![](images/Q17.png)
+<hr>![](images/Q17.png)
 
 `r hide("Hint")`
 
@@ -465,7 +465,7 @@ $3(x-4)^2+9$
 
 `r unhide()`
 
-![](images/Q18.png)
+<hr>![](images/Q18.png)
 
 `r hide("Hint")`
 
@@ -488,7 +488,7 @@ $-(x-2)^2+7$
 `r unhide()`
 
 
-![](images/Q19.png)
+<hr>![](images/Q19.png)
 
 `r hide("Hint")`
 
@@ -510,7 +510,7 @@ $x<-5,x>1$
 
 `r unhide()`
 
-![](images/Q20.png)
+<hr>![](images/Q20.png)
 
 `r hide("Hint")`
 
@@ -534,7 +534,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q21.png)
+<hr>![](images/Q21.png)
 
 `r hide("Hint")`
 
@@ -554,7 +554,7 @@ $p=\pm6$
 
 `r unhide()`
 
-![](images/Q22.png)
+<hr>![](images/Q22.png)
 
 `r hide("Hint")`
 
@@ -574,7 +574,7 @@ $q<-\frac{6}{5}$
 
 `r unhide()`
 
-![](images/Q23.png)
+<hr>![](images/Q23.png)
 
 `r hide("Hint")`
 
@@ -594,7 +594,7 @@ $k<-2,k>6$
 
 `r unhide()`
 
-![](images/Q24.png)
+<hr>![](images/Q24.png)
 
 `r hide("Hint")`
 
@@ -614,7 +614,7 @@ $(-2,1)$ and $(4,5)$
 
 `r unhide()`
 
-![](images/Q25.png)
+<hr>![](images/Q25.png)
 
 `r hide("Hint")`
 
@@ -638,7 +638,7 @@ $(2,5)$
 
 ## 5 Sets and Functions
 
-![](images/Q26.png)
+<hr>![](images/Q26.png)
 
 `r hide("Hint")`
 
@@ -658,7 +658,7 @@ $h^{-1}(x)=3x+4$
 
 `r unhide()`
 
-![](images/Q27.png)
+<hr>![](images/Q27.png)
 
 `r hide("Hint")`
 
@@ -677,7 +677,7 @@ $f^{-1}(x)=\left(\dfrac{x+3}{2}\right)^2$
 
 `r unhide()`
 
-![](images/Q28.png)
+<hr>![](images/Q28.png)
 
 `r hide("Hint")`
 
@@ -697,7 +697,7 @@ $x\ne \frac{1}{2}$
 
 `r unhide()`
 
-![](images/Q29.png)
+<hr>![](images/Q29.png)
 
 `r hide("Hint")`
 
@@ -718,7 +718,7 @@ $x<3$
 `r unhide()`
 
 
-![](images/Q30.png)
+<hr>![](images/Q30.png)
 
 `r hide("Hint")`
 
@@ -737,7 +737,7 @@ $f(g(x))=2x-1$
 
 `r unhide()`
 
-![](images/Q31.png)
+<hr>![](images/Q31.png)
 
 `r hide("Hint")`
 
@@ -765,7 +765,7 @@ Simplify it fully.
 
 `r unhide()`
 
-![](images/Q32.png)
+<hr>![](images/Q32.png)
 
 `r hide("Hint")`
 
@@ -795,7 +795,7 @@ Simplify it fully.
 
 ## 6 Trigonometry
 
-![](images/Q33.png)
+<hr>![](images/Q33.png)
 
 `r hide("Hint")`
 
@@ -815,7 +815,7 @@ $x=\frac{\pi}{6},\frac{5\pi}{6}$
 
 `r unhide()`
 
-![](images/Q34.png)
+<hr>![](images/Q34.png)
 
 `r hide("Hint")`
 
@@ -835,7 +835,7 @@ $x=\frac{5\pi}{12},\frac{11\pi}{12}$
 
 `r unhide()`
 
-![](images/Q35.png)
+<hr>![](images/Q35.png)
 
 `r hide("Hint")`
 
@@ -859,7 +859,7 @@ $x=\frac{5\pi}{12},\frac{11\pi}{12}$
 
 `r unhide()`
 
-![](images/Q36.png)
+<hr>![](images/Q36.png)
 
 `r hide("Hint")`
 
@@ -879,7 +879,7 @@ $x=30,150,210,330$
 
 `r unhide()`
 
-![](images/Q37.png)
+<hr>![](images/Q37.png)
 
 `r hide("Hint")`
 
@@ -899,7 +899,7 @@ $x=120,150,300,330$
 
 `r unhide()`
 
-![](images/Q38.png)
+<hr>![](images/Q38.png)
 
 `r hide("Hint")`
 
@@ -921,7 +921,7 @@ $x=\frac{11\pi}{12},\frac{23\pi}{12}$
 
 `r unhide()`
 
-![](images/Q39.png)
+<hr>![](images/Q39.png)
 
 `r hide("Hint")`
 
@@ -945,7 +945,7 @@ $x=\frac{\pi}{4},\frac{5\pi}{12}.\frac{5\pi}{4}.\frac{17\pi}{12}$
 
 ## 7 Graph Transformations
 
-![](images/Q40a.png)
+<hr>![](images/Q40a.png)
 
 `r hide("Hint")`
 
@@ -973,7 +973,7 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
-![](images/Q40b.png)
+<hr>![](images/Q40b.png)
 
 `r hide("Hint")`
 
@@ -995,7 +995,7 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
-![](images/Q40c.png)
+<hr>![](images/Q40c.png)
 
 `r hide("Hint")`
 
@@ -1015,7 +1015,7 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
-![](images/Q41a.png)
+<hr>![](images/Q41a.png)
 
 `r hide("Hint")`
 
@@ -1035,7 +1035,7 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
-![](images/Q41b.png)
+<hr>![](images/Q41b.png)
 
 `r hide("Hint")`
 
@@ -1055,7 +1055,7 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
-![](images/Q41c.png)
+<hr>![](images/Q41c.png)
 
 `r hide("Hint")`
 
@@ -1079,7 +1079,7 @@ See full solution below for the graph and coordinates.
 
 ## 8 Vectors
 
-![](images/Q42.png)
+<hr>![](images/Q42.png)
 
 `r hide("Hint")`
 
@@ -1111,7 +1111,7 @@ Draw a *sketch* to make (b) easier to see.
 
 `r unhide()`
 
-![](images/Q43.png)
+<hr>![](images/Q43.png)
 
 `r hide("Hint")`
 
@@ -1131,7 +1131,7 @@ E$(5,-1,4)$
 
 `r unhide()`
 
-![](images/Q44.png)
+<hr>![](images/Q44.png)
 
 `r hide("Hint")`
 
@@ -1181,7 +1181,7 @@ E$(5,-1,4)$
 
 `r unhide()`
 
-![](images/Q45.png)
+<hr>![](images/Q45.png)
 
 `r hide("Hint")`
 
@@ -1207,7 +1207,7 @@ $\begin{pmatrix}
 `r unhide()`
 
 
-![](images/Q46.png)
+<hr>![](images/Q46.png)
 
 `r hide("Hint")`
 
@@ -1257,7 +1257,7 @@ $\begin{pmatrix}
 
 ## 9 Differentiation II
 
-![](images/Q47.png)
+<hr>![](images/Q47.png)
 
 `r hide("Hint")`
 
@@ -1278,7 +1278,7 @@ Coming soon.
 `r unhide()`
 
 
-![](images/Q48.png)
+<hr>![](images/Q48.png)
 
 `r hide("Hint")`
 
@@ -1298,7 +1298,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q49.png)
+<hr>![](images/Q49.png)
 
 `r hide("Hint")`
 
@@ -1318,7 +1318,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q50.png)
+<hr>![](images/Q50.png)
 
 `r hide("Hint")`
 
@@ -1339,7 +1339,7 @@ Coming soon.
 `r unhide()`
 
 
-![](images/Q51.png)
+<hr>![](images/Q51.png)
 
 `r hide("Hint")`
 
@@ -1359,7 +1359,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q52.png)
+<hr>![](images/Q52.png)
 
 `r hide("Hint")`
 
@@ -1380,7 +1380,7 @@ Coming soon.
 `r unhide()`
 
 
-![](images/Q53.png)
+<hr>![](images/Q53.png)
 
 `r hide("Hint")`
 
@@ -1400,7 +1400,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q54.png)
+<hr>![](images/Q54.png)
 
 `r hide("Hint")`
 
@@ -1424,7 +1424,7 @@ Coming soon.
 
 ## 10 Polynomials
 
-![](images/Q55.png)
+<hr>![](images/Q55.png)
 
 `r hide("Hint")`
 
@@ -1445,7 +1445,7 @@ Coming soon.
 `r unhide()`
 
 
-![](images/Q56.png)
+<hr>![](images/Q56.png)
 
 `r hide("Hint")`
 
@@ -1465,7 +1465,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q57.png)
+<hr>![](images/Q57.png)
 
 `r hide("Hint")`
 
@@ -1485,7 +1485,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q58.png)
+<hr>![](images/Q58.png)
 
 `r hide("Hint")`
 
@@ -1505,7 +1505,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q59.png)
+<hr>![](images/Q59.png)
 
 `r hide("Hint")`
 
@@ -1525,7 +1525,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q60.png)
+<hr>![](images/Q60.png)
 
 `r hide("Hint")`
 
@@ -1549,7 +1549,7 @@ Coming soon.
 
 ## 11 Integration
 
-![](images/Q61.png)
+<hr>![](images/Q61.png)
 
 `r hide("Hint")`
 
@@ -1569,7 +1569,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q62.png)
+<hr>![](images/Q62.png)
 
 `r hide("Hint")`
 
@@ -1589,7 +1589,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q63.png)
+<hr>![](images/Q63.png)
 
 `r hide("Hint")`
 
@@ -1609,7 +1609,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q64.png)
+<hr>![](images/Q64.png)
 
 `r hide("Hint")`
 
@@ -1629,7 +1629,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q65.png)
+<hr>![](images/Q65.png)
 
 `r hide("Hint")`
 
@@ -1649,7 +1649,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q66.png)
+<hr>![](images/Q66.png)
 
 `r hide("Hint")`
 
@@ -1673,7 +1673,7 @@ Coming soon.
 
 ## 12 Addition Formulae
 
-![](images/Q67.png)
+<hr>![](images/Q67.png)
 
 `r hide("Hint")`
 
@@ -1708,7 +1708,7 @@ Coming soon.
 
 
 
-![](images/Q68.png)
+<hr>![](images/Q68.png)
 
 `r hide("Hint")`
 
@@ -1728,7 +1728,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q69.png)
+<hr>![](images/Q69.png)
 
 `r hide("Hint")`
 
@@ -1748,7 +1748,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q70.png)
+<hr>![](images/Q70.png)
 
 `r hide("Hint")`
 
@@ -1771,7 +1771,7 @@ Coming soon.
 
 
 
-![](images/Q71.png)
+<hr>![](images/Q71.png)
 
 `r hide("Hint")`
 
@@ -1795,7 +1795,7 @@ Coming soon.
 
 ## 13 The Circle
 
-![](images/Q72.png)
+<hr>![](images/Q72.png)
 
 `r hide("Hint")`
 
@@ -1815,7 +1815,7 @@ Coming soon.
 
 `r unhide()`
 
-![](images/Q73.png)
+<hr>![](images/Q73.png)
 
 `r hide("Hint")`
 
@@ -1837,7 +1837,7 @@ Coming soon.
 
 
 
-![](images/Q74.png)
+<hr>![](images/Q74.png)
 
 `r hide("Hint")`
 
