@@ -1704,9 +1704,21 @@ Coming soon.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A67.png)
+![](images/A67a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)(i)")`
+
+![](images/A67bi.png)
+
+`r unhide()`
+
+`r hide("Solution (b)(ii)")`
+
+![](images/A67bii.png)
 
 `r unhide()`
 
