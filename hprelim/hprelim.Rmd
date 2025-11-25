@@ -100,7 +100,7 @@ Calculate the gradients of PQ and QR first. The conclusion to a collinearity pro
 
 `r hide("Answer")`
 
-$m_{PQ}=m_{QR}=-3$, valid statement
+$m_{PQ}=m_{QR}=-3$, valid statement *(see solution)*.
 
 *For more practice, try:* **Zeta Higher Textbook, Page 12, Exercise 1.5, Questions 1(a), 1(b) and 1(c)**
 
@@ -175,7 +175,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 (a) $15$
 
 (b) 
-(i) $-1<a<1$, valid statement
+(i) $-1<a<1$, valid statement *(see solution)*.
 (ii) $9$
 
 *For more practice, try:* **Zeta Higher Textbook, Page 90, Exercise 6.1, Questions 1(a), 1(b) and 1(c)**
@@ -208,7 +208,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 (a) $-4$
 
-(b) $a>1$, valid statement
+(b) $a>1$, valid statement *(see solution)*.
 
 *For more practice, try:* **Zeta Higher Textbook, Page 93, Exercise 6.3, Questions 1(f), 1(i) and 1(l)**
 
@@ -524,7 +524,7 @@ Since $m$ is the variable, your answer *must be in terms of *$m$.
 
 `r hide("Answer")`
 
-Coming soon.
+$-4\leqslant m\leqslant5$
 
 `r unhide()`
 
@@ -1093,7 +1093,7 @@ Draw a *sketch* to make (b) easier to see.
 
 `r hide("Answer")`
 
-(a) $2\overrightarrow{PQ}=\overrightarrow{QR}$, valid statement.
+(a) $2\overrightarrow{PQ}=\overrightarrow{QR}$, valid statement *(see solution)*.
 
 (b) $1:2$
 
@@ -1261,13 +1261,13 @@ $\begin{pmatrix}
 
 `r hide("Hint")`
 
-Coming soon.
+A function is *increasing* when its derivative is *positive*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x>-2$
 
 `r unhide()`
 
@@ -1282,13 +1282,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+A function is *decreasing* when its derivative is *negative*.
+
+Remember to *draw a sketch* to solve a quadratic inequation!
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$-2<x<4$
 
 `r unhide()`
 
@@ -1302,13 +1304,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Stationary points occur when the *derivative is zero*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=-5,x=3$
 
 `r unhide()`
 
@@ -1322,13 +1324,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The *second derivative* can be used to determine the *nature* of a stationary point.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+Maximum turning point at $(-2,49)$
+
+Minimum turning point at $(3,-76)$
 
 `r unhide()`
 
@@ -1343,13 +1347,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+A function that is *strictly increasing* across an interval will "begin" at its lowest value and increase towards its highest value as $x$ increases.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+Min value is $-5$
+
+Max value is $7$
 
 `r unhide()`
 
@@ -1363,13 +1369,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Finding a value of $x$ which *minimises* a function is very similar in process to finding a *stationary point*.
+
+In its most convenient form, we might hope to find only *one* stationary point within the domain, and for that stationary point to be a *minimum turning point*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+The function is minimised when $x=3$, with justification *(see solution)*.
 
 `r unhide()`
 
@@ -1384,13 +1392,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The hint to Q52 applies here, but this time we are looking to *maximise* the function.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+Max value of $R(x)$ when $x=\frac{9}{2}$.
 
 `r unhide()`
 
@@ -1404,13 +1412,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+When sketching the derivative, *stationary points* on $f(x)$ translate to $roots$ on $f'(x)$.
+
+Remember that the derivative of a *cubic* ($\dots x^3\dots$) is a *quadratic* ($\dots x^2\dots$).
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+See the solution.
 
 `r unhide()`
 
@@ -1428,13 +1438,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+*Synthetic division* may be used to calculate a remainder from a polynomial division.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$7$
 
 `r unhide()`
 
@@ -1449,13 +1459,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The numbers along the bottom row of a synthetic division, to the left of the *remainder*, form the coefficients of the *quotient*. This is needed to fully factorise a polynomial.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$(x+1)(x+2)(x-4)$
 
 `r unhide()`
 
@@ -1469,13 +1479,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+To *solve* a polynomial equation, aim to *factorise*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=2,x=-\frac{3}{2},x=-1$
 
 `r unhide()`
 
@@ -1489,13 +1499,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+To find the $x$-intercepts (or *roots*) of a polynomial, set $y=0$ and solve. Note that we can already *see* one solution on the graph, which may be used to begin a synthetic division.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+A$(-2,0)$ and B$(-1,0)$
 
 `r unhide()`
 
@@ -1509,13 +1519,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Synthetic division can be performed even if one or more coefficients is unknown. The remainder will contain $k$, here... but we know what the remainder should *be*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$k=-5$
 
 `r unhide()`
 
@@ -1529,13 +1539,17 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+The *roots* on the graph give the *factors* of the function.
+
+Note that one of the roots is a *repeated root*.
+
+The $y$-intercept can be used to determine the value of $k$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$k=2,a=-1,b=3$
 
 `r unhide()`
 
@@ -1553,13 +1567,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+To integrate, *increase the power by 1* and then *divide by the new power*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\frac{x^4}{4}-2x^3+5x^2-7x+C$
 
 `r unhide()`
 
@@ -1573,13 +1587,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Writing roots in *index form* is an important skill that should be practising until it becomes fluid.
+
+Where factions lead to arithmetic that can't confidently be done without working... *use the side of your page for working!*
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$3x^4+4x^\frac{3}{2}+C$
 
 `r unhide()`
 
