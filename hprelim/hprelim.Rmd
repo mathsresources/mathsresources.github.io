@@ -90,8 +90,6 @@ $y=-x+2$
 
 `r unhide()`
 
-<hr>
-
 ![](images/Q04.png)
 
 `r hide("Hint")`
@@ -155,6 +153,8 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 ![](images/A05c.png)
 
 `r unhide()`
+
+<hr>
 
 ## 2 Recurrence Relations
 
@@ -258,8 +258,6 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 `r unhide()`
 
-<hr>
-
 ![](images/Q09.png)
 
 `r hide("Hint")`
@@ -357,8 +355,6 @@ $2x^2+2x^{-3}$
 ![](images/A12.png)
 
 `r unhide()`
-
-<hr>
 
 
 ![](images/Q13.png)
@@ -491,8 +487,6 @@ $-(x-2)^2+7$
 
 `r unhide()`
 
-<hr>
-
 
 ![](images/Q19.png)
 
@@ -580,8 +574,6 @@ $q<-\frac{6}{5}$
 
 `r unhide()`
 
-<hr>
-
 ![](images/Q23.png)
 
 `r hide("Hint")`
@@ -642,6 +634,8 @@ $(2,5)$
 
 `r unhide()`
 
+<hr>
+
 ## 5 Sets and Functions
 
 ![](images/Q26.png)
@@ -663,8 +657,6 @@ $h^{-1}(x)=3x+4$
 ![](images/A26.png)
 
 `r unhide()`
-
-<hr>
 
 ![](images/Q27.png)
 
@@ -724,8 +716,6 @@ $x<3$
 ![](images/A29.png)
 
 `r unhide()`
-
-<hr>
 
 
 ![](images/Q30.png)
@@ -801,6 +791,8 @@ Simplify it fully.
 
 `r unhide()`
 
+<hr>
+
 ## 6 Trigonometry
 
 ![](images/Q33.png)
@@ -842,9 +834,6 @@ $x=\frac{5\pi}{12},\frac{11\pi}{12}$
 ![](images/A34.png)
 
 `r unhide()`
-
-<hr>
-
 
 ![](images/Q35.png)
 
@@ -932,9 +921,6 @@ $x=\frac{11\pi}{12},\frac{23\pi}{12}$
 
 `r unhide()`
 
-<hr>
-
-
 ![](images/Q39.png)
 
 `r hide("Hint")`
@@ -954,6 +940,8 @@ $x=\frac{\pi}{4},\frac{5\pi}{12}.\frac{5\pi}{4}.\frac{17\pi}{12}$
 ![](images/A39.png)
 
 `r unhide()`
+
+<hr>
 
 ## 7 Graph Transformations
 
@@ -1087,6 +1075,8 @@ See full solution below for the graph and coordinates.
 
 `r unhide()`
 
+<hr>
+
 ## 8 Vectors
 
 ![](images/Q42.png)
@@ -1216,8 +1206,6 @@ $\begin{pmatrix}
 
 `r unhide()`
 
-<hr>
-
 
 ![](images/Q46.png)
 
@@ -1265,6 +1253,8 @@ $\begin{pmatrix}
 
 `r unhide()`
 
+<hr>
+
 ## 9 Differentiation II
 
 ![](images/Q47.png)
@@ -1286,8 +1276,6 @@ Coming soon.
 ![](images/A47.png)
 
 `r unhide()`
-
-<hr>
 
 
 ![](images/Q48.png)
@@ -1350,8 +1338,6 @@ Coming soon.
 
 `r unhide()`
 
-<hr>
-
 
 ![](images/Q51.png)
 
@@ -1392,8 +1378,6 @@ Coming soon.
 ![](images/A52.png)
 
 `r unhide()`
-
-<hr>
 
 
 ![](images/Q53.png)
@@ -1436,6 +1420,8 @@ Coming soon.
 
 `r unhide()`
 
+<hr>
+
 ## 10 Polynomials
 
 ![](images/Q55.png)
@@ -1457,8 +1443,6 @@ Coming soon.
 ![](images/A55.png)
 
 `r unhide()`
-
-<hr>
 
 
 ![](images/Q56.png)
@@ -1645,9 +1629,6 @@ Coming soon.
 
 `r unhide()`
 
-<hr>
-
-
 ![](images/Q65.png)
 
 `r hide("Hint")`
@@ -1688,6 +1669,8 @@ Coming soon.
 
 `r unhide()`
 
+<hr>
+
 ## 12 Addition Formulae
 
 ![](images/Q67.png)
@@ -1722,7 +1705,7 @@ Coming soon.
 
 `r unhide()`
 
-<hr>
+
 
 
 ![](images/Q68.png)
@@ -1785,7 +1768,7 @@ Coming soon.
 
 `r unhide()`
 
-<hr>
+
 
 
 ![](images/Q71.png)
@@ -1807,6 +1790,8 @@ Coming soon.
 ![](images/A71.png)
 
 `r unhide()`
+
+<hr>
 
 ## 13 The Circle
 
@@ -1850,7 +1835,7 @@ Coming soon.
 
 `r unhide()`
 
-<hr>
+
 
 ![](images/Q74.png)
 
