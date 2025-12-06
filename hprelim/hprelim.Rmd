@@ -1609,13 +1609,13 @@ $3x^4+4x^\frac{3}{2}+C$
 
 `r hide("Hint")`
 
-Coming soon.
+After integrating, *substitution* of $2$ and $1$ is required, then a subtraction.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\dfrac{15}{2}$
 
 `r unhide()`
 
@@ -1629,13 +1629,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Integration using the equation of a curve can be used to find the area between it and the $x$-axis.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\dfrac{20}{3}$ square units
 
 `r unhide()`
 
@@ -1649,13 +1649,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+To find an area *between* curves, integrate using "$\text{upper}-\text{lower}$".
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\dfrac{875}{12}$ square units
 
 `r unhide()`
 
@@ -1669,13 +1669,13 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Integration can be used to find the *original* function, $f'(x)$. Since this integral should contain the *constant of integration* ($+C$), substituting suitable values will be needed to find the value of $C$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$f(x)=x^3-4x^2+7x+4$
 
 `r unhide()`
 
@@ -1693,13 +1693,21 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+By finding the lengths of any missing sides using Pythagoras, trig values of $p$ and $q$ can be stated using *SOHCAHTOA*.
+
+Expanding the addition formulae will then allow these values to be substituted.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\sin{p}=\dfrac{3}{5}$
+
+$\sin{q}=\dfrac{3}{\sqrt{34}}$
+
+$\sin{(p+q)}=\dfrac{27}{5\sqrt{34}}$
+
+$\cos{(p+q)}=\dfrac{11}{5\sqrt{34}}$
 
 `r unhide()`
 
@@ -1722,19 +1730,19 @@ Coming soon.
 `r unhide()`
 
 
-
-
 <hr>![](images/Q68.png)
 
 `r hide("Hint")`
 
-TComing soon.
+There are several ways to expand $\cos{2r}$. Since both the values of $\sin{r}$ and $\cos{r}$ can be found using the right-angled triangle, you should be able to obtain the correct answer regardless of which you choose to use.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$\cos{r}=\dfrac{5}{\sqrt{29}}$
+
+$\cos{2r}=\dfrac{21}{29}$
 
 `r unhide()`
 
@@ -1748,13 +1756,15 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Expand $\sin{2x}$ using the formula provided.
+
+Checking the equation is arranged equal to zero, look to *factorise*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=30,90,150,270$
 
 `r unhide()`
 
@@ -1768,13 +1778,17 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+There are several ways to expand $\cos{2x}$.
+
+Since the equation also contains a $\cos{x}$ term, choose the expandion containing only $\cos{x}$.
+
+Checking the equation is arranged equal to zero, look to *factorise*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=0,\frac{2\pi}{3},\frac{4\pi}{3},2\pi$
 
 `r unhide()`
 
@@ -1785,19 +1799,21 @@ Coming soon.
 `r unhide()`
 
 
-
-
 <hr>![](images/Q71.png)
 
 `r hide("Hint")`
 
-Coming soon.
+There are several ways to expand $\cos{2x}$.
+
+Since the equation also contains a $\sin{x}$ term, choose the expandion containing only $\sin{x}$.
+
+Checking the equation is arranged equal to zero, look to *factorise*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+$x=0,\pi,\frac{7\pi}{6},\frac{11\pi}{6},2\pi$
 
 `r unhide()`
 
@@ -1815,13 +1831,23 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Check your *formula sheet* for each form of the equation of a circle.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a)
+
+Radius$=\sqrt{20}$
+
+Centre$=(6,-1)$
+
+(b)
+
+Radius$=2$
+
+Centre$=(4,3)$
 
 `r unhide()`
 
@@ -1835,13 +1861,24 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Once you know the centre and radius of a circle, use $(x-a)^2+(y-b)^2=r^2$ to state its equation. There is no need to expand the brackets.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a)
+
+
+Centre$=(-5,2)$
+
+(b)
+
+Radius$=6$
+
+(c)
+
+$(x+7)^2+(y-1)^2=9$
 
 `r unhide()`
 
@@ -1857,13 +1894,21 @@ Coming soon.
 
 `r hide("Hint")`
 
-Coming soon.
+Start by obtaining the radii and centres of any circle with equations given - this should be the first step for any circle question which requires an element of problem-solving.
+
+Draw the radii of each circle on the sketch, and mark down the coordinates of each centre.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Coming soon.
+(a)
+
+$(x+6)^2+(y-4)^2=16$
+
+(b)
+
+$(-2,4)$
 
 `r unhide()`
 
