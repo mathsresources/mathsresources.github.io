@@ -1025,7 +1025,7 @@ Make sure your final graph has *all* the transformed *images* of the original co
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 86, Exercise 5.5, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
@@ -1049,7 +1049,7 @@ As well as changing the coordinates, think about how the transformations will ch
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 86, Exercise 5.5, Questions 1(d), 1(e) an 1(f)**
 `r unhide()`
 
 `r hide("Solution")`
@@ -1070,7 +1070,7 @@ If $-f(x)$ is a *vertical* flip, what is $f(-x)$?
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 87, Exercise 5.5, Questions 2(g), 2(h) and 2(i)**
 
 `r unhide()`
 
@@ -1092,7 +1092,7 @@ Don't ignore the coordinate of $(0,0)$ on the original graph.
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 88, Exercise 5.5, Questions 3(a), 3(b) and 3(c)**
 
 `r unhide()`
 
@@ -1114,7 +1114,7 @@ $2-g(x)$ can be rewritten as $-g(x)+2$.
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 88, Exercise 5.5, Questions 3(d), 3(e) and 3(f)**
 
 `r unhide()`
 
@@ -1136,7 +1136,7 @@ $\frac{1}{2}g(x)$ is a *vertical compression* by factor 2.
 
 See full solution below for the graph and coordinates.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 88, Exercise 5.5, Questions 3(g), 3(h) and 3(i)**
 
 `r unhide()`
 
@@ -1168,7 +1168,7 @@ Draw a *sketch* to make (b) easier to see.
 
 (b) $1:2$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 215, Exercise 14.6, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
@@ -1196,7 +1196,7 @@ Check which method your teacher taught you to use. One option is the *section fo
 
 E$(5,-1,4)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 216, Exercise 14.7, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
@@ -1236,7 +1236,7 @@ E$(5,-1,4)$
 
 (c) $84.3^{\circ}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 222, Exercise 14.10, Questions 3(b), 4(a) and 5(a)**
 
 `r unhide()`
 
@@ -1274,7 +1274,7 @@ $\begin{pmatrix}
 \frac{2}{3}
 \end{pmatrix}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 213, Exercise 14.4, Questions 1, 2 and 3**
 
 `r unhide()`
 
@@ -1311,7 +1311,7 @@ $\begin{pmatrix}
 
 (c) (i) $\frac{9}{2}$ (ii) $\frac{9}{2}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 226, Exercise 14.12B, Questions 3, 4 and 6**
 
 `r unhide()`
 
@@ -1349,7 +1349,7 @@ A function is *increasing* when its derivative is *positive*.
 
 $x>-2$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 160, Exercise 11.6, Questions 3(a), 3(c) and 4(b)**
 
 `r unhide()`
 
@@ -1374,7 +1374,7 @@ Remember to *draw a sketch* to solve a quadratic inequation!
 
 $-2<x<4$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 160, Exercise 11.6, Questions 3(g), 3(i) and 4(g)**
 
 `r unhide()`
 
@@ -1396,7 +1396,7 @@ Stationary points occur when the *derivative is zero*.
 
 $x=-5,x=3$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+Questions in the Zeta textbook also ask for $y$-coordinates and determining the nature. Try [this SQA exam question from 2019](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=B&exampaper%5B%5D=298&Qselection=1&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA).
 
 `r unhide()`
 
@@ -1420,7 +1420,7 @@ Maximum turning point at $(-2,49)$
 
 Minimum turning point at $(3,-76)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 162, Exercise 11.7, Questions 1(d), 1(j) and 1(k)**
 
 `r unhide()`
 
@@ -1445,7 +1445,7 @@ Min value is $-5$
 
 Max value is $7$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 169, Exercise 11.10, Questions 1(a), 2(a) and 2(b)**
 
 `r unhide()`
 
@@ -1469,7 +1469,7 @@ In its most convenient form, we might hope to find only *one* stationary point w
 
 The function is minimised when $x=3$, with justification *(see solution)*.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 165, Exercise 11.9A, Questions 1(a), 2(c) and 3(b)**
 
 `r unhide()`
 
@@ -1492,7 +1492,7 @@ The hint to Q52 applies here, but this time we are looking to *maximise* the fun
 
 Max value of $R(x)$ when $x=\frac{9}{2}$.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 166, Exercise 11.9B, Questions 1, 3 and 6**
 
 `r unhide()`
 
@@ -1516,7 +1516,7 @@ Remember that the derivative of a *cubic* ($\dots x^3\dots$) is a *quadratic* ($
 
 See the solution.
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 171, Exercise 11.11, Questions 2(a), 2(b) and 3(b)**
 
 `r unhide()`
 
@@ -1542,7 +1542,7 @@ See the solution.
 
 $7$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 105, Exercise 7.3, Questions 1(a), 1(b) and 1(c)**
 
 `r unhide()`
 
@@ -1565,7 +1565,7 @@ The numbers along the bottom row of a synthetic division, to the left of the *re
 
 $(x+1)(x+2)(x-4)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 103, Exercise 7.1A, Questions 2(a), 2(b) and 2(c)**
 
 `r unhide()`
 
@@ -1587,7 +1587,7 @@ To *solve* a polynomial equation, aim to *factorise*.
 
 $x=2,x=-\frac{3}{2},x=-1$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 105, Exercise 7.2, Questions 1(a), 2(a) and 3(a) (Start by 'guessing' a factor to try)**
 
 `r unhide()`
 
@@ -1609,7 +1609,8 @@ To find the $x$-intercepts (or *roots*) of a polynomial, set $y=0$ and solve. No
 
 A$(-2,0)$ and B$(-1,0)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+No similar questions found in the Zeta textbook. Try [this SQA exam question from 2015](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=B&exampaper%5B%5D=113&Qselection=21&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA), which also features some skills from Differentiation I.
+
 
 `r unhide()`
 
@@ -1631,7 +1632,7 @@ Synthetic division can be performed even if one or more coefficients is unknown.
 
 $k=-5$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 107, Exercise 7.4, Questions 2(a), 2(b) and 2(c)**
 
 `r unhide()`
 
@@ -1657,7 +1658,7 @@ The $y$-intercept can be used to determine the value of $k$.
 
 $k=2,a=-1,b=3$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 109, Exercise 7.6, Questions 2(a), 2(c) and 3(c)**
 
 `r unhide()`
 
@@ -1683,7 +1684,7 @@ To integrate, *increase the power by 1* and then *divide by the new power*.
 
 $\frac{x^4}{4}-2x^3+5x^2-7x+C$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 177, Exercise 12.1B, Questions 1(a), 1(e) and 1(i)**
 
 `r unhide()`
 
@@ -1707,7 +1708,7 @@ Where factions lead to arithmetic that can't confidently be done without working
 
 $3x^4+4x^\frac{3}{2}+C$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 178, Exercise 12.2A, Questions 1(e), 1(i) and 1(n)**
 
 `r unhide()`
 
@@ -1729,7 +1730,7 @@ After integrating, *substitution* of $2$ and $1$ is required, then a subtraction
 
 $\dfrac{15}{2}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 180, Exercise 12.3A, Questions 2(a), 2(b) and 2(c)**
 
 `r unhide()`
 
@@ -1751,7 +1752,7 @@ Integration using the equation of a curve can be used to find the area between i
 
 $\dfrac{20}{3}$ square units
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 181, Exercise 12.4A, Questions 1(e) and 1(f)**
 
 `r unhide()`
 
@@ -1773,7 +1774,7 @@ To find an area *between* curves, integrate using "$\text{upper}-\text{lower}$".
 
 $\dfrac{875}{12}$ square units
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 186, Exercise 12.5A, Questions 1(a), 1(d) and 1(c)**
 
 `r unhide()`
 
@@ -1795,7 +1796,7 @@ Integration can be used to find the *original* function, $f'(x)$. Since this int
 
 $f(x)=x^3-4x^2+7x+4$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 189, Exercise 12.6, Questions 1(a), 2(a) and 3**
 
 `r unhide()`
 
@@ -1829,7 +1830,7 @@ $\sin{(p+q)}=\dfrac{27}{5\sqrt{34}}$
 
 $\cos{(p+q)}=\dfrac{11}{5\sqrt{34}}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 130, Exercise 9.2, Questions 3, 4 and 5**
 
 `r unhide()`
 
@@ -1866,7 +1867,7 @@ $\cos{r}=\dfrac{5}{\sqrt{29}}$
 
 $\cos{2r}=\dfrac{21}{29}$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 132, Exercise 9.3, Questions 2(a), 2(b) and 2(e)**
 
 `r unhide()`
 
@@ -1890,7 +1891,7 @@ Checking the equation is arranged equal to zero, look to *factorise*.
 
 $x=30,90,150,270$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 134, Exercise 9.5A, Questions 1(a), 1(c) and 3(b)**
 
 `r unhide()`
 
@@ -1916,7 +1917,7 @@ Checking the equation is arranged equal to zero, look to *factorise*.
 
 $x=0,\frac{2\pi}{3},\frac{4\pi}{3},2\pi$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 134, Exercise 9.5A, Questions 1(b), 2(b) and 5(b)**
 
 `r unhide()`
 
@@ -1943,7 +1944,7 @@ Checking the equation is arranged equal to zero, look to *factorise*.
 
 $x=0,\pi,\frac{7\pi}{6},\frac{11\pi}{6},2\pi$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 134, Exercise 9.5A, Questions 5(c) and 6(a)**
 
 `r unhide()`
 
@@ -1979,7 +1980,7 @@ Radius$=2$
 
 Centre$=(4,3)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 49, Exercise 3.3, Questions 1(b), 2(a) and 2(f)**
 
 `r unhide()`
 
@@ -2012,7 +2013,7 @@ Radius$=6$
 
 $(x+7)^2+(y-1)^2=9$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 48, Exercise 3.2, Questions 3(a), 3(d) and 3(h)**
 
 `r unhide()`
 
@@ -2044,13 +2045,19 @@ $(x+6)^2+(y-4)^2=16$
 
 $(-2,4)$
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page , Exercise , Questions **
+*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 58, Exercise 3.9A, Questions 1(b), 1(e) and 1(d)**
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution (a)")`
 
-![](images/A74.png)
+![](images/A74a.png)
+
+`r unhide()`
+
+`r hide("Solution (b)")`
+
+![](images/A74b.png)
 
 `r unhide()`
 
