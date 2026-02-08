@@ -43,20 +43,6 @@
   font-size: 100%;
 }
 
-/* Darker background on mouse-over */
-.downloadblack:hover {
-  background-color: var(--button-bg-colour-old);
-}
-
-/* Style buttons */
-.downloadblack {
-  background-color: var(--button-bg-hover);
-  border: 2px solid white;
-  color: var(--button-text-colour);
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 100%;
-}
 
 /* Border Fade */
 .hvr-border-fade {
