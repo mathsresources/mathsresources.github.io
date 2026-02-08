@@ -29,12 +29,12 @@
 }
 
 /* Darker background on mouse-over */
-.downloadold:hover {
+.download-old:hover {
   background-color: var(--button-bg-hover);
 }
 
 /* Style buttons */
-.downloadold {
+.download-old {
   background-color: var(--button-bg-colour-old);
   border: 2px solid white;
   color: var(--button-text-colour);
