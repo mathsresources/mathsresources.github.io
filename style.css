@@ -23,7 +23,7 @@
   background-color: var(--button-bg-colour);
   border: 2px solid white;
   color: var(--button-text-colour);
-  padding: 5px 10px;
+  padding: 4px 10px;
   cursor: pointer;
   font-size: 100%;
 }
@@ -38,7 +38,7 @@
   background-color: var(--button-bg-colour-old);
   border: 2px solid white;
   color: var(--button-text-colour);
-  padding: 5px 10px;
+  padding: 4px 10px;
   cursor: pointer;
   font-size: 100%;
 }
