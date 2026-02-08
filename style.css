@@ -5,6 +5,7 @@
   --tab-text-colour: #01579b;
   --tab-text-hover: #feffff;
   --button-bg-colour: #01579b;
+  --button-bg-colour-old: #7d7d7d;
   --button-text-colour: #feffff;
   --button-bg-hover: #17252a;
   --heading: #01579b;
@@ -20,6 +21,36 @@
 /* Style buttons */
 .download {
   background-color: var(--button-bg-colour);
+  border: 2px solid white;
+  color: var(--button-text-colour);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+/* Darker background on mouse-over */
+.downloadold:hover {
+  background-color: var(--button-bg-hover);
+}
+
+/* Style buttons */
+.downloadold {
+  background-color: var(--button-bg-colour-old);
+  border: 2px solid white;
+  color: var(--button-text-colour);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+/* Darker background on mouse-over */
+.downloadblack:hover {
+  background-color: var(--button-bg-colour-old);
+}
+
+/* Style buttons */
+.downloadblack {
+  background-color: var(--button-bg-hover);
   border: 2px solid white;
   color: var(--button-text-colour);
   padding: 5px 10px;
