@@ -3,7 +3,7 @@ title: "Higher Applications of Mathematics"
 author: "A James"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown:bs4_book
+output: bookdown::bs4_book
 documentclass: book
 bibliography: packages.bib
 link-citations: yes
