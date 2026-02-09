@@ -7,7 +7,7 @@ documentclass: book
 bibliography: packages.bib
 link-citations: yes
 description: |
-  This book ...
+  Notes, examples and exercises to support the Higher Apps course.
 ---
 
 ```{r cite-packages, include = FALSE}
