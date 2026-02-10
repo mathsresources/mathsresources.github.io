@@ -28,23 +28,468 @@ library(webexercises)
 
 `r hide("Hint")`
 
-Perpendicular bisectors pass through the *midpoint* of a line segment, and run *perpendicular* to them.
+Hint here.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$4y=-3x+29$ or $y=-\frac{3}{4}x+\frac{29}{2}$
+`r unhide()`
 
-*For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 15, Exercise 1.8, Questions 1(a), 1(b) and 1(c)**
+`r hide("Solution")`
+
+![](images/A75.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q76.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
 
 `r unhide()`
 
 `r hide("Solution")`
 
-![](images/A01.jpeg)
+![](images/A76.jpeg)
 
 `r unhide()`
 
+<hr>![](images/Q77.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A77.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q78.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A78.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q79.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A79.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q80.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A80.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q81.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A81.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q82.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A82.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q83.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A83.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q84.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A84.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q85.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A85.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q86.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A86.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q87.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A87.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q88.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A88.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q89.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A89.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q90.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A90.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q91.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A91.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q92.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A92.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q93.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A93.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q94.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A94.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q95.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A95.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q96.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A96.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q97.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A97.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q98.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A98.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q99.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A99.jpeg)
+
+`r unhide()`
+
+<hr>![](images/Q100.jpeg)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A100.jpeg)
+
+`r unhide()`
 
 
