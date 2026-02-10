@@ -1,5 +1,0 @@
-# Test
-
-You can use regular expressions to test answers against more complex rules.
-
-- Type any 3 letters: `r fitb("^[a-zA-Z]{3}$", width = 3, regex = TRUE)`
