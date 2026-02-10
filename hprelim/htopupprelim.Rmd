@@ -22,7 +22,7 @@ library(webexercises)
 
 <hr>
 
-## 13 Straight Line
+## 13 The Circle
 
 <hr>![](images/Q75.jpeg)
 
@@ -132,6 +132,10 @@ Hint here.
 
 `r unhide()`
 
+<hr>
+
+## 14 Wave Function
+
 <hr>![](images/Q81.jpeg)
 
 `r hide("Hint")`
@@ -221,6 +225,10 @@ Hint here.
 ![](images/A85.jpeg)
 
 `r unhide()`
+
+<hr>
+
+## 15 Logs and Exponentials
 
 <hr>![](images/Q86.jpeg)
 
@@ -329,6 +337,10 @@ Hint here.
 ![](images/A91.jpeg)
 
 `r unhide()`
+
+<hr>
+
+## 16 Further Calculus
 
 <hr>![](images/Q92.jpeg)
 
