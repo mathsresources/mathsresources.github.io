@@ -16,7 +16,7 @@ library(webexercises)
 
 `r hide("Higher Formula Sheet")`
 
-![](images/hformulasheet.png)
+![](images/hformulasheet.jpg)
 
 `r unhide()`
 
@@ -302,7 +302,7 @@ Hint here.
 
 `r unhide()`
 
-<hr>![](images/Q90.jpeg)
+<hr>![](images/Q90b.jpg)
 
 `r hide("Hint")`
 
