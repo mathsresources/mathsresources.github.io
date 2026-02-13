@@ -28,11 +28,15 @@ library(webexercises)
 
 `r hide("Hint")`
 
-Hint here.
+Points of intersection can be found by solving simultaneous equations. For a line intersecting a circle, first get the line's equation in a suitable form then solve through *substitution*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$(1,2)$ and $(8,-5)$
+
+*For more practice, try:* **[1, 3 and 5 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=213&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RO&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -46,11 +50,15 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Finding points of contact for a line tangent to a circle, or showing that a line is a tangent to a circle, can be approached just as a special case of finding *points of intersection*. Follow the approach of the previous question, and look at how the resulting quadratic factorises to *show tangency*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$(2,-1)$ and *repeated factors therefore the line is a tangent to the circle*.
+
+*For more practice, try:* **[2, 4 and 6 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=213&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RO&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -64,11 +72,15 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Unlike finding a tangent to other curves earlier in the course, finding the gradient of a tangent to a circle will *not involve differentiation*. Instead, start by finding the gradient of the **radius** which meets the tangent at the point of contact, and consider its gradient might lead to the gradient of the *tangent*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$y=\frac{3}{2}x-2$ or $2y=3x-4$
+
+*For more practice, try:* **[these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=212&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RO&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -82,11 +94,19 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+For (a) remember that the formula sheet states the connection between the equation of a circle and its radius and centre.
+
+For (b) it would help to know *the* **distance** *the point is from the centre of the circle*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) Centre $(5,-3)$ and radius $\sqrt{17}$.
+
+(b) $\sqrt{41}>\sqrt{17}$ so the point lies outside the circle (or other valid approach).
+
+*For more practice, try:* **[Zeta Higher Tetbook](https://ebooks.zetapress.co.uk/yyrtww/books), Page 50, Exercise 3.4, Q1 parts (a), (b) and (c).**
 
 `r unhide()`
 
@@ -100,11 +120,21 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Using the *distance formula* to find the answer to part (a) will be needed for part (b). Consider the radii of each circle. What is their *sum*? 
+
+For part (c), the radii of the circle have already been found. The ratio of the radii is the *ratio in which the point P divides the line between the centres*. This skill was previously introduced in the *Vectors* topic.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $\sqrt{125}$ or $4\sqrt{5}$
+
+(b) $3\sqrt{5}+2\sqrt{5}=5\sqrt{5}$ and conclusion, or other valid approach.
+
+(c) $(1,-3)$
+
+*For more practice of these problem-solving style questions, try:* **[Zeta Higher Tetbook](https://ebooks.zetapress.co.uk/yyrtww/books), Page 60, Exercise 3.9b, Q1(a).**
 
 `r unhide()`
 
@@ -118,11 +148,17 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+For any problem-solving circle question, if an equation of a circle is given then a good starting point is to find its centre and radius.
+
+To find the equation of a circle, both its *centre* and *radius* is needed. How do the sizes of the two circles compare?
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$(x+10)^2+(y-4)^2=40$
+
+*For more practice of these problem-solving style questions, try:* **[1, 2, 6 and 8 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=214&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
