@@ -176,7 +176,9 @@ $(x+10)^2+(y-4)^2=40$
 
 `r hide("Hint")`
 
-Hint here.
+Start by *expanding* $k\sin{(x+a)\degree}$, using the formula sheet to help, and hence find the values of $k\sin{a}\degree$ and $k\cos{a\degree}$.
+
+How can $k$ and $a$ be then found?
 
 `r unhide()`
 
@@ -194,7 +196,9 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Take care with *negatives* when finding $k\sin{a}$ and $k\cos{a}$. 
+
+What does $0<a<2\pi$ tell you about the final answer?
 
 `r unhide()`
 
@@ -212,7 +216,9 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Take care with part (a), as mistakes here can make part (b) more difficult.
+
+For part (b), use your answer for part (a). What is the maximum value on the graph of $y=\sin{x}\degre$, and for what value of $x$ does it occur? If you can work out the answer to that, think about how the graph of $y=\sin{x\degree} has been *transformed*.
 
 `r unhide()`
 
