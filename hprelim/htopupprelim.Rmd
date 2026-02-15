@@ -176,13 +176,17 @@ $(x+10)^2+(y-4)^2=40$
 
 `r hide("Hint")`
 
-Start by *expanding* $k\sin{(x+a)\degree}$, using the formula sheet to help, and hence find the values of $k\sin{a}\degree$ and $k\cos{a\degree}$.
+Start by *expanding* $k\sin{(x+a)^{\circ}}$, using the formula sheet to help, and hence find the values of $k\sin{a}^{\circ}$ and $k\cos{a^{\circ}}$.
 
 How can $k$ and $a$ be then found?
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$\sqrt{113}\sin{(x+41.2)^{\circ}}$
+
+*For more practice of these problem-solving style questions, try:* **[11, 25, and 29 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -204,6 +208,10 @@ What does $0<a<2\pi$ tell you about the final answer?
 
 `r hide("Answer")`
 
+$\sqrt{6}\cos{(x-1.15)}$
+
+*For more practice of these problem-solving style questions, try:* **[14, 18a, and 19a from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -218,11 +226,17 @@ What does $0<a<2\pi$ tell you about the final answer?
 
 Take care with part (a), as mistakes here can make part (b) more difficult.
 
-For part (b), use your answer for part (a). What is the maximum value on the graph of $y=\sin{x}\degre$, and for what value of $x$ does it occur? If you can work out the answer to that, think about how the graph of $y=\sin{x\degree} has been *transformed*.
+For part (b), use your answer for part (a). What is the maximum value on the graph of $y=\sin{x}^{\circ}$, and for what value of $x$ does it occur? If you can work out the answer to that, think about how the graph of $y=k\sin{(x-a)^{\circ}}$ has been *transformed*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $2\sqrt{5}\sin{(x-63.4)^{\circ}}$
+
+(b) Max value of $2\sqrt{5}$ occurs when $x=153.4$
+
+*For more practice of these problem-solving style questions, try:* **[3, 5 and 8 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -236,11 +250,17 @@ For part (b), use your answer for part (a). What is the maximum value on the gra
 
 `r hide("Hint")`
 
-Hint here.
+Once part (a) has been carefully completed, the answer should be used to solve the equation in part (b).
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $\sqrt{5}\cos{(x+26.6)^{\circ}}$
+
+(b) $x=90,216.9$
+
+*For more practice of these problem-solving style questions, try:* **[1, 4, and 6 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -254,11 +274,19 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Finding *points of intersection* P and Q requires solving *simulaneous equations*. Note that here, both equations are written in the form $y=\dots$
+
+Remember to state your answers as *full coordinates*, labelled P and Q.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $\sqrt{34}\cos{(x+59.0)^{\circ}}$
+
+(b) P$(74.3,-4)$ and Q$(167.7,-4)$
+
+*For more practice of these problem-solving style questions, try:* **[7 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
 `r unhide()`
 
@@ -276,11 +304,19 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Paying attention to the *order of operations*, remember the following log laws:
+
+Product law: $\log_{a}{x}+\log_{a}{y}=\log_{a}{xy}$
+
+Quotient law: $\log_{a}{x}-\log_{a}{y}=\log_{a}{\left(\frac{x}{y}\right)}$
+
+Power law: $y\log_{a}{x}=\log_{a}{x^y}$
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$\log_{p}4$
 
 `r unhide()`
 
@@ -294,11 +330,17 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+First use the laws as in the previous question before evaluating.
+
+Remember that $\log_{a}x$ can be interpreted as $a$ to *which power* gives an answer of $x$.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $2$
+
+(b) $-1$
 
 `r unhide()`
 
@@ -312,11 +354,19 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Remember that if $\log_ax=\log_ay$ then $x=y$.
+
+To help contain each side of the equation within $\log_6$ before "cancelling", remember that $2$ can be multiplied by $log_66$ (which itself is equal to $1$).
+
+Remember that any solutions should be checked against the original logs, since a log can only be taken of *positive numbers*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $x=9$
+
+(b) $x=1$
 
 `r unhide()`
 
@@ -330,11 +380,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Multiplying $3$ by $\log_pp$ will help here.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$p=2$
 
 `r unhide()`
 
@@ -348,11 +400,21 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+(a) You may either recognised which part of $M=80e^{kt}$ is the *initial value*, or set $t=0$ and calculate.
+
+(b) Substitute the required information into the equation and solve for $k$. Remember that if $y=e^x$ then $\ln{y}=x$.
+
+(c) Since the *initial value* is $80$... The steps involved in solving for $t$ will be similar to those taken in part (b).
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $80$
+
+(b) $k=0.135$
+
+(c) $5.13$ weeks
 
 `r unhide()`
 
@@ -366,11 +428,15 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+A number of methods may have been taught, so refer to your own notes and examples for *"experimental data"* questions.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+(a) $a=9$ and $b=\frac{1}{2}$
+
+(b) $a=\frac{1}{9}$ and $b=81$
 
 `r unhide()`
 
@@ -388,11 +454,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+As well a multiplying by the power and reducing the power by one, *what else should you multiply by?*
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$\frac{\mathrm{d}y}{\mathrm{d}x}=18(6x-5)^2$
 
 `r unhide()`
 
@@ -406,11 +474,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+How can this be rewritten in the form $(3x-5)^k$, where $k$ is a (negative in this case) constant.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$-6$
 
 `r unhide()`
 
@@ -424,11 +494,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+The *formula sheet* contains reminders of how to differentiate trig functions.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$8$
 
 `r unhide()`
 
@@ -442,11 +514,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+How can this be rewritten in the form $(6x^2-1)^k$, where $k$ is a (fractional in this case) constant.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$4x(6x^2-1)^{-\frac{2}{3}}$
 
 `r unhide()`
 
@@ -460,11 +534,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Remember that finding the *gradient of a tangent to a curve* is tackled by first *differentiating*.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$1$
 
 `r unhide()`
 
@@ -478,11 +554,15 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+As well as increasing the power by one and dividing by the new power, *what else should you divide by?*
+
+What else should your answer contain, which is easily forgotten?
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$\frac{(2x-3)^6}{12}+\mathrm{C}$
 
 `r unhide()`
 
@@ -496,11 +576,17 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+The *formula sheet* gives reminders on integrating trig functions.
+
+Take care with the calculation. Since we are performing *calculus* with *trig functions*, we are working in **radians**.
+
+Put your calculator in a suitable *mode* before the calculation (*and change it straight back afterwards!*).
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$0.0941$
 
 `r unhide()`
 
@@ -514,11 +600,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+First write this in the form $3(x+4)^k$, where $k$ is a constant.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$6(x+4)^{\frac{1}{2}}+\mathrm{C}$
 
 `r unhide()`
 
@@ -532,11 +620,13 @@ Hint here.
 
 `r hide("Hint")`
 
-Hint here.
+Make sure you can tackle this *without* a calculator.
 
 `r unhide()`
 
 `r hide("Answer")`
+
+$\frac{\sqrt{3}}{2}$
 
 `r unhide()`
 
