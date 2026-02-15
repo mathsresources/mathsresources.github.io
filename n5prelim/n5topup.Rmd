@@ -28,13 +28,17 @@ library(webexercises)
 
 `r hide("Hint")`
 
-Hint will appear here.
+The formula sheet gives both forms of the Cosine Rule.
+
+Which form is best suited for finding the *length of a missing side*?
+
+Pay attention to where *angle* $A$ fits into the formula when calculating *side* $a$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$32.45$ cm
 
 `r unhide()`
 
@@ -48,13 +52,17 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+The formula sheet gives both forms of the Cosine Rule.
+
+Which form is best suited for finding the *size of a missing angle*?
+
+Pay attention to where *side* $a$ fits into the formula when calculating *angle* $A$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$68.0^{\circ}$
 
 `r unhide()`
 
@@ -72,13 +80,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+*Simplfying* algebraic fractions should begin by *factorising*.
+
+In an exam question, expect both the numerator and denominator to share the *same factor*
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\dfrac{x-5}{x-3}$
 
 `r unhide()`
 
@@ -92,13 +102,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+To add or subtract fractions, the *denominators should be the same*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\dfrac{13x+7}{15}$
 
 `r unhide()`
 
@@ -112,13 +122,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+The lowest common multiple of $x+3$ and $x-2$ is $(x+3)(x-2)$.
+
+Start by rewriting each fraction with $(x+3)(x-2)$ as the denominator, adjusting the numerators appropriately.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\dfrac{7x+11}{(x+3)(x-2)}$
 
 `r unhide()`
 
@@ -132,13 +144,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+The lowest common multiple of $3x$ and $x^2$ is $3x^2$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\dfrac{5x-6}{3x^2}$
 
 `r unhide()`
 
@@ -152,13 +164,17 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Approach algebraic fractions in a similar manner to numerical fractions.
+
+What is the approach for *divisions*?
+
+Then use *cross-cancelling* to simplify.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\dfrac{k}{6p}$
 
 `r unhide()`
 
@@ -176,13 +192,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+First rearrange the equation to the form $\sin{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=53.1,126.9$
 
 `r unhide()`
 
@@ -196,13 +214,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+First rearrange the equation to the form $\tan{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=77.5,257.5$
 
 `r unhide()`
 
@@ -216,13 +236,17 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+First rearrange the equation to the form $\cos{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
+
+Which two quadrants apply when $\cos$ is *negative*?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=104.5,255.5$
 
 `r unhide()`
 
@@ -236,13 +260,17 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+First rearrange the equation to the form $\sin{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
+
+Which two quadrants apply when $\sin$ is *negative*?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=221.8,318.2$
 
 `r unhide()`
 
@@ -256,13 +284,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+First rearrange the equation to the form $\tan{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=53.1,233.1$
 
 `r unhide()`
 
@@ -280,13 +310,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+A number of approaches to *completing the square* question this are possible.
+
+Check your notes and examples to see which method your teacher has taught.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$(x+6)^2-2$
 
 `r unhide()`
 
@@ -300,13 +332,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+A number of approaches to *completing the square* question this are possible.
+
+Check your notes and examples to see which method your teacher has taught.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$(x-4)^2+5$
 
 `r unhide()`
 
@@ -320,13 +354,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+The turning point for $y=(x-a)^2+b$ is $(a,b)$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$(-5,3)$
 
 `r unhide()`
 
@@ -340,13 +374,17 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Start by writing the equation of the parabola using $(4,-3)$.
+
+Compare this question to the previous one.
+
+For part (c), any parabola with a turning point at $(a,b)$ has a vertical line (axis) of symmetry with the equation $x=a$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$a=-4$, $b=-3$ and axis of symmetry has equation $x=4$.
 
 `r unhide()`
 
@@ -361,13 +399,19 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+To *determine the nature of the roots*, use the *discriminant*, $b^2-4ac$.
+
+Begin by stating the values of $a$, $b$ and $c$.
+
+Compare the result to *zero* to make a conclusion about the *roots*.
+
+Pay *close attention* to the words which must be used in the answer.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$44>0$ so **real, distinct roots**.
 
 `r unhide()`
 
@@ -381,13 +425,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Note that each of the three possible conclusions must include reference to **real roots*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$-16<0$ so **no real roots**.
 
 `r unhide()`
 
@@ -401,13 +445,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+The *quadratic formula* is provided on the formula sheet.
+
+Begin by stating the values of $a$, $b$ and $c$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=0.9,x=-2.4$
 
 `r unhide()`
 
@@ -421,13 +467,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Take care to substitute *negative values* in *brackets*.
+
+If you are asked to solve a quadratic equation in an exam and get a *math error* in your calculator, check your working carefully, expecially for any *negative values*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$x=1.4,x=0.4$
 
 `r unhide()`
 
@@ -445,13 +493,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+*Substitute* and evaluate. Remember that vectors are *not* fractions, so there should be no concerns with the "bottom numbers" being different.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\begin{pmatrix}19\\0\end{pmatrix}$
 
 `r unhide()`
 
@@ -465,13 +513,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Take care with *negatives*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\begin{pmatrix}-2\\\phantom{-}2\\-6\end{pmatrix}$
 
 `r unhide()`
 
@@ -485,13 +533,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Finding the *magnitude* of $\mathbf{u}=\begin{pmatrix}x\\y\end{pmatrix}$ requires the formula:
+
+$|\mathbf{u}|=\sqrt{x^2+y^2}$
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$10$
 
 `r unhide()`
 
@@ -505,13 +555,15 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Finding the *magnitude* of $\mathbf{u}=\begin{pmatrix}x\\y\\z\end{pmatrix}$ requires the formula:
+
+$|\mathbf{u}|=\sqrt{x^2+y^2+z^2}$
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\sqrt{35}$
 
 `r unhide()`
 
@@ -525,13 +577,23 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+For (a), start by expressing the journey from P to R as a *point-to-point* journey:
+
+$\overrightarrow{PR}=\overrightarrow{PQ}+\overrightarrow{QR}$
+
+Then substitude the vectors required.
+
+For (b), *use the answer from part (a)*.
+
+What is vector $\overrightarrow{RS}$ equal to?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Hint will appear here.
+(a) $\mathbf{u-v}$
+
+(b) $\frac{1}{2}\mathbf{u-v}$
 
 `r unhide()`
 
@@ -545,13 +607,15 @@ Hint will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Use the steps outlined in the previous question.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+(a) $\mathbf{a-b}$
+
+(b) $\frac{1}{3}\mathbf{a}+\frac{2}{3}\mathbf{b}$
 
 `r unhide()`
 
@@ -565,13 +629,21 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+For (a), think about the $x$, $y$ and $z$ coordinates one-by-one.
+
+Note that M is above the *centre* of the pyramid.
+
+For (b), start by finding a vector to describe the journey from $M$ to $G$.
+
+The *length* of a vector is given by its *magnitude*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+(a) M$(1.5,1.5,5)$
+
+(b) $2.92$ units
 
 `r unhide()`
 
@@ -585,13 +657,13 @@ Answer will appear here.
 
 `r hide("Hint")`
 
-Hint will appear here.
+Start by writing down each vector in *component form*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer will appear here.
+$\begin{pmatrix}5\\1\end{pmatrix}$
 
 `r unhide()`
 
