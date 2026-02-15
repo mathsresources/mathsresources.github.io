@@ -24,7 +24,7 @@ library(webexercises)
 
 ## The Cosine Rule
 
-![](images/TQ1.png)
+![](images/TQ01.png)
 
 `r hide("Hint")`
 
@@ -40,11 +40,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA1.png)
+![](images/TA01.png)
 
 `r unhide()`
 
-![](images/TQ2.png)
+![](images/TQ02.png)
 
 `r hide("Hint")`
 
@@ -60,7 +60,7 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA2.png)
+![](images/TA02.png)
 
 `r unhide()`
 
@@ -68,7 +68,7 @@ Answer will appear here.
 
 ## Algebraic Fractions
 
-![](images/TQ3.png)
+![](images/TQ03.png)
 
 `r hide("Hint")`
 
@@ -84,11 +84,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA3.png)
+![](images/TA03.png)
 
 `r unhide()`
 
-![](images/TQ4.png)
+![](images/TQ04.png)
 
 `r hide("Hint")`
 
@@ -104,11 +104,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA4.png)
+![](images/TA04.png)
 
 `r unhide()`
 
-![](images/TQ5.png)
+![](images/TQ05.png)
 
 `r hide("Hint")`
 
@@ -124,11 +124,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA5.png)
+![](images/TA05.png)
 
 `r unhide()`
 
-![](images/TQ6.png)
+![](images/TQ06.png)
 
 `r hide("Hint")`
 
@@ -144,11 +144,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA6.png)
+![](images/TA06.png)
 
 `r unhide()`
 
-![](images/TQ7.png)
+![](images/TQ07.png)
 
 `r hide("Hint")`
 
@@ -164,7 +164,7 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA7.png)
+![](images/TA07.png)
 
 `r unhide()`
 
@@ -172,7 +172,7 @@ Answer will appear here.
 
 ## Trig Equations
 
-![](images/TQ8.png)
+![](images/TQ08.png)
 
 `r hide("Hint")`
 
@@ -188,11 +188,11 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA8.png)
+![](images/TA08.png)
 
 `r unhide()`
 
-![](images/TQ9.png)
+![](images/TQ09.png)
 
 `r hide("Hint")`
 
@@ -208,7 +208,7 @@ Answer will appear here.
 
 `r hide("Solution")`
 
-![](images/TA9.png)
+![](images/TA09.png)
 
 `r unhide()`
 
