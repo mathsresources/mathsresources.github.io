@@ -1,0 +1,603 @@
+---
+title: "N5 Top-Up Prelim Revision Questions - Web Version"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+`r hide("N5 Formula Sheet")`
+
+![](images/n5formulasheet.jpg)
+
+`r unhide()`
+
+<hr>
+
+## The Cosine Rule
+
+![](images/TQ1.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA1.png)
+
+`r unhide()`
+
+![](images/TQ2.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA2.png)
+
+`r unhide()`
+
+<hr>
+
+## Algebraic Fractions
+
+![](images/TQ3.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA3.png)
+
+`r unhide()`
+
+![](images/TQ4.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA4.png)
+
+`r unhide()`
+
+![](images/TQ5.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA5.png)
+
+`r unhide()`
+
+![](images/TQ6.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA6.png)
+
+`r unhide()`
+
+![](images/TQ7.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA7.png)
+
+`r unhide()`
+
+<hr>
+
+## Trig Equations
+
+![](images/TQ8.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA8.png)
+
+`r unhide()`
+
+![](images/TQ9.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA9.png)
+
+`r unhide()`
+
+![](images/TQ10.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA10.png)
+
+`r unhide()`
+
+![](images/TQ11.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA11.png)
+
+`r unhide()`
+
+![](images/TQ12.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA12.png)
+
+`r unhide()`
+
+<hr>
+
+## Quadratics II
+
+![](images/TQ13.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA13.png)
+
+`r unhide()`
+
+![](images/TQ14.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA14.png)
+
+`r unhide()`
+
+![](images/TQ15.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA15.png)
+
+`r unhide()`
+
+![](images/TQ16.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA16.png)
+
+`r unhide()`
+
+
+![](images/TQ17.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA17.png)
+
+`r unhide()`
+
+![](images/TQ18.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA18.png)
+
+`r unhide()`
+
+![](images/TQ19.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA19.png)
+
+`r unhide()`
+
+![](images/TQ20.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA20.png)
+
+`r unhide()`
+
+<hr>
+
+## Vectors
+
+![](images/TQ21.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA21.png)
+
+`r unhide()`
+
+![](images/TQ22.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA22.png)
+
+`r unhide()`
+
+![](images/TQ23.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA23.png)
+
+`r unhide()`
+
+![](images/TQ24.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA24.png)
+
+`r unhide()`
+
+![](images/TQ25.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA25.png)
+
+`r unhide()`
+
+![](images/TQ26.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA26.png)
+
+`r unhide()`
+
+![](images/TQ27.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA27.png)
+
+`r unhide()`
+
+![](images/TQ28.png)
+
+`r hide("Hint")`
+
+Hint will appear here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer will appear here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA28.png)
+
+`r unhide()`
+
