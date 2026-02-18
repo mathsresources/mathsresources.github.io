@@ -24,7 +24,7 @@ library(webexercises)
 
 ## 13 The Circle
 
-<hr>![](images/Q75.jpeg)
+<hr>![](images/Q75.jpg)
 
 `r hide("Hint")`
 
@@ -46,7 +46,7 @@ $(1,2)$ and $(8,-5)$
 
 `r unhide()`
 
-<hr>![](images/Q76.jpeg)
+<hr>![](images/Q76.png)
 
 `r hide("Hint")`
 

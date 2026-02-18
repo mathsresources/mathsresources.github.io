@@ -1,0 +1,211 @@
+---
+title: "N5 Maths 2025 Paper 1 (Non-Calculator)"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+`r hide("N5 Formula Sheet")`
+
+![]images/n5formulasheet.jpg)
+
+`r unhide()`
+
+<hr>
+
+## The Cosine Rule
+
+![](images/TQ01.png)
+
+`r hide("Hint")`
+
+The formula sheet gives both forms of the Cosine Rule.
+
+Which form is best suited for finding the *length of a missing side*?
+
+Pay attention to where *angle* $A$ fits into the formula when calculating *side* $a$.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$32.45$ cm
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA01.png)
+
+`r unhide()`
+
+![](images/TQ02.png)
+
+`r hide("Hint")`
+
+The formula sheet gives both forms of the Cosine Rule.
+
+Which form is best suited for finding the *size of a missing angle*?
+
+Pay attention to where *side* $a$ fits into the formula when calculating *angle* $A$.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$68.0^{\circ}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA02.png)
+
+`r unhide()`
+
+<hr>
+
+## Algebraic Fractions
+
+![](images/TQ03.png)
+
+`r hide("Hint")`
+
+*Simplfying* algebraic fractions should begin by *factorising*.
+
+In an exam question, expect both the numerator and denominator to share the *same factor*
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{x-5}{x-3}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA03.png)
+
+`r unhide()`
+
+![](images/TQ04.png)
+
+`r hide("Hint")`
+
+To add or subtract fractions, the *denominators should be the same*.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{13x+7}{15}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA04.png)
+
+`r unhide()`
+
+![](images/TQ05.png)
+
+`r hide("Hint")`
+
+The lowest common multiple of $x+3$ and $x-2$ is $(x+3)(x-2)$.
+
+Start by rewriting each fraction with $(x+3)(x-2)$ as the denominator, adjusting the numerators appropriately.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{7x+11}{(x+3)(x-2)}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA05.png)
+
+`r unhide()`
+
+![](images/TQ06.png)
+
+`r hide("Hint")`
+
+The lowest common multiple of $3x$ and $x^2$ is $3x^2$.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{5x-6}{3x^2}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA06.png)
+
+`r unhide()`
+
+![](images/TQ07.png)
+
+`r hide("Hint")`
+
+Approach algebraic fractions in a similar manner to numerical fractions.
+
+What is the approach for *divisions*?
+
+Then use *cross-cancelling* to simplify.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{k}{6p}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA07.png)
+
+`r unhide()`
+
+<hr>
+
+## Trig Equations
+
+![](images/TQ08.png)
+
+`r hide("Hint")`
+
+First rearrange the equation to the form $\sin{x^{\circ}}=\dots$
+
+Remember to use the $ASTC$ diagram to find *two solutions*.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$x=53.1,126.9$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/TA08.png)
+
+`r unhide()`
