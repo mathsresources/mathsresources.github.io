@@ -42,7 +42,7 @@ $(1,2)$ and $(8,-5)$
 
 `r hide("Solution")`
 
-![](images/A75.jpeg)
+![](images/A75.png)
 
 `r unhide()`
 
@@ -64,7 +64,7 @@ $(2,-1)$ and *repeated factors therefore the line is a tangent to the circle*.
 
 `r hide("Solution")`
 
-![](images/A76.jpeg)
+![](images/A76.png)
 
 `r unhide()`
 
@@ -86,7 +86,7 @@ $y=\frac{3}{2}x-2$ or $2y=3x-4$
 
 `r hide("Solution")`
 
-![](images/A77.jpeg)
+![](images/A77.png)
 
 `r unhide()`
 
@@ -112,7 +112,7 @@ For (b) it would help to know *the* **distance** *the point is from the centre o
 
 `r hide("Solution")`
 
-![](images/A78.jpeg)
+![](images/A78.png)
 
 `r unhide()`
 
@@ -128,7 +128,7 @@ For part (c), the radii of the circle have already been found. The ratio of the 
 
 `r hide("Answer")`
 
-(a) $\sqrt{125}$ or $4\sqrt{5}$
+(a) $\sqrt{125}$ or $5\sqrt{5}$
 
 (b) $3\sqrt{5}+2\sqrt{5}=5\sqrt{5}$ and conclusion, or other valid approach.
 
@@ -140,7 +140,7 @@ For part (c), the radii of the circle have already been found. The ratio of the 
 
 `r hide("Solution")`
 
-![](images/A79.jpeg)
+![](images/A79.png)
 
 `r unhide()`
 
@@ -164,7 +164,7 @@ $(x+10)^2+(y-4)^2=40$
 
 `r hide("Solution")`
 
-![](images/A80.jpeg)
+![](images/A80.png)
 
 `r unhide()`
 
