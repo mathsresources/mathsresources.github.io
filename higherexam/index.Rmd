@@ -1,0 +1,14 @@
+--- 
+title: "Higher Maths Exam Practice"
+author: "A James"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+bibliography: packages.bib
+link-citations: yes
+description: |
+  Higher Maths exam questions with hints and full solutions.
+---
+
+# About this Bookdown {-}

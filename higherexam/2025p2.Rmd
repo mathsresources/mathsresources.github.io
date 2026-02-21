@@ -1,0 +1,481 @@
+# 2025 Paper 2 {-}
+
+**Calculator.**  
+65 marks.  
+1 hour 30 minutes.
+
+## Question 1 (a) {-}
+
+(3 marks)
+
+![](questions/h2025p2q01a.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a01a.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+
+## Question 1 (b) {-}
+
+(3 marks)
+
+![](questions/h2025p2q01b.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a01b.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+## Question 1 (c) {-}
+
+(2 marks)
+
+![](questions/h2025p2q01c.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a01c.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+## Question 2 {-}
+
+(3 marks)
+
+![](questions/h2025p2q02.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a02.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+## Question 3 {-}
+
+(4 marks)
+
+![](questions/h2025p2q03.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a03.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+## Question 4 {-}
+
+(3 marks)
+
+![](questions/h2025p2q04.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a04.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+## Question 5 {-}
+
+(4 marks)
+
+![](questions/h2025p2q05.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a05.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+
+## Question 6 (a) {-}
+
+(4 marks)
+
+![](questions/h2025p2q06a.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a06a.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+
+## Question 6 (b) {-}
+
+(4 marks)
+
+![](questions/h2025p2q06b.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a06b.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+
+## Question 7 {-}
+
+(2 marks)
+
+![](questions/h2025p2q07.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a07.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
+
+
+## Question 8 {-}
+
+(2 marks)
+
+![](questions/h2025p2q08.png){width=100%}
+
+`r hide("Hint 1")`
+
+Hint 1.
+
+`r unhide()`
+
+`r hide("Hint 2")`
+
+Hint 2.
+
+`r unhide()`
+
+`r hide("Hint 3")`
+
+Hint 3.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](answers/h2025p2a08.png)
+
+`r unhide()`
+
+`r hide("More Practice")`
+
+Practice link here.
+
+`r unhide()`
+
