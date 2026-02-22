@@ -6,9 +6,9 @@
 
 ## Question 1 {-}
 
-(4 marks)
-
 ![](questions/h2025p1q01.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -50,9 +50,9 @@ Practice link here.
 
 ## Question 2 {-}
 
-(4 marks)
-
 ![](questions/h2025p1q02.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -93,9 +93,9 @@ Practice link here.
 
 ## Question 3 {-}
 
-(4 marks)
-
 ![](questions/h2025p1q03.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -136,9 +136,9 @@ Practice link here.
 
 ## Question 4 {-}
 
-(3 marks)
-
 ![](questions/h2025p1q04.png){width=100%}
+
+(3 marks)
 
 `r hide("Hint 1")`
 
@@ -179,9 +179,9 @@ Practice link here.
 
 ## Question 5 {-}
 
-(2 marks)
-
 ![](questions/h2025p1q05.png){width=100%}
+
+(2 marks)
 
 `r hide("Hint 1")`
 
@@ -220,11 +220,11 @@ Practice link here.
 `r unhide()`
 
 
-## Question 6 (a) {-}
-
-(4 marks)
+## Question 6 {-}
 
 ![](questions/h2025p1q06a.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -263,12 +263,9 @@ Practice link here.
 `r unhide()`
 
 
-
-## Question 6 (b) {-}
+![](questions/h2025p1q06b.png){width=100%}
 
 (3 marks)
-
-![](questions/h2025p1q06b.png){width=100%}
 
 `r hide("Hint 1")`
 
@@ -308,9 +305,9 @@ Practice link here.
 
 ## Question 7 {-}
 
-(5 marks)
-
 ![](questions/h2025p1q07.png){width=100%}
+
+(5 marks)
 
 `r hide("Hint 1")`
 
@@ -351,9 +348,9 @@ Practice link here.
 
 ## Question 8 {-}
 
-(3 marks)
-
 ![](questions/h2025p1q08.png){width=100%}
+
+(3 marks)
 
 `r hide("Hint 1")`
 
@@ -395,9 +392,9 @@ Practice link here.
 
 ## Question 9 {-}
 
-(4 marks)
-
 ![](questions/h2025p1q09.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -439,9 +436,9 @@ Practice link here.
 
 ## Question 10 {-}
 
-(5 marks)
-
 ![](questions/h2025p1q10.png){width=100%}
+
+(5 marks)
 
 `r hide("Hint 1")`
 
@@ -483,9 +480,9 @@ Practice link here.
 
 ## Question 11 {-}
 
-(4 marks)
-
 ![](questions/h2025p1q11.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -528,9 +525,10 @@ Practice link here.
 
 ## Question 12 {-}
 
-(4 marks)
 
 ![](questions/h2025p1q12.png){width=100%}
+
+(4 marks)
 
 `r hide("Hint 1")`
 
@@ -571,11 +569,12 @@ Practice link here.
 
 
 
-## Question 13 (a) {-}
+## Question 13 {-}
 
-(3 marks)
 
 ![](questions/h2025p1q13a.png){width=100%}
+
+(3 marks)
 
 `r hide("Hint 1")`
 
@@ -614,13 +613,9 @@ Practice link here.
 `r unhide()`
 
 
-
-
-## Question 13 (b) {-}
+![](questions/h2025p1q13b.png){width=100%}
 
 (3 marks)
-
-![](questions/h2025p1q13b.png){width=100%}
 
 `r hide("Hint 1")`
 
