@@ -12,25 +12,33 @@
 
 `r hide("Hint 1")`
 
-Hint 1.
+To find the *equation* of a line you will need to find its **gradient**. 
+
+How can you find the *gradient of a tangent to a curve*?
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Differentiate and substitute in $x=$ to find the **gradient** of the tangent. 
+
+Next you just need to know a *point* the tangent passes through.
+
+How can you find the $y$-coordinate which corresponds to $x=2$?
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Substitute $x=2$ into $y=x^3-2x^2+5$ to find the corresponding $y$-coordinate.
+
+Use that coordinate together with the gradient found and the straight line equation $y-b=m(x-a)$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$y=4x-3$
 
 `r unhide()`
 
@@ -40,11 +48,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -56,25 +64,29 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+What are the properties of a *perpendicular bisector*?
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Start by finding the gradient of line **AB**.
+
+What then is the gradient of its **perpendicular** bisector?
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Once you have the gradient *perpendicular* to line AB, find the **midpoint** of AB.
+
+This coordinate and the perpendicular gradient can be used with $y-b=m(x-a)$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$3y=-4x+41$ or $y=-\dfrac{4}{3}x+\dfrac{41}{3}$
 
 `r unhide()`
 
@@ -84,11 +96,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ## Question 3 {-}
@@ -99,25 +111,33 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+One of the terms is not yet ready to be integrated.
+
+*Which one? How can it be rewritten?*
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+$\dfrac{12}{x^2}$ can be written as $12x^{-2}$.
+
+The rule for integrating is *increase the power by one* then *divide by the new power*.
+
+What should the answer to an indefinite integration include?
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Dividing by $\dfrac{3}{2}$ is the same as multiplying by $\dfrac{2}{3}$.
+
+Remember to simplify each part as much as possible and include "$+\mathrm{C}$".
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$-12x^{-1}+\dfrac{2}{3}x^{\frac{3}{2}}+\mathrm{C}$
 
 `r unhide()`
 
@@ -127,11 +147,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ## Question 4 {-}
@@ -142,25 +162,31 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+What are the three **log laws**?
+
+Which must be applied *first* here?
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Use the **power law** $y\log_ax=\log_ax^y$ to remove the $2$ from the front of the first log.
+
+Next, what happens when to logs are *added*?
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Remember that $3^{-1}=\dfrac{1}{3}$.
+
+What therefore is the value of $\log_3{\left(\frac{1}{3}\right)}$?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$-1$
 
 `r unhide()`
 
@@ -170,11 +196,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ## Question 5 {-}
@@ -185,25 +211,37 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+This is a *graph transformations* question.
+
+What does the transformation $f(-x)\dots$ do?
+
+What does the transformation $f(\dots)+3$ do?
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Write down the three coordinates given on the graph of $y=f(x)$.
+
+$f(-x)\dots$ *"flips"* the $x$-coordinates.
+
+$f(\dots)+3$ *adds* $3$ to the $y$-coordinates.
+
+Write down the three *transformed* coordinates.
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+The three coordinates are $(-4,3$, $(0,6)$ and $(2,3)$.
+
+Use them to sketch a graph which is *"flipped horizontally"* and shifted *up* $3$.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+![](answers/h2025p1a05graph.png){width=50%}
 
 `r unhide()`
 
@@ -213,11 +251,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ## Question 6 {-}
@@ -228,25 +266,35 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+The diagram shows angle $q$ but the questions ask about $2Q$.
+
+How can $\sin{2q}$ and $\cos{2q}$ be **expanded**?
+
+The length of the right-angled triangle's *hypotenuse* will be needed in this question.
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Use $\sin{2q}=2\sin{q}\cos{q}$ and $\cos{2q}=2\cos^2{q}-1$.
+
+The length of the hypotenuse is $\sqrt{5^2+1^2}$.
+
+From the triangle, write down the values of $\sin{q}$ and $\cos{q}$.
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Substitute the values of $\sin{q}=\dfrac{1}{\sqrt{26}}$ and $\cos{q}=\dfrac{5}{\sqrt{26}}$.
+
+Then *simplify*.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\sin{2q}=\dfrac{5}{13}$ and $\cos{2q}=\dfrac{12}{13}$
 
 `r unhide()`
 
@@ -256,11 +304,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ![](questions/h2025p1q06b.png){width=100%}
@@ -269,25 +317,29 @@ Practice link here.
 
 `r hide("Hint 1")`
 
-Hint 1.
+How can $\sin{(2q-r)}$ be expanded?
 
 `r unhide()`
 
 `r hide("Hint 2")`
 
-Hint 2.
+Use $\sin{(2q-r)}=\sin{2q}\cos{r}-\cos{2q}\sin{r}$.
+
+The values of $\sin{2q}$ and $\cos{2q}$ have already been found in part (a).
+
+What are the values of $\sin{r}$ and $\cos{r}$?
 
 `r unhide()`
 
 `r hide("Hint 3")`
 
-Hint 3.
+Substitute $\sin{r}=\dfrac{1}{\sqrt{17}}$ and $\cos{r}=\dfrac{4}{\sqrt{17}}$ into the expanded form.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{8}{13\sqrt{17}}$
 
 `r unhide()`
 
@@ -297,11 +349,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 ## Question 7 {-}
 
@@ -339,11 +391,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ## Question 8 {-}
@@ -382,11 +434,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -426,11 +478,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -470,11 +522,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -514,11 +566,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -560,11 +612,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 
@@ -606,11 +658,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 
 
 ![](questions/h2025p1q13b.png){width=100%}
@@ -647,9 +699,9 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
+ 
 
-Practice link here.
+ 
 
-`r unhide()`
+ 
 

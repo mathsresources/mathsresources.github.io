@@ -40,11 +40,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 ![](questions/h2025p2q01b.png){width=100%}
@@ -81,11 +81,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q01c.png){width=100%}
 
@@ -121,11 +121,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 2 {-}
 
@@ -163,11 +163,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 3 {-}
 
@@ -205,11 +205,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 ## Question 4 {-}
@@ -248,11 +248,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 ## Question 5 {-}
@@ -291,11 +291,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 
@@ -335,11 +335,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 ![](questions/h2025p2q06b.png){width=100%}
@@ -376,11 +376,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 
@@ -420,11 +420,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 
@@ -463,11 +463,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 
@@ -507,11 +507,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q09b.png){width=100%}
 
@@ -547,11 +547,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 10 {-}
 
@@ -590,11 +590,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q10b.png){width=100%}
 
@@ -630,11 +630,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 11 {-}
 
@@ -672,11 +672,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 12 {-}
 
@@ -714,11 +714,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q12b.png){width=100%}
 
@@ -754,11 +754,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 13 {-}
 
@@ -796,11 +796,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ## Question 14 {-}
 
@@ -838,11 +838,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q14b.png){width=100%}
 
@@ -878,11 +878,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 ![](questions/h2025p2q14c.png){width=100%}
 
@@ -918,11 +918,11 @@ Answer here.
 
 `r unhide()`
 
-`r hide("More Practice")`
 
-Practice link here.
 
-`r unhide()`
+
+
+
 
 
 
