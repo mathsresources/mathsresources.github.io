@@ -192,7 +192,7 @@ $\sqrt{113}\sin{(x+41.2)^{\circ}}$
 
 `r hide("Solution")`
 
-![](images/A81.jpeg)
+![](images/A81.png)
 
 `r unhide()`
 
@@ -216,7 +216,7 @@ $\sqrt{6}\cos{(x-1.15)}$
 
 `r hide("Solution")`
 
-![](images/A82.jpeg)
+![](images/A82.png)
 
 `r unhide()`
 
@@ -242,7 +242,9 @@ For part (b), use your answer for part (a). What is the maximum value on the gra
 
 `r hide("Solution")`
 
-![](images/A83.jpeg)
+![](images/A83a.png)
+
+![](images/A83b.png)
 
 `r unhide()`
 
@@ -258,7 +260,7 @@ Once part (a) has been carefully completed, the answer should be used to solve t
 
 (a) $\sqrt{5}\cos{(x+26.6)^{\circ}}$
 
-(b) $x=90,216.9$
+(b) $x=90,216.8$
 
 *For more practice of these problem-solving style questions, try:* **[1, 4, and 6 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
@@ -266,7 +268,9 @@ Once part (a) has been carefully completed, the answer should be used to solve t
 
 `r hide("Solution")`
 
-![](images/A84.jpeg)
+![](images/A84a.png)
+
+![](images/A84b.png)
 
 `r unhide()`
 
@@ -284,7 +288,7 @@ Remember to state your answers as *full coordinates*, labelled P and Q.
 
 (a) $\sqrt{34}\cos{(x+59.0)^{\circ}}$
 
-(b) P$(74.3,-4)$ and Q$(167.7,-4)$
+(b) P$(73.3,-4)$ and Q$(167.7,-4)$
 
 *For more practice of these problem-solving style questions, try:* **[7 from these past exam questions.](https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA)**
 
@@ -292,7 +296,9 @@ Remember to state your answers as *full coordinates*, labelled P and Q.
 
 `r hide("Solution")`
 
-![](images/A85.jpeg)
+![](images/A85a.png)
+
+![](images/A85b.png)
 
 `r unhide()`
 
