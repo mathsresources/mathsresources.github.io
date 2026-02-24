@@ -328,7 +328,7 @@ $\log_{p}4$
 
 `r hide("Solution")`
 
-![](images/A86.jpeg)
+![](images/A86.png)
 
 `r unhide()`
 
@@ -352,7 +352,7 @@ Remember that $\log_{a}x$ can be interpreted as $a$ to *which power* gives an an
 
 `r hide("Solution")`
 
-![](images/A87.jpeg)
+![](images/A87.png)
 
 `r unhide()`
 
@@ -378,7 +378,7 @@ Remember that any solutions should be checked against the original logs, since a
 
 `r hide("Solution")`
 
-![](images/A88.jpeg)
+![](images/A88.png)
 
 `r unhide()`
 
@@ -398,7 +398,7 @@ $p=2$
 
 `r hide("Solution")`
 
-![](images/A89.jpeg)
+![](images/A89.png)
 
 `r unhide()`
 
@@ -426,7 +426,7 @@ $p=2$
 
 `r hide("Solution")`
 
-![](images/A90.jpeg)
+![](images/A90.png)
 
 `r unhide()`
 
@@ -448,7 +448,7 @@ A number of methods may have been taught, so refer to your own notes and example
 
 `r hide("Solution")`
 
-![](images/A91.jpeg)
+![](images/A91.png)
 
 `r unhide()`
 
@@ -472,7 +472,7 @@ $\frac{\mathrm{d}y}{\mathrm{d}x}=18(6x-5)^2$
 
 `r hide("Solution")`
 
-![](images/A92.jpeg)
+![](images/A92.png)
 
 `r unhide()`
 
@@ -492,7 +492,7 @@ $-6$
 
 `r hide("Solution")`
 
-![](images/A93.jpeg)
+![](images/A93.png)
 
 `r unhide()`
 
@@ -506,13 +506,13 @@ The *formula sheet* contains reminders of how to differentiate trig functions.
 
 `r hide("Answer")`
 
-$8$
+$0$
 
 `r unhide()`
 
 `r hide("Solution")`
 
-![](images/A94.jpeg)
+![](images/A94.png)
 
 `r unhide()`
 
@@ -532,7 +532,7 @@ $4x(6x^2-1)^{-\frac{2}{3}}$
 
 `r hide("Solution")`
 
-![](images/A95.jpeg)
+![](images/A95.png)
 
 `r unhide()`
 
@@ -552,7 +552,7 @@ $1$
 
 `r hide("Solution")`
 
-![](images/A96.jpeg)
+![](images/A96.png)
 
 `r unhide()`
 
@@ -574,7 +574,7 @@ $\frac{(2x-3)^6}{12}+\mathrm{C}$
 
 `r hide("Solution")`
 
-![](images/A97.jpeg)
+![](images/A97.png)
 
 `r unhide()`
 
@@ -598,7 +598,7 @@ $0.0941$
 
 `r hide("Solution")`
 
-![](images/A98.jpeg)
+![](images/A98.png)
 
 `r unhide()`
 
@@ -618,7 +618,7 @@ $6(x+4)^{\frac{1}{2}}+\mathrm{C}$
 
 `r hide("Solution")`
 
-![](images/A99.jpeg)
+![](images/A99.png)
 
 `r unhide()`
 
@@ -638,7 +638,7 @@ $\frac{\sqrt{3}}{2}$
 
 `r hide("Solution")`
 
-![](images/A100.jpeg)
+![](images/A100.png)
 
 `r unhide()`
 
