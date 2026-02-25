@@ -134,7 +134,7 @@ For part (c), the radii of the circle have already been found. The ratio of the 
 
 (c) $(1,-3)$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://ebooks.zetapress.co.uk/yyrtww/books" target="_blank" rel="noopener noreferrer">Zeta Higher Tetbook</a>, Page 60, Exercise 3.9b, Q1(a).
+*For more practice, try:* <a href="https://ebooks.zetapress.co.uk/yyrtww/books" target="_blank" rel="noopener noreferrer">Zeta Higher Tetbook</a>, Page 60, Exercise 3.9b, Q1(a).
 
 `r unhide()`
 
@@ -158,7 +158,7 @@ To find the equation of a circle, both its *centre* and *radius* is needed. How 
 
 $(x+10)^2+(y-4)^2=40$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=214&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">1, 2, 6 and 8 from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=empty&how=A&topics%5B%5D=214&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">1, 2, 6 and 8 from these past exam questions.</a>
 
 `r unhide()`
 
@@ -186,7 +186,7 @@ How can $k$ and $a$ be then found?
 
 $\sqrt{113}\sin{(x+41.2)^{\circ}}$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">11, 25, and 29 from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">11, 25, and 29 from these past exam questions.</a>
 
 `r unhide()`
 
@@ -210,7 +210,7 @@ What does $0<a<2\pi$ tell you about the final answer?
 
 $\sqrt{6}\cos{(x-1.15)}$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">14, 18a, and 19a from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">14, 18a, and 19a from these past exam questions.</a>
 
 `r unhide()`
 
@@ -236,7 +236,7 @@ For part (b), use your answer for part (a). What is the maximum value on the gra
 
 (b) Max value of $2\sqrt{5}$ occurs when $x=153.4$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">3, 5 and 8 from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">3, 5 and 8 from these past exam questions.</a>
 
 `r unhide()`
 
@@ -262,7 +262,7 @@ Once part (a) has been carefully completed, the answer should be used to solve t
 
 (b) $x=90,216.8$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">1, 4, and 6 from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">1, 4, and 6 from these past exam questions.</a>
 
 `r unhide()`
 
@@ -290,7 +290,7 @@ Remember to state your answers as *full coordinates*, labelled P and Q.
 
 (b) P$(73.3,-4)$ and Q$(167.7,-4)$
 
-*For more practice of these problem-solving style questions, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">7 from these past exam questions.</a>
+*For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=237&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RN&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">7 from these past exam questions.</a>
 
 `r unhide()`
 
@@ -324,6 +324,8 @@ Power law: $y\log_{a}{x}=\log_{a}{x^y}$
 
 $\log_{p}4$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -347,6 +349,8 @@ Remember that $\log_{a}x$ can be interpreted as $a$ to *which power* gives an an
 (a) $2$
 
 (b) $-1$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
@@ -374,6 +378,8 @@ Remember that any solutions should be checked against the original logs, since a
 
 (b) $x=1$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -393,6 +399,8 @@ Multiplying $3$ by $\log_pp$ will help here.
 `r hide("Answer")`
 
 $p=2$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
@@ -422,6 +430,8 @@ $p=2$
 
 (c) $5.13$ weeks
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -443,6 +453,8 @@ A number of methods may have been taught, so refer to your own notes and example
 (a) $a=9$ and $b=\frac{1}{2}$
 
 (b) $a=\frac{1}{9}$ and $b=81$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
@@ -488,6 +500,8 @@ How can this be rewritten in the form $(3x-5)^k$, where $k$ is a (negative in th
 
 $-6$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -507,6 +521,8 @@ The *formula sheet* contains reminders of how to differentiate trig functions.
 `r hide("Answer")`
 
 $0$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
@@ -548,6 +564,8 @@ Remember that finding the *gradient of a tangent to a curve* is tackled by first
 
 $1$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -569,6 +587,8 @@ What else should your answer contain, which is easily forgotten?
 `r hide("Answer")`
 
 $\frac{(2x-3)^6}{12}+\mathrm{C}$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
@@ -594,6 +614,8 @@ Put your calculator in a suitable *mode* before the calculation (*and change it 
 
 $0.0941$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -614,6 +636,8 @@ First write this in the form $3(x+4)^k$, where $k$ is a constant.
 
 $6(x+4)^{\frac{1}{2}}+\mathrm{C}$
 
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
+
 `r unhide()`
 
 `r hide("Solution")`
@@ -633,6 +657,8 @@ Make sure you can tackle this *without* a calculator.
 `r hide("Answer")`
 
 $\frac{\sqrt{3}}{2}$
+
+*For more practice, try:* <a href="https://example.com" target="_blank" rel="noopener noreferrer">Link Text</a>
 
 `r unhide()`
 
