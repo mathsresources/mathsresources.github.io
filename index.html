@@ -8,10 +8,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <!-- Privacy-friendly analytics by Plausible -->
+
 <script async src="https://plausible.io/js/pa-2VhzmnRfGrq9wRgciW3VF.js"></script>
+
 <script>
   window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
   plausible.init()
+</script>
+
+<!-- tabs script -->
+
+<script>
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
 
 </head>
@@ -20,28 +52,53 @@
 
 <h3 style="color:#477aac; text-align: center; font--weight: bold;">mathsresources.github.io</h3>
 
-<!-- Top navigation -->
-<div class="topnav">
-  <!-- Left-aligned links (default) -->
-  <a href="index.html"class="active">Home</a>
-  <a href="n5maths.html">N5 Maths</a>
-  <a href="highermaths.html">Higher Maths</a>
-  <a href="higherapps.html">Higher Apps</a>
-  <a href="ahpure.html">AH Pure</a>
-  <a href="ahstats.html">AH Stats</a>
-  <a href="ahmech.html">AH Mechanics</a>
+<!-- tab links -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openTab(event, 'N5Maths')">N5 Maths</button>
+  <button class="tablinks" onclick="openTab(event, 'HigherMaths')">Higher Maths</button>
+  <button class="tablinks" onclick="openTab(event, 'HigherApps')">Higher Apps</button>
+  <button class="tablinks" onclick="openTab(event, 'AHStats')">Advanced Higher Statistics</button>
 </div>
 
-<p>This site is currently under construction.</p>
+<!-- tab content -->
 
-<p>Please select N5 Maths or Higher Maths using the navigation bar to find Prelim revision resources for those courses.</p>
+<!-- Tab content -->
+<div id="Home" style="display: block;" class="tabcontent">
 
-<!--
-Source - https://stackoverflow.com/a/2906586
-Posted by BalusC, modified by community. See post 'Timeline' for change history
-Retrieved 2026-02-09, License - CC BY-SA 4.0
--->
 
+  
+</div>
+
+<div id="N5Maths" style="display: none;" class="tabcontent">
+
+<p>The N5 Maths Prelim page can be found <a href="n5prelim.html" class="button" target="_blank" rel="noopener noreferrer">here</a>.</p>
+  
+</div>
+
+<div id="HigherMaths" style="display: none;" class="tabcontent">
+  
+  <p>The Higher Maths Prelim page can be found <a href="hprelim.html" class="button" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<p>Exam questions and solutions are being added to the <a href="higherexam/docs/index.html" class="button" target="_blank" rel="noopener noreferrer">Higher Exam Questions Bookdown</a>.</p>
+  
+</div>
+
+<div id="HigherApps" style="display: none;" class="tabcontent">
+  
+<p>This page is currently under construction. Please check back again later.</p>
+
+<p>Notes, examples and exercises will be added to the <a href="higherapps/docs/index.html" class="button" target="_blank" rel="noopener noreferrer">Higher Apps Bookdown</a> as the course progresses in 2025-26.</p>
+  
+</div>
+
+
+<div id="AHStats" style="display: none;" class="tabcontent">
+  
+<p>This page is currently under construction. Please check back again later.</p>
+  
+</div>
 
 
 </body>
