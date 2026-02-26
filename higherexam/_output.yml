@@ -1,10 +1,40 @@
-bookdown::bs4_book:
-  df_print: kable
-  theme:
-    primary: '#477aac'
-  lib_dir: libs
-  split_bib: no
-  css: include/webex.css
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: section
+      scroll_highlight: yes
+      before: |
+        <li><a href="https://mathsresources.github.io">
+        mathsresources.github.io</a></li>
+      after: ~
+    toolbar:
+      position: fixed
+    edit: ~
+    download: ~
+    search:
+      engine: lunr
+      options: ~
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: no
+      github: no
+      twitter: no
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      whatsapp: no
+      all:
+      - facebook
+      - twitter
+      - linkedin
+      - weibo
+      - instapaper
+    info: no
+  css: www/webex.css
   includes:
-    after_body: include/webex.js
+    after_body: www/webex.js
   md_extensions: -smart
