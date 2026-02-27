@@ -5,7 +5,7 @@ bookdown::gitbook:
       scroll_highlight: yes
       before: |
         <li><a href="https://mathsresources.github.io">
-        mathsresources.github.io</a></li>
+        Home: mathsresources.github.io</a></li>
       after: ~
     toolbar:
       position: fixed
