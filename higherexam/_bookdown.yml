@@ -5,4 +5,7 @@ delete_merged_file: 'yes'
 before_chapter_script:
 - R/webex.R
 - scripts/webex.R
-rmd_files: ["index.Rmd", "2025p1.Rmd", "2025p2.Rmd"]
+rmd_files:
+- index.Rmd
+- 2025p1.Rmd
+- 2025p2.Rmd
