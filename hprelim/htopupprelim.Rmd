@@ -522,7 +522,7 @@ The *formula sheet* contains reminders of how to differentiate trig functions.
 
 `r hide("Answer")`
 
-$0$
+$8$
 
 *For more practice, try:* <a href="https://www.dynamicmaths.co.uk/QuestionBank/get_questions_handler.php?levelQ=6&otherlevellist=3&how=A&topics%5B%5D=265&orderR=dateA&calc=CN&noQ=500&minmarks=0&maxmarks=999&NR=RO&interleaved=NA&MC=MCA" target="_blank" rel="noopener noreferrer">results 3, 4 and 9 from these past exam questions.</a>
 
