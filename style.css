@@ -6,6 +6,7 @@
   --tab-text-hover: #feffff;
   --button-bg-colour: #477aac;
   --button-bg-colour-old: #aaaaaa;
+  --button-bg-colour-past: #95b5d3;
   --button-text-colour: #feffff;
   --button-bg-hover: #17252a;
   --heading: #477aac;
@@ -84,6 +85,15 @@
 /* Style buttons */
 .download-old {
   background-color: var(--button-bg-colour-old);
+  border: 2px solid white;
+  color: var(--button-text-colour);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.download-past {
+  background-color: var(--button-bg-colour-past);
   border: 2px solid white;
   color: var(--button-text-colour);
   padding: 4px 10px;
