@@ -1,14 +1,266 @@
-p.caption {
-  color: #777;
-  margin-top: 10px;
+:root {
+  --main-bg-colour: #feffff;
+  --tab-bg-colour: #def2f1;
+  --tab-bg-selected: #477aacb;
+  --tab-text-colour: #477aac;
+  --tab-text-hover: #feffff;
+  --button-bg-colour: #477aac;
+  --button-bg-colour-old: #aaaaaa;
+  --button-text-colour: #feffff;
+  --button-bg-hover: #17252a;
+  --heading: #477aac;
+  --link: #477aac;
+  --link-hover: #17252a;
+  --tab-text-colour: #feffff;
 }
-p code {
-  white-space: inherit;
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #17252a;
+  float: center;
 }
-pre {
-  word-break: normal;
-  word-wrap: normal;
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  transition: 0.3s;
+  color: #feffff;
+  font-size: 12pt;
 }
-pre code {
-  white-space: inherit;
+
+
+
+/* Tab fade */
+
+.tabcontent {
+  animation: fadeEffect 0.3s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #aaaaaa;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #477aac;
+}
+
+
+
+/* Darker background on mouse-over */
+.download:hover {
+  background-color: var(--button-bg-hover);
+}
+
+/* Style buttons */
+.download {
+  background-color: var(--button-bg-colour);
+  border: 2px solid white;
+  color: var(--button-text-colour);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+/* Darker background on mouse-over */
+.download-old:hover {
+  background-color: var(--button-bg-hover);
+}
+
+/* Style buttons */
+.download-old {
+  background-color: var(--button-bg-colour-old);
+  border: 2px solid white;
+  color: var(--button-text-colour);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+
+/* Border Fade */
+.hvr-border-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 4px #477aac, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+#indent div {
+  margin-left: 40px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: Left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: Left;
+  padding: 8px;
+}
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #477aac;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: 0.02em solid black;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.8s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 480px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.lg-view{
+   display:inline-block;
+}
+
+.sm-view{
+   display:none;
+}
+
+@media screen and (max-width: 480px) {
+    .lg-view{
+       display:none;
+    }
+
+    .sm-view{
+       display:inline-block;
+    }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center; /* Center text*/
+  background: white; /* Grey background */
+  color: black;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+#around {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+Source - https://stackoverflow.com/a/2906586
+Posted by BalusC, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-09, License - CC BY-SA 4.0
+*/
+
+a.button {
+    color: #477aac;
+    background-color: none;
+    text-decoration: none;
 }
