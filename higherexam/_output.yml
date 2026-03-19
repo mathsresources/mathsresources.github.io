@@ -1,4 +1,5 @@
 bookdown::gitbook:
+  split_by: section
   config:
     toc:
       collapse: section
@@ -37,4 +38,15 @@ bookdown::gitbook:
   css: www/webex.css
   includes:
     after_body: www/webex.js
+  md_extensions: -smart
+bookdown::bs4_book:
+  split_by: section
+  df_print: kable
+  theme:
+    primary: '#477aac'
+  lib_dir: libs
+  split_bib: no
+  css: include/webex.css
+  includes:
+    after_body: include/webex.js
   md_extensions: -smart

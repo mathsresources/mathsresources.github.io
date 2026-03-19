@@ -28,12 +28,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
-
 `r hide("Solution")`
 
 ![](answers/h2025p2a01a.png)
@@ -69,11 +63,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -109,11 +98,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -151,11 +135,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -193,11 +172,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -236,11 +210,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -279,11 +248,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -323,11 +287,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -364,11 +323,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -408,11 +362,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -451,11 +400,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -495,11 +439,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -535,11 +474,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -578,11 +512,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -618,11 +547,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -660,11 +584,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -702,11 +621,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -742,11 +656,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -784,11 +693,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -826,11 +730,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -866,11 +765,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
@@ -906,11 +800,6 @@ Hint 3.
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
 
 `r hide("Solution")`
 
