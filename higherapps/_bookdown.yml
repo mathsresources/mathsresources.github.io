@@ -5,3 +5,30 @@ delete_merged_file: 'yes'
 before_chapter_script:
 - R/webex.R
 - scripts/webex.R
+rmd_files: [
+"index.Rmd", 
+"Mathematical-Modelling.Rmd", 
+"01-Developing-Models.Rmd",
+"02-Units-of-Measure.Rmd",
+"03-Error-and-Tolerance.Rmd",
+"04-Using-Models.Rmd",
+"05-Spreadsheet-Skills.Rmd",
+"Statistics.Rmd",
+"06-Probability.Rmd",
+"07-Statistical-Literacy.Rmd",
+"08-Statistical-Diagrams.Rmd",
+"09-Descriptive-Statistics.Rmd",
+"10-Hypothesis-Testing.Rmd",
+"11-Confidence-Intervals.Rmd",
+"Project.Rmd",
+"Project-Overview.Rmd",
+"Finance.Rmd",
+"12-Financial-Products.Rmd",
+"13-Interest.Rmd",
+"14-Salaries-and-Pensions.Rmd",
+"Planning.Rmd",
+"15-Project-Planning.Rmd",
+"16-Expected-Value.Rmd",
+"Revision.Rmd",
+"September-Assessment.Rmd"
+]

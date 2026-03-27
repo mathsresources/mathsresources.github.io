@@ -1,1 +1,19 @@
 # Developing Models
+
+## Fermi Estimation
+
+## Graphing Relationships
+
+## Linear Models
+
+## Quadratic Models
+
+## Exponential Models
+
+## Recurrence Models
+
+## Review {-}
+
+
+
+

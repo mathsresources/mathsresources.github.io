@@ -1,4 +1,10 @@
 developing-models
+fermi-estimation
+graphing-relationships
+linear-models
+quadratic-models
+exponential-models
+recurrence-models
 units-of-measure
 test
 test-1
