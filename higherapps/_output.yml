@@ -37,3 +37,14 @@ bookdown::gitbook:
   includes:
     after_body: www/webex.js
   md_extensions: -smart
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  keep_tex: yes
+  dev: "cairo_pdf"
+  latex_engine: xelatex
+  citation_package: natbib
+  template: null
+  toc_depth: 2
+  toc_unnumbered: yes
+  toc_appendix: yes
