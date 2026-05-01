@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="higherapplicationsstyle.css">
+
+<!-- tabs script -->
+
+<script>
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</head>
+
+<body>
+
+<h3 style="color:#916bC2; text-align: center; font--weight: bold;">Higher Applications of Mathematics</h3>
+
+<!-- tab links -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Noticeboard')" id="defaultOpen">Noticeboard</button>
+  <button class="tablinks" onclick="openTab(event, 'Modelling')">Modelling</button>
+  <button class="tablinks" onclick="openTab(event, 'Statistics')">Statistics</button>
+  <button class="tablinks" onclick="openTab(event, 'Finance')">Finance</button>
+  <button class="tablinks" onclick="openTab(event, 'Planning')">Planning</button>
+  <button class="tablinks" onclick="openTab(event, 'Excel')">Excel</button>
+  <button class="tablinks" onclick="openTab(event, 'RStudio')">RStudio</button>
+  <button class="tablinks" onclick="openTab(event, 'Homework')">Homework</button>
+  <button class="tablinks" onclick="openTab(event, 'Project')">Project</button>
+  <button class="tablinks" onclick="openTab(event, 'Revision')">Revision</button>
+</div>
+
+<!-- tab content -->
+
+<!-- Tab content -->
+<div id="Noticeboard" style="display: block;" class="tabcontent">
+
+<p>This webpage has been created to host resources to support the <strong>Higher Applications of Mathematics</strong> course.<br>Resources will be added on a regular basis and the course progresses.</p>
+
+<p>Please <strong>click on a tab above</strong> to explore.</p>
+  
+</div>
+
+<div id="Modelling" style="display: none;" class="tabcontent">
+
+<p>Use the summaries and resources below to revise and catch up on any missed work.</p>
+
+<hr>
+
+<h3>Chapter 1: An Introduction to Mathematical Modelling</h3>
+
+<p>The introduction page includes:</p>
+
+<ul>
+  <li>Knowing the difference between <strong>accuracy</strong> and <strong>precision</strong>.</li>
+</ul>
+
+<p><a href="happs/modelling/010note.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Introduction </button></a><p>
+
+<hr>
+
+<h4>1.1 Systematic Estimation</h4>
+
+<ul>
+  <li>Making <strong>estimations</strong> by choosing suitable approximations needed for calculations.</li>
+  <li>Communicating clearly which <strong>assumptions</strong> were made.</li>
+</ul>
+
+<p>
+  <a href="happs/modelling/011note.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Note </button></a>
+</p>
+
+<hr>
+
+<h4>1.2 Modelling Relationships using Graphs</h4>
+
+<ul>
+  <li>Identifying <strong>independent variables</strong> and <strong>response variables</strong>.</li>
+  <li>Identifying <strong>appropriate graphs</strong> to model a relationship between variables.</li>
+  <li><strong>Drawing</strong> a possible graph.</li>
+</ul>
+
+<p>
+  <a href="happs/modelling/012note.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Note </button></a>
+</p>
+
+<hr>
+
+<h4>1.3 Linear Relationships</h4>
+
+<ul>
+  <li>Recognising linear relationships as graphs which form a <strong>straight line</strong>.</li>
+  <li>Identifying the <strong>constant rate of change</strong> and <strong>starting value</strong> from the equation.</li>
+  <li>Using the <strong>graph</strong> to make a prediction.</li>
+  <li>Using the <strong>equation</strong> to make a prediction.</li>
+</ul>
+
+<p>
+  <a href="happs/modelling/013note.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Note </button></a>
+</p>
+
+<hr>
+
+<h4>1.4 Quadratic Relationships</h4>
+
+<ul>
+  <li></li>
+</ul>
+
+<p>
+  <a href="happs/modelling/014note.pdf" target="_blank"><button class="download-old" target="_blank" rel="noopener noreferrer"> Note </button></a>
+</p>
+
+<hr>
+
+<h4>1.5 Exponential Relationships</h4>
+
+<ul>
+  <li></li>
+</ul>
+
+<p>
+  <a href="happs/modelling/015note.pdf" target="_blank"><button class="download-old" target="_blank" rel="noopener noreferrer"> Note </button></a>
+</p>
+
+<hr>
+
+</div>
+
+<div id="Statistics" style="display: none;" class="tabcontent">
+
+</div>
+
+<div id="Finance" style="display: none;" class="tabcontent">
+  
+</div>
+
+<div id="Planning" style="display: none;" class="tabcontent">
+  
+</div>
+
+<div id="Excel" style="display: none;" class="tabcontent">
+  
+</div>
+
+<div id="RStudio" style="display: none;" class="tabcontent">
+  
+</div>
+
+<div id="Homework" style="display: none;" class="tabcontent">
+  
+</div>
+
+<div id="Project" style="display: none;" class="tabcontent">
+
+</div>
+
+<div id="Revision" style="display: none;" class="tabcontent">
+  
+</div>
+
+</body>
+
+</html>
