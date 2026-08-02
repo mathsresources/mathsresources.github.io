@@ -5,18 +5,53 @@ website:
   title: "mathsresources.github.io"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - n5maths.qmd
-      - hmaths.qmd
-
+      - text: "N5 Maths"
+        menu:
+        - href: n5mathssept.qmd
+          text: "September Assessment"
+        - href: n5mathsprelim.qmd
+          text: "Prelim Exam"
+        - href: n5mathstopup.qmd
+          text: "Top-Up Prelim"
+        - href: n5mathsexam.qmd
+          text: "Final Exam"
+      - text: "Higher Maths"
+        menu:
+        - href: hmathssept.qmd
+          text: "September Assessment"
+        - href: hmathsnov.qmd 
+          text: "November Assessment"
+        - href: hmathsprelim.qmd
+          text: "Prelim Exam"
+        - href: hmathstopup.qmd
+          text: "Top-Up Prelim"
+        - href: hmathsexam.qmd
+          text: "Final Exam"
+      - text: "Higher Apps"
+        menu:
+        - href: happssept.qmd
+          text: "September Assessment"
+        - href: happsnov.qmd 
+          text: "November Assessment"
+        - href: happsprelim.qmd
+          text: "Prelim Exam"
+        - href: happstopup.qmd
+          text: "Top-Up Prelim"
+        - href: happsexam.qmd
+          text: "Final Exam"
+      - text: "AH Stats"
+        menu:
+        - href: ahstatstextbook.qmd
+          text: "Textbook"
+        - href: ahstatslinks.qmd 
+          text: "Useful Links"
+    background: primary
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - flatly
     css: styles.css
     toc: true
-
+  
 
 
