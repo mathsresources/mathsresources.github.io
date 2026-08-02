@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "National 5 Maths",
     "section": "",
     "text": "About this site - test"
   },
@@ -11,6 +11,13 @@
     "href": "index.html",
     "title": "mathsresources.github.io",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.."
+  },
+  {
+    "objectID": "n5maths.html",
+    "href": "n5maths.html",
+    "title": "National 5 Maths",
+    "section": "",
+    "text": "About this site - test"
   }
 ]
