@@ -8,6 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: n5maths.qmd
+        text: N5 Maths
+      - href: hmaths.qmd
+        text: Higher Maths
+      - href: happs.qmd
+        text: Higher Apps
+      - href: ahstats.qmd
+        text: AH Stats
       - href: about.qmd
         text: About
 
