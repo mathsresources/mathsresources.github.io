@@ -1,5 +1,0 @@
----
-title: "Advanced Higher Statistics Course Textbook"
----
-
-Textbook information here

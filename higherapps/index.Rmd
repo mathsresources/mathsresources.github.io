@@ -1,0 +1,21 @@
+--- 
+title: "Higher Apps Bookdown"
+author: "A James"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+classoption: openany
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+mainfont: Times New Roman
+fontsize: 11pt
+link-citations: 
+header-includes:
+- \AtBeginDocument{\frontmatter}
+description: |
+  Notes, examples and exercises to support the Higher Apps course.
+---
+
+# Course Information {-}
+

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<!-- tabs script -->
+
+<script>
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</head>
+
+<body>
+
+<h3 style="color:#477aac; text-align: center; font--weight: bold;">mathsresources.github.io</h3>
+
+<!-- tab links -->
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openTab(event, 'FIIIMaths')">Form III Maths</button>
+  <button class="tablinks" onclick="openTab(event, 'FIVMaths')">Form IV Maths</button>
+  <button class="tablinks" onclick="openTab(event, 'HigherMaths')">Higher Maths</button>
+  <button class="tablinks" onclick="openTab(event, 'HigherApps')" style="display:none;">Higher Apps</button>
+  <button class="tablinks" onclick="openTab(event, 'AHStats')">Advanced Higher Statistics</button>
+</div>
+
+<!-- tab content -->
+
+<!-- Tab content -->
+<div id="Home" style="display: block;" class="tabcontent">
+
+<p>This website has been created to host resources to support a range of Scottish maths courses.<br>Resources are being added on a regular basis.</p>
+
+<p>Please <strong>select a course</strong> using the tabs above.</p>
+  
+</div>
+
+<div id="FIIIMaths" style="display: none;" class="tabcontent">
+
+<p>Revision resources for the Form III course.</p>
+
+<hr>
+
+<h2>Form III Exam Preparation</h2>
+
+<p>The first stage of your revision should include <strong>reviewing your notes and examples</strong>.</p>
+
+<p><a href="pdf/fiiiexamtopiclist.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Topic List </button></a> Making <strong>flashcards</strong> to summarise each topic is recommended.</p>
+
+<p>If you are stuggling to find or access the questions to be used for revision, <strong>ask your teacher</strong>.</p>
+
+<h3>Practice Exam Papers</h3>
+  
+<p>The Form III Maths exam consists of a Paper 1 (non-calculator) and a Paper 2 (calculator).<br>Each paper will last 45 minutes.</p>
+
+<p>These practice exams will help you test your knowledge and understanding.<br>At the end of each practice paper are the <strong>answers</strong> and <strong>hints</strong>.</p>
+
+<p>Practice Exam A:<br><a href="pdf/fiiiexampracticea1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/fiiiexampracticea2.pdf" target="_blank"><button class="download"> Paper 2 (Calculator) </button></a></p>
+
+<p>Practice Exam B:<br><a href="pdf/fiiiexampracticeb1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/fiiiexampracticeb2.pdf" target="_blank"><button class="download"> Paper 2 (Calculator) </button></a></p>
+
+<p>Practice Exam C:<br><a href="pdf/fiiiexampracticec1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/fiiiexampracticec2.pdf" target="_blank"><button class="download"> Paper 2 (Calculator) </button></a></p>
+
+</div>
+
+<div id="FIVMaths" style="display: none;" class="tabcontent">
+
+<p>Resources for revision and exam preparation for the National 5 Maths course in Form IV.</p>
+
+<p><a href="pdf/n5formulasheet.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> N5 Formula Sheet </button></a> This will be provided on page 2 of any National 5 Maths exam (courtesy of SQA). </p>
+
+<hr>
+
+<h2>National 5 Exam Revision Resources</h2>
+
+<h3>Useful Links</h3>
+
+<p><a href="https://hints.nhost.uk/index.php" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer">Hints for Exam Questions </button></a> Try these hints first when you are stuck.</p>
+
+<p><a href="https://www.dynamicmaths.co.uk/QuestionBank/index.php?levelQ=4" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Dynamic Maths Question Bank </button></a> Quickly find past exam questions by topic or skill.</p>
+
+<h3>Past Exams Papers</h3>
+
+<p>It is recommended to save the most recent exam papers for timed practice.</p>
+
+<p>2025: <br><a href="pdf/n5m2025p1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/n5m2025p2.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/n5m2025ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2024: <br><a href="pdf/n5m2024p1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/n5m2024p2.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/n5m2024ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2023: <br><a href="pdf/n5m2023p1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/n5m2023p2.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/n5m2023ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2022: <br><a href="pdf/n5m2022p1.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/n5m2022p2.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/n5m2022ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2021: <br><a href="pdf/n5m2021.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2021ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2019: <br><a href="pdf/n5m2019.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2019ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2018: <br><a href="pdf/n5m2018.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2018ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2017: <br><a href="pdf/n5m2017.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2017ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2016: <br><a href="pdf/n5m2016.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2016ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2015: <br><a href="pdf/n5m2015.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Both Papers </button></a><a href="pdf/n5m2015ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<hr>
+
+<h2>March Top-Up Prelim Resources<h2>
+
+<h3>Topic-by-Topic Questions</h3>
+
+<p><a href="pdf/n5topuprevisionquestions.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (PDF / Printable) </button></a> Revision questions organised topic-by-topic, including <strong>answers</strong>. </p>
+
+<p><a href="n5prelim/n5topup.html" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (HTML) </button></a> The same revision questions as a webpage, with <strong> hints </strong> and <strong>worked solutions</strong>. </p>
+
+<h3>Practice Exams</h3>
+
+<p>Practice Exam J:<br><a href="pdf/n5prelimpracticej.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Combined Paper </button></a> </p>
+
+<p>Practice Exam K:<br><a href="pdf/n5prelimpracticek.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Combined Paper </button></a> </p>
+
+<p>Practice Exam L:<br><a href="pdf/n5prelimpracticel.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Combined Paper </button></a> </p>
+
+<hr>
+
+<h2>November Prelim Resources</h2>
+
+<h3>Topic-by-Topic Questions</h3>
+
+<p><a href="pdf/n5prelimrevisionbooklet.pdf" target="_blank"><button class="download-past"> Revision Questions (PDF / Printable) </button></a> Revision questions organised topic-by-topic, including <strong>answers</strong>. </p>
+
+<p><a href="n5prelim/n5prelim.html" target="_blank"><button class="download-past"> Revision Questions (HTML) </button></a> The same revision questions as a webpage, with <strong> hints </strong> and <strong>worked solutions</strong>. </p>
+
+<h3>Practice Exams</h3>
+
+<p>Practice Exam G: <br><a href="pdf/n5prelimpracticeg1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a> <a href="pdf/n5prelimpracticeg2.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a> <a href="pdf/n5prelimpracticega.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Answers </button></a></p>
+
+<p>Practice Exam H: <br><a href="pdf/n5prelimpracticeh1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a> <a href="pdf/n5prelimpracticeh2.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a> <a href="pdf/n5prelimpracticeha.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Answers </button></a></p>
+
+<p>Practice Exam I: <br><a href="pdf/n5prelimpracticei1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a> <a href="pdf/n5prelimpracticei2.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a> <a href="pdf/n5prelimpracticeia.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Answers </button></a></p>
+
+<hr>
+
+  
+</div>
+
+<div id="HigherMaths" style="display: none;" class="tabcontent">
+  
+<p>A collection of resources for the Higher Maths course.</p>
+
+<p><a href="pdf/hformulasheet.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Higher Formula Sheet </button></a> This will be provided on page 2 of any Higher Maths exam (courtesy of Qualifications Scotland). </p>
+
+<hr>
+
+<h2>Higher Exam Revision Resources</h2>
+
+<h3>Useful Links</h3>
+
+<p><a href="https://hints.nhost.uk/index.php" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer">Hints for Exam Questions </button></a> Try these hints first when you are stuck.</p>
+
+<p><a href="https://www.dynamicmaths.co.uk/QuestionBank/index.php?levelQ=6" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Dynamic Maths Question Bank </button></a> Quickly find past exam questions by topic or skill.</p>
+
+<h3>Past Exams Papers</h3>
+
+<p>Save the most recent exam papers for timed practice.<br>Since 2015 was a challenging paper, start with <strong>2016</strong>.</p>
+
+<p>2025: (A 72%,B 61%,C 50%)<br><a href="pdf/hm2025p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2025p3q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2025ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2024: (A 70%,B 59%,C 49%)<br><a href="pdf/hm2024p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2024p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2024ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2023: (A 70%,B 58%,C 48%)<br><a href="pdf/hm2023p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2023p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2023ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2022: <br><a href="pdf/hm2022p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2022p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2022ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2021: <br><a href="pdf/hm2021p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2021p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2021ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2019: <br><a href="pdf/hm2019p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2019p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2019ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2018: <br><a href="pdf/hm2018p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2018p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2018ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2017: <br><a href="pdf/hm2017p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2017p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2017ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2016: <br><a href="pdf/hm2016p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2016p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2016ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2015: (A 60%, B 47%, C 34%)<br><a href="pdf/hm2015p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/hm2015p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/hm2015ms.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></button></a> </p>
+
+<hr>
+
+<h2>March Top-Up Prelim Resources<h2>
+
+<h3>Topic-by-Topic Questions</h3>
+
+<p><a href="pdf/htopuprevisionquestions.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (PDF / Printable) </button></a> Revision questions organised topic-by-topic, including <strong>answers</strong>. </p>
+
+<p><a href="hprelim/htopupprelim.html" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (HTML) </button></a> The same revision questions as a webpage, with <strong> hints </strong> and <strong>worked solutions</strong>. </p>
+
+<h3>Practice Exams</h3>
+
+<p>Practice Exam D:<br><a href="pdf/hprelimpracticed.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Single Paper (Calculator) </button></a> </p>
+
+<p>Practice Exam E:<br><a href="pdf/hprelimpracticee.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Single Paper (Calculator) </button></a> </p>
+
+<p>Practice Exam F:<br><a href="pdf/hprelimpracticef.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Single Paper (Calculator) </button></a> </p>
+
+<hr>
+
+<h2>January Prelim Resources</h2>
+
+<h3>Topic-by-Topic Questions</h3>
+
+<p><a href="pdf/hprelimrevisionbooklet.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (PDF / Printable) </button></a> Revision questions organised topic-by-topic, including <strong>answers</strong>. </p>
+
+<p><a href="hprelim/hprelim.html" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Revision Questions (HTML) </button></a> The same revision questions as a webpage, with <strong> hints </strong> and <strong>worked solutions</strong>. </p>
+
+<h3>Practice Exams</h3>
+
+<p>Practice Exam A:<br><a href="pdf/hprelimpracticea1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/hprelimpracticea2.pdf" target="_blank"><button class="download-past"> Paper 2 (Calculator) </button></a></p>
+
+<p>Practice Exam B:<br><a href="pdf/hprelimpracticeb1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/hprelimpracticeb2.pdf" target="_blank"><button class="download-past"> Paper 2 (Calculator) </button></a></p>
+
+<p>Practice Exam C:<br><a href="pdf/hprelimpracticec1.pdf" target="_blank"><button class="download-past" target="_blank" rel="noopener noreferrer"> Paper 1 (Non-Calculator) </button></a> <a href="pdf/hprelimpracticec2.pdf" target="_blank"><button class="download-past"> Paper 2 (Calculator) </button></a></p>
+  
+</div>
+
+<div id="HigherApps" style="display: none;" class="tabcontent">
+  
+<p>This page is currently under construction. Please check back again later.</p>
+
+<p>Notes, examples and exercises will be added to the <a href="higherapps/docs/index.html" class="button" target="_blank" rel="noopener noreferrer">Higher Apps Bookdown</a> as the course progresses in 2025-26.</p>
+  
+</div>
+
+<div id="AHStats" style="display: none;" class="tabcontent">
+  
+<p>A collection of resources for the Advanced Higher Statistics course.</p>
+
+<p><a href="pdf/ah-statistics-data-booklet.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Data Booklet </button></a> This booklet will be provided in any exam (courtesy of Qualifications Scotland). </p>
+
+<hr>
+
+<h2>Exam Revision Resources<h2>
+
+<h3>Useful Links</h3>
+
+<p><a href="https://hints.nhost.uk/index.php" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer">Hints for Exam Questions </button></a> Try these hints first when you are stuck.</p>
+
+<p><a href="https://www.dynamicmaths.co.uk/QuestionBank/index.php?levelQ=17" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Dynamic Maths Question Bank </button></a> Quickly find past exam questions by topic or skill.</p>
+
+<p><a href="pdf/hypothesisflowchart.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Hypothesis Test Flowchart </button></a> Flowchart for choosing the right hypothesis test.</p>
+
+<h3>Revision of Essential Skills</h3>
+
+ Topic-by-topic practice of key skills, to prepare you before working through full exam papers.
+
+<p><a href="pdf/ahsessentialskillsexamq.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Essential Skills Questions </button></a> <a href="pdf/ahsessentialskillsexams.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Solutions </button></a></p>
+
+<h3>Past Exam Papers</h3>
+
+<p>2025: <br><a href="pdf/ahs2025p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2025p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/ahs2025p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P1 Marking </button></a><a href="pdf/ahs2025p2a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P2 Marking </button></a></p>
+
+<p>2024: <br><a href="pdf/ahs2024p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2024p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/ahs2024p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P1 Marking </button></a><a href="pdf/ahs2024p2a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P2 Marking </button></a></p>
+
+<p>2023: <br><a href="pdf/ahs2023p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2023p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/ahs2023p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P1 Marking </button></a><a href="pdf/ahs2023p2a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P2 Marking </button></a></p>
+
+<p>2022: <br><a href="pdf/ahs2022p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2022p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/ahs2022p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P1 Marking </button></a><a href="pdf/ahs2022p2a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P2 Marking </button></a></p>
+
+<p>2021: <br><a href="pdf/ahs2021p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2021p2q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 2 </button></a><a href="pdf/ahs2021p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P1 Marking </button></a><a href="pdf/ahs2021p2a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> P2 Marking </button></a></p>
+
+<p>2019: <br><a href="pdf/ahs2019q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Single Paper </button></a><a href="pdf/ahs2019a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2018: <br><a href="pdf/ahs2018q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Single Paper </button></a><a href="pdf/ahs2018a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2017: <br><a href="pdf/ahs2017q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Single Paper </button></a><a href="pdf/ahs2017a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2016: <br><a href="pdf/ahs2016q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Single Paper </button></a><a href="pdf/ahs2016a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<div style="display: none;">
+
+<h2>Paper 1 Prelim Resources<h2>
+
+<h3>Useful Links</h3>
+
+<p><a href="https://hints.nhost.uk/index.php" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer">Hints for Exam Questions </button></a> Try these hints first when you are stuck.</p>
+
+<p><a href="https://www.dynamicmaths.co.uk/QuestionBank/index.php?levelQ=17" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Dynamic Maths Question Bank </button></a> Quickly find past exam questions by topic or skill.</p>
+
+<h3>Past Exams - Paper 1</h3>
+
+<p>2025: <br><a href="pdf/ahs2025p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2025p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2024: <br><a href="pdf/ahs2024p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2024p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2023: <br><a href="pdf/ahs2023p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2023p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2022: <br><a href="pdf/ahs2022p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2022p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<p>2021: <br><a href="pdf/ahs2021p1q.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Paper 1 </button></a><a href="pdf/ahs2021p1a.pdf" target="_blank"><button class="download" target="_blank" rel="noopener noreferrer"> Marking Scheme </button></a></p>
+
+<hr>
+
+</div>
+
+</div>
+
+
+</body>
+
+</html>

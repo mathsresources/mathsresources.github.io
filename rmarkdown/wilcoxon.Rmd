@@ -1,0 +1,286 @@
+---
+title: "Simulation in R: Wilcoxon-Signed Rank Test"
+output:
+  html_document: 
+    fig_height: 3
+  pdf_document: default
+---
+
+This RMarkdown file contains annotated code chunks for running simulations, to support the explanation of the Wilcoxon Signed-Rank Test.
+
+<hr>
+
+The first *code chunk*, below, creates a **function** called `wilcoxon_rank`, which returns the Wilcoxon Signed Rank test statistic W for a set of values. Unless a population median `eta` is specified, it uses `eta = 0`. Once this *code chunk* has been run once in a session, the function can be used at any time separately. This is best used once an understanding behind the process has been built.
+
+```{r 0 create wilcoxon_rank function - only needs to be run once, fig.height=3, fig.width=8}
+wilcoxon_rank <- function(data, eta = 0)
+{
+  condition = (data == eta)
+  data_used <- data[condition == FALSE]
+  ranks <- rank(abs(data_used - eta))
+  rank_signs <- ifelse(data_used < eta, -1, 1)
+  signed_ranks <- ranks * rank_signs
+  W <- min(sum(signed_ranks[signed_ranks > 0]), (-1)*sum(signed_ranks[signed_ranks < 0]))
+  print(W)
+}
+```
+
+<hr>
+
+**Simulation 1** shows simulated sample data falling either side of the population median. 
+
+**Teaching suggestions**:
+
+- Present a suitable problem, such as a group of athletes given a special new treatment for an injury with a known median recovery time. Their sample recover times could be presented with a majority clearly lying on one side of the median, with a focus on how *low* the count on one side is and the question posed: *"Did this happen by pure chance, with no difference in the underlying recovery time for those given this treatment, or is there a difference in population median recovery times when athletes are given this treatment?"*
+
+- Use the simulation to talk about *low counts* on one side happened by random chance, but suggest that by considering the *unlikeness* of observing such a low count from a *single* random sample might provide *evidence to suggest* the treatment has an effect. Binomial probabilities may be considered here, forming a *sign Test for the Population Median*, but this is not part of the AH Statistics course, and may be skipped.
+
+- Highlight that this crude measure ignores *how far from the hypothesised median* data points lie, and propose to address this.
+
+```{r 1 sample data vs population median, fig.height=3, fig.width=8, paged.print=FALSE}
+
+# Set the sample size (n) and population median, and approximate IQR if desired.
+
+sample_size <- 8
+pop_median <- 10
+pop_iqr <- 2.5
+
+# Generate random data from a normal distribution
+
+data<-rnorm(sample_size, mean = pop_median, sd = 1.35*pop_iqr)
+
+# Use to generate suitable x-axis
+
+x_vals <- seq(round(pop_median-4*pop_iqr, digits=0), 
+              round(pop_median+4*pop_iqr, digits=0), 
+              by = 1)
+
+# Generate a stripchart plot with vertical line at population median
+
+stripchart(data,
+           main = paste("population median = ",pop_median), 
+           method = "jitter",
+           pch = 21,
+           col = c("black"),
+           bg = c("red"),
+           xaxt = "n",
+           xlim = c(pop_median-4*pop_iqr, pop_median+4*pop_iqr),
+           xlab = "sample values"
+           )
+axis(1, at = x_vals, las = 2)
+abline(v = pop_median)
+```
+
+<hr>
+
+**Simulation 2** simplifies the data to integers, sampled without replacement.
+
+**Teaching suggestion**:
+
+- Highlight that *"zeros"* (values for which there is zero difference from the hypothesised population median) offer no evidence of a difference in population median when considering how *"balanced"* the counts are.
+
+```{r 2 integer data, fig.height=3, fig.width=8}
+n <- 6
+x_min <- 0
+x_max <- 12
+median <- 0.5*(x_max - x_min)
+data <- sample(x_min:x_max,n)
+stripchart(data,
+           main = paste("raw data"),
+           method = "stack",
+           pch = 21,
+           col = c("black", "black"),
+           bg = c("red", "red"),
+           xaxt = "n",
+           xlim = c(x_min-0.5, x_max+0.5))
+axis(1, at = seq(x_min,x_max, by = 1), las = 2)
+abline(v = median)
+```
+
+<hr>
+
+**Simulation 3** builds on the previous simulation by visually separating the "discarded" values.
+
+```{r 3 discard zeros, fig.height=3, fig.width=8}
+n<-6
+x_min <- 0
+x_max <- 12
+median <- 0.5*(x_max - x_min)
+data <- sample(x_min:x_max, n)
+condition = (data == median)
+discard <- data[condition == TRUE]
+use <- data[condition == FALSE]
+list <- list("use" = use, "discard" = discard)
+stripchart(list,
+           main = paste("zeros discarded"),
+           method = "stack",
+           pch = 21,
+           col = c("black", "black"),
+           bg = c("red", "red"),
+           xaxt = "n",
+           xlim = c(x_min-0.5, x_max+0.5))
+axis(1, at = seq(x_min, x_max, by = 1), las = 2)
+abline(v = median)
+```
+
+<hr>
+
+**Simulation 4** assigns ranks to the data points.
+
+**Teaching suggestions**:
+
+- Repeatedly sample until an example with integer ranks appear, and check that the way ranking are assigned is understood.
+
+- It is likely that non-integer ranks will have been observed already - draw more samples until this happens and discuss the concept of *shared ranks*.
+
+```{r 4 assigning ranks, fig.height=3, fig.width=8}
+n <- 6
+x_min <- 0
+x_max <- 12
+median <- 0.5*(x_max - x_min)
+data <- sample(x_min:x_max,n)
+condition=(data==median)
+discard<-data[condition==TRUE]
+use<-data[condition==FALSE]
+list<-list("use"=use,"discard"=discard)
+list<-list("use"=use,"discard"=discard)
+stripchart(list,
+           main=paste("ranks assigned"),
+           method="stack",
+           pch=21,
+           col=c("black","black"),
+           bg=c("red","red"),
+           xaxt="n",
+           xlim=c(x_min-0.5,x_max+0.5))
+axis(1, at = seq(x_min,x_max, by = 1), las=2)
+abline(v=median)
+ranks=rank(abs(use-median))
+ranksign<-ifelse(use<median,-1,1)
+signedranks<-ranks
+text(use,1,signedranks,adj=c(0.5,-3),cex=0.7,col="black")
+```
+
+<hr>
+
+**Simulation 5** signs the ranks, with those below the median denoted with a `-` following the rank, and those above denoted with a `+`. Note that the ranks themselves are **not** *negative numbers*. 
+
+```{r 5 signed ranks, fig.height=3, fig.width=8}
+n <- 6
+x_min <- 0
+x_max <- 12
+median <- 0.5*(x_max - x_min)
+data <- sample(x_min:x_max,n)
+condition=(data==median)
+discard<-data[condition==TRUE]
+use<-data[condition==FALSE]
+list<-list("use"=use,"discard"=discard)
+list<-list("use"=use,"discard"=discard)
+stripchart(list,
+           main = paste("signed ranks"),
+           method = "stack",
+           pch = 21,
+           col = c("black", "black"),
+           bg = c("red", "red"),
+           xaxt = "n",
+           xlim = c(x_min-0.5,x_max+0.5))
+axis(1, at = seq(x_min,x_max, by = 1), las = 2)
+abline(v = median)
+ranks = rank(abs(use-median))
+ranksign <- ifelse(use<median,"-","+")
+signedranks <- paste(ranks, ranksign)
+text(use, 1, signedranks, adj = c(0.5,-3), cex=0.7, col = "black")
+```
+
+<hr>
+
+**Simulation 6** arrives at the test statistic for the Wilcoxon Signed Rank test, W, which is the lower of the two sums of ranks. It should be noted that, for any given sample size $n$ once zeros have been discarded, the sum of the *two* sets of ranks will always be the same:
+
+$$W_{positive}+W_{negative}=\dfrac{1}{2}n(n+1)$$
+
+```{r 6 test statistic W, fig.height=3, fig.width=8}
+n <- 6
+x_min <- 0
+x_max <- 12
+median <- 0.5*(x_max - x_min)
+data <- sample(x_min:x_max,n)
+condition = (data==median)
+discard <- data[condition==TRUE]
+use <- data[condition==FALSE]
+list <- list("use"=use,"discard"=discard)
+list <- list("use"=use,"discard"=discard)
+wilcoxon_rank_silent <- function(data, eta = 0)
+{
+  condition = (data == eta)
+  data_used <- data[condition == FALSE]
+  ranks <- rank(abs(data_used - eta))
+  rank_signs <- ifelse(data_used < eta, -1, 1)
+  signed_ranks <- ranks * rank_signs
+  W <- min(sum(signed_ranks[signed_ranks > 0]), (-1)*sum(signed_ranks[signed_ranks < 0]))
+}
+W<-wilcoxon_rank_silent(data, eta = median)
+stripchart(list,
+           main=paste("sample",list(data),", population median is",median,"and W =",W),
+           method = "stack",
+           pch = 21,
+           col = c("black", "black"),
+           bg = c("red", "red"),
+           xaxt = "n",
+           xlim = c(x_min-0.5,x_max+0.5))
+axis(1, at = seq(x_min,x_max, by = 1), las = 2)
+abline(v = median)
+ranks = rank(abs(use-median))
+ranksign <- ifelse(use<median,"-","+")
+signedranks <- paste(ranks, ranksign)
+text(use, 1, signedranks, adj = c(0.5,-3), cex=0.7, col = "black")
+```
+
+<hr>
+
+The code chunk below demonstrates using the **function** `wilcoxon_rank` to calculate the test statistic from a vector of values. This could be an ideal time to return to the original problem posed.
+
+```{r using the function, fig.height=3, fig.width=8}
+data <- c(6,8,8,2,10,11,15)
+wilcoxon_rank(data, eta = 10)
+```
+
+<hr>
+
+**Simulation 9** begins to explore the distribution of W under the null hypothesis.
+
+```{r 9 distribution of W for a given sample size, fig.height=3, fig.width=8}
+replications <- 1000
+sample_size <- 7
+wilcoxon_rank_simulation <- function(data, eta = 0, n = 12)
+{
+  data <- rnorm(n, mean = eta, sd = 4)
+  condition = (data == eta)
+  data_used <- data[condition == FALSE]
+  ranks <- rank(abs(data_used - eta))
+  rank_signs <- ifelse(data_used < eta, -1, 1)
+  signed_ranks <- ranks * rank_signs
+  W <- min(sum(signed_ranks[signed_ranks > 0]), (-1)*sum(signed_ranks[signed_ranks < 0]))
+}
+W_data <- replicate(replications,wilcoxon_rank_simulation(data, n = sample_size))
+barplot(table(W_data))
+```
+
+<hr>
+
+**Simulation 10** allows the exploration of suitable *critical values* with a probability `check` for any given sample size*
+
+```{r 10 critical values}
+sample_size = 10
+check <- 8
+W_data <- replicate(10000,wilcoxon_rank_simulation(data, n = sample_size))
+props <- proportions(table(W_data))
+reds <- check + 1
+greys <- sample_size * (sample_size + 1) * 0.5
+vec_reds <- rep("red",times = reds)
+vec_greys <- rep("blue", times = greys)
+vec_col <- c(vec_reds, vec_greys)
+upto <- check + 1
+p <- sum(props[c(1:upto)])
+barplot(props,
+        col = vec_col,
+        main = paste("W of",check,"or less appeared for",p,"of samples"))
+```

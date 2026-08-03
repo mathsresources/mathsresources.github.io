@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>1 Modelling | Higher Apps</title>
+<meta name="author" content="A James">
+<meta name="description" content="This is a Web Exercise template created by the #PsyTeachR team at the University of Glasgow, based on ideas from Software Carpentry. This template shows how instructors can easily create...">
+<meta name="generator" content="bookdown 0.46 with bs4_book()">
+<meta property="og:title" content="1 Modelling | Higher Apps">
+<meta property="og:type" content="book">
+<meta property="og:description" content="This is a Web Exercise template created by the #PsyTeachR team at the University of Glasgow, based on ideas from Software Carpentry. This template shows how instructors can easily create...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="1 Modelling | Higher Apps">
+<meta name="twitter:description" content="This is a Web Exercise template created by the #PsyTeachR team at the University of Glasgow, based on ideas from Software Carpentry. This template shows how instructors can easily create...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="include/webex.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Higher Apps</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Course Information</a></li>
+<li><a class="active" href="modelling.html"><span class="header-section-number">1</span> Modelling</a></li>
+<li><a class="" href="statistics.html"><span class="header-section-number">2</span> Statistics</a></li>
+<li><a class="" href="project.html">Project</a></li>
+<li><a class="" href="finance.html"><span class="header-section-number">3</span> Finance</a></li>
+<li><a class="" href="planning.html"><span class="header-section-number">4</span> Planning</a></li>
+<li><a class="" href="exam-preparation.html">Exam Preparation</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="modelling" class="section level1" number="1">
+<h1>
+<span class="header-section-number">1</span> Modelling<a class="anchor" aria-label="anchor" href="#modelling"><i class="fas fa-link"></i></a>
+</h1>
+<p>This is a Web Exercise template created by the <a href="https://psyteachr.github.io">#PsyTeachR team at the University of Glasgow</a>, based on ideas from <a href="https://software-carpentry.org/lessons/">Software Carpentry</a>. This template shows how instructors can easily create interactive web documents that students can use in self-guided learning.</p>
+<p>The <a href="https://github.com/psyteachr/webexercises">webexercises</a> package provides a number of functions that you use in <a href="https://github.com/rstudio/cheatsheets/raw/main/rmarkdown.pdf">inline R code</a> or through code chunk options to create HTML widgets (text boxes, pull down menus, buttons that reveal hidden content). Examples are given below. Knit this file to HTML to see how it works.</p>
+<p><strong>NOTE: To use the widgets in the compiled HTML file, you need to have a JavaScript-enabled browser.</strong></p>
+<div id="fill-in-the-blanks-fitb" class="section level2" number="1.1">
+<h2>
+<span class="header-section-number">1.1</span> Fill-In-The-Blanks (<code>fitb()</code>)<a class="anchor" aria-label="anchor" href="#fill-in-the-blanks-fitb"><i class="fas fa-link"></i></a>
+</h2>
+<p>Create fill-in-the-blank questions using <code>fitb()</code>, providing the answer as the first argument.</p>
+<ul>
+<li>2 + 2 is <input class="webex-solveme nospaces" size="1" data-answer='["4"]'>
+</li>
+</ul>
+<p>You can also create these questions dynamically, using variables from your R session.</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="fl">2</span><span class="op">:</span><span class="fl">8</span>, <span class="fl">1</span><span class="op">)</span></span></code></pre></div>
+<ul>
+<li>The square root of 4 is: <input class="webex-solveme nospaces" size="1" data-answer='["2"]'>
+</li>
+</ul>
+<p>The blanks are case-sensitive; if you don't care about case, use the argument <code>ignore_case = TRUE</code>.</p>
+<ul>
+<li>What is the letter after D? <input class="webex-solveme nospaces ignorecase" size="1" data-answer='["E"]'>
+</li>
+</ul>
+<p>If you want to ignore differences in whitespace use, use the argument <code>ignore_ws = TRUE</code> (which is the default) and include spaces in your answer anywhere they could be acceptable.</p>
+<ul>
+<li>How do you load the tidyverse package? <input class="webex-solveme nospaces" size="20" data-answer="[&quot;library( tidyverse )&quot;,&quot;library( \&quot;tidyverse\&quot; )&quot;,&quot;library( 'tidyverse' )&quot;]">
+</li>
+</ul>
+<p>You can set more than one possible correct answer by setting the answers as a vector.</p>
+<ul>
+<li>Type a vowel: <input class="webex-solveme nospaces ignorecase" size="1" data-answer='["A","E","I","O","U"]'>
+</li>
+</ul>
+<p>You can use regular expressions to test answers against more complex rules.</p>
+<ul>
+<li>Type any 3 letters: <input class="webex-solveme nospaces regex" size="3" data-answer='["^[a-zA-Z]{3}$"]'>
+</li>
+</ul>
+</div>
+<div id="multiple-choice-mcq" class="section level2" number="1.2">
+<h2>
+<span class="header-section-number">1.2</span> Multiple Choice (<code>mcq()</code>)<a class="anchor" aria-label="anchor" href="#multiple-choice-mcq"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>"Never gonna give you up, never gonna: <select class="webex-select"><option value="blank"></option>
+<option value="">let you go</option>
+<option value="">turn you down</option>
+<option value="">run away</option>
+<option value="answer">let you down</option></select>"</li>
+<li>"I <select class="webex-select"><option value="blank"></option>
+<option value="answer">bless the rains</option>
+<option value="">guess it rains</option>
+<option value="">sense the rain</option></select> down in Africa" -Toto</li>
+</ul>
+</div>
+<div id="true-or-false-torf" class="section level2" number="1.3">
+<h2>
+<span class="header-section-number">1.3</span> True or False (<code>torf()</code>)<a class="anchor" aria-label="anchor" href="#true-or-false-torf"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>True or False? You can permute values in a vector using <code><a href="https://rdrr.io/r/base/sample.html">sample()</a></code>. <select class="webex-select"><option value="blank"></option>
+<option value="answer">TRUE</option>
+<option value="">FALSE</option></select>
+</li>
+</ul>
+</div>
+<div id="longer-mcqs-longmcq" class="section level2" number="1.4">
+<h2>
+<span class="header-section-number">1.4</span> Longer MCQs (<code>longmcq()</code>)<a class="anchor" aria-label="anchor" href="#longer-mcqs-longmcq"><i class="fas fa-link"></i></a>
+</h2>
+<p>When your answers are very long, sometimes a drop-down select box gets formatted oddly. You can use <code>longmcq()</code> to deal with this. Since the answers are long, It's probably best to set up the options inside an R chunk with <code>echo=FALSE</code>.</p>
+<p><strong>What is a p-value?</strong></p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">opts_p</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>   <span class="st">"the probability that the null hypothesis is true"</span>,</span>
+<span>   answer <span class="op">=</span> <span class="st">"the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true"</span>,</span>
+<span>   <span class="st">"the probability of making an error in your conclusion"</span></span>
+<span><span class="op">)</span></span></code></pre></div>
+<div id="radio_UOHUXUOJYK" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_UOHUXUOJYK" value=""><span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_UOHUXUOJYK" value="answer"><span>the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_UOHUXUOJYK" value=""><span>the probability of making an error in your conclusion</span></label>
+</div>
+<p><strong>What is true about a 95% confidence interval of the mean?</strong></p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># use sample() to randomise the order</span></span>
+<span><span class="va">opts_ci</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  answer <span class="op">=</span> <span class="st">"if you repeated the process many times, 95% of intervals calculated in this way contain the true mean"</span>,</span>
+<span>  <span class="st">"there is a 95% probability that the true mean lies within this range"</span>,</span>
+<span>  <span class="st">"95% of the data fall within this range"</span></span>
+<span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<div id="radio_XKALIBQQDL" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_XKALIBQQDL" value="answer"><span>if you repeated the process many times, 95% of intervals calculated in this way contain the true mean</span></label><label><input type="radio" autocomplete="off" name="radio_XKALIBQQDL" value=""><span>there is a 95% probability that the true mean lies within this range</span></label><label><input type="radio" autocomplete="off" name="radio_XKALIBQQDL" value=""><span>95% of the data fall within this range</span></label>
+</div>
+</div>
+<div id="checked-sections" class="section level2" number="1.5">
+<h2>
+<span class="header-section-number">1.5</span> Checked sections<a class="anchor" aria-label="anchor" href="#checked-sections"><i class="fas fa-link"></i></a>
+</h2>
+<p>Create sections with the class <code>webex-check</code> to add a button that hides feedback until it is pressed. Add the class <code>webex-box</code> to draw a box around the section (or use your own styles).</p>
+<div class="webex-check webex-box">
+<p>I am going to learn a lot: <select class="webex-select"><option value="blank"></option>
+<option value="answer">TRUE</option>
+<option value="">FALSE</option></select></p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">opts</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>   <span class="st">"the probability that the null hypothesis is true"</span>,</span>
+<span>   answer <span class="op">=</span> <span class="st">"the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true"</span>,</span>
+<span>   <span class="st">"the probability of making an error in your conclusion"</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="st">"What is a p-value?"</span>, <span class="fu">longmcq</span><span class="op">(</span><span class="va">opts</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+What is a p-value?
+<div id="radio_LLPXHBWQIS" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_LLPXHBWQIS" value=""><span>the probability that the null hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_LLPXHBWQIS" value="answer"><span>the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true</span></label><label><input type="radio" autocomplete="off" name="radio_LLPXHBWQIS" value=""><span>the probability of making an error in your conclusion</span></label>
+</div>
+</div>
+</div>
+<div id="hidden-solutions-and-hints" class="section level2" number="1.6">
+<h2>
+<span class="header-section-number">1.6</span> Hidden solutions and hints<a class="anchor" aria-label="anchor" href="#hidden-solutions-and-hints"><i class="fas fa-link"></i></a>
+</h2>
+<p>You can fence off a solution area that will be hidden behind a button using <code>hide()</code> before the solution and <code>unhide()</code> after, each as inline R code. Pass the text you want to appear on the button to the <code>hide()</code> function.</p>
+<p>If the solution is an RMarkdown code chunk, instead of using <code>hide()</code> and <code>unhide()</code>, simply set the <code>webex.hide</code> chunk option to TRUE, or set it to the string you wish to display on the button.</p>
+<p><strong>Recreate the scatterplot below, using the built-in <code>cars</code> dataset.</strong></p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/with.html">with</a></span><span class="op">(</span><span class="va">cars</span>, <span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">speed</span>, <span class="va">dist</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<div class="inline-figure"><img src="_main_files/figure-html/unnamed-chunk-7-1.png" width="672"></div>
+<div class="webex-solution">
+<button>
+I need a hint
+</button>
+<p>See the documentation for <code><a href="https://rdrr.io/r/graphics/plot.default.html">plot()</a></code> (<code><a href="https://rdrr.io/r/graphics/plot.default.html">?plot</a></code>)</p>
+</div>
+<!-- note: you could also just set webex.hide to TRUE -->
+<div class="webex-solution">
+<button>
+Click here to see the solution
+</button>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">cars</span><span class="op">$</span><span class="va">speed</span>, <span class="va">cars</span><span class="op">$</span><span class="va">dist</span><span class="op">)</span></span></code></pre></div>
+</div>
+</div>
+<div id="mathematical-models" class="section level2" number="1.7">
+<h2>
+<span class="header-section-number">1.7</span> Mathematical Models<a class="anchor" aria-label="anchor" href="#mathematical-models"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="units-of-measure" class="section level2" number="1.8">
+<h2>
+<span class="header-section-number">1.8</span> Units of Measure<a class="anchor" aria-label="anchor" href="#units-of-measure"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="error-and-tolerance" class="section level2" number="1.9">
+<h2>
+<span class="header-section-number">1.9</span> Error and Tolerance<a class="anchor" aria-label="anchor" href="#error-and-tolerance"><i class="fas fa-link"></i></a>
+</h2>
+</div>
+<div id="section" class="section level2" number="1.10">
+<h2>
+<span class="header-section-number">1.10</span> <a class="anchor" aria-label="anchor" href="#section"><i class="fas fa-link"></i></a>
+</h2>
+
+</div>
+</div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  var t = document.getElementsByClassName("webex-total_correct");
+  for (var i = 0; i < t.length; i++) {
+    p = t[i].parentElement;
+    var correct = p.getElementsByClassName("webex-correct").length;
+    var solvemes = p.getElementsByClassName("webex-solveme").length;
+    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+    var selects = p.getElementsByClassName("webex-select").length;
+
+    t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  console.log("webex: toggle hide");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* check answers */
+check_func = function() {
+  console.log("webex: check answers");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('unchecked')) {
+    cl.remove("unchecked");
+    this.innerHTML = "Hide Answers";
+  } else {
+    cl.add("unchecked");
+    this.innerHTML = "Show Answers";
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  console.log("webex: check solveme");
+
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var cl = this.classList
+
+  /* add style */
+  cl.remove("webex-incorrect");
+  cl.remove("webex-correct");
+  if (this.value == "answer") {
+    cl.add("webex-correct");
+  } else if (this.value != "blank") {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+  var cl = checked_button.parentElement.classList;
+  var labels = checked_button.parentElement.parentElement.children;
+
+  /* get rid of styles */
+  for (i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("webex-incorrect");
+    labels[i].classList.remove("webex-correct");
+  }
+
+  /* add style */
+  if (checked_button.value == "answer") {
+    cl.add("webex-correct");
+  } else {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  console.log("webex onload");
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  var check_sections = document.getElementsByClassName("webex-check");
+  console.log("check:", check_sections.length);
+  for (var i = 0; i < check_sections.length; i++) {
+    check_sections[i].classList.add("unchecked");
+
+    let btn = document.createElement("button");
+    btn.innerHTML = "Show Answers";
+    btn.classList.add("webex-check-button");
+    btn.onclick = check_func;
+    check_sections[i].appendChild(btn);
+
+    let spn = document.createElement("span");
+    spn.classList.add("webex-total_correct");
+    check_sections[i].appendChild(spn);
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+
+    solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  }
+
+  /* set up radiogroups */
+  var radiogroups = document.getElementsByClassName("webex-radiogroup");
+  for (var i = 0; i < radiogroups.length; i++) {
+    radiogroups[i].onchange = radiogroups_func;
+  }
+
+  /* set up selects */
+  var selects = document.getElementsByClassName("webex-select");
+  for (var i = 0; i < selects.length; i++) {
+    selects[i].onchange = select_func;
+    selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  }
+
+  update_total_correct();
+}
+
+</script><div class="chapter-nav">
+<div class="prev"><a href="index.html">Course Information</a></div>
+<div class="next"><a href="statistics.html"><span class="header-section-number">2</span> Statistics</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#modelling"><span class="header-section-number">1</span> Modelling</a></li>
+<li><a class="nav-link" href="#fill-in-the-blanks-fitb"><span class="header-section-number">1.1</span> Fill-In-The-Blanks (fitb())</a></li>
+<li><a class="nav-link" href="#multiple-choice-mcq"><span class="header-section-number">1.2</span> Multiple Choice (mcq())</a></li>
+<li><a class="nav-link" href="#true-or-false-torf"><span class="header-section-number">1.3</span> True or False (torf())</a></li>
+<li><a class="nav-link" href="#longer-mcqs-longmcq"><span class="header-section-number">1.4</span> Longer MCQs (longmcq())</a></li>
+<li><a class="nav-link" href="#checked-sections"><span class="header-section-number">1.5</span> Checked sections</a></li>
+<li><a class="nav-link" href="#hidden-solutions-and-hints"><span class="header-section-number">1.6</span> Hidden solutions and hints</a></li>
+<li><a class="nav-link" href="#mathematical-models"><span class="header-section-number">1.7</span> Mathematical Models</a></li>
+<li><a class="nav-link" href="#units-of-measure"><span class="header-section-number">1.8</span> Units of Measure</a></li>
+<li><a class="nav-link" href="#error-and-tolerance"><span class="header-section-number">1.9</span> Error and Tolerance</a></li>
+<li><a class="nav-link" href="#section"><span class="header-section-number">1.10</span></a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Higher Apps</strong>" was written by A James. It was last built on 2026-02-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>
