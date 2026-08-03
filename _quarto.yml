@@ -3,18 +3,18 @@ project:
   output-dir: docs
   
 website:
-  title: "docs"
+  title: "mathsresources.github.io"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - flatly
     css: styles.css
     toc: true
 
