@@ -1,0 +1,21 @@
+---
+title: "Practice - Venn Diagrams"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+`r hide("Higher Formula Sheet")`
+
+![](images/hformulasheet.png)
+
+`r unhide()`
