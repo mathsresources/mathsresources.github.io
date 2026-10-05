@@ -1513,19 +1513,19 @@ A concession ticket costs £5.
 
 <hr>
 
-## Area and Sine Rules
+## Area, Cosine and Sine Rules
 
 ![](images/Q71.png)
 
 `r hide("Hint")`
 
-Make your you give a *complete* answer, including *units*.
+Hint
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$11.6\text{ m}^2$
+Answer
 
 `r unhide()`
 
@@ -1539,13 +1539,13 @@ $11.6\text{ m}^2$
 
 `r hide("Hint")`
 
-Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+Hint
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$3.7 \text{ cm}$
+Answer
 
 `r unhide()`
 
@@ -1559,13 +1559,13 @@ $3.7 \text{ cm}$
 
 `r hide("Hint")`
 
-Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+Hint
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$34.0^\circ$
+Answer
 
 `r unhide()`
 
@@ -1583,13 +1583,13 @@ $34.0^\circ$
 
 `r hide("Hint")`
 
-In an SQA exam question, it is likely that the numerator and denominator will have *something in common* after factorising.
+Hint
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{x-5}{x-3}$
+Answer
 
 `r unhide()`
 
@@ -1603,13 +1603,13 @@ $\dfrac{x-5}{x-3}$
 
 `r hide("Hint")`
 
-To simplify an algebraic fraction like this, you should first *factorise*.
+Hint
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{x-5}{3x}$
+Answer
 
 `r unhide()`
 
@@ -1623,18 +1623,178 @@ $\dfrac{x-5}{3x}$
 
 `r hide("Hint")`
 
-To simplify an algebraic fraction like this, you should first *factorise*.
+Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-$\dfrac{x+10}{x-2}$
+$34.0^\circ$
 
 `r unhide()`
 
 `r hide("Solution")`
 
 ![](images/A76.png)
+
+`r unhide()`
+
+![](images/Q77.png)
+
+`r hide("Hint")`
+
+Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$3.7 \text{ cm}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A77.png)
+
+`r unhide()`
+
+![](images/Q78.png)
+
+`r hide("Hint")`
+
+Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$34.0^\circ$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A78.png)
+
+`r unhide()`
+
+![](images/Q79.png)
+
+`r hide("Hint")`
+
+Hint
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A80.png)
+
+`r unhide()`
+
+![](images/Q80.png)
+
+`r hide("Hint")`
+
+Hint
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A80.png)
+
+`r unhide()`
+
+![](images/Q81.png)
+
+`r hide("Hint")`
+
+In an SQA exam question, it is likely that the numerator and denominator will have *something in common* after factorising.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+$\dfrac{x-5}{x-3}$
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A81.png)
+
+`r unhide()`
+
+![](images/Q82.png)
+
+`r hide("Hint")`
+
+Hint
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A82.png)
+
+`r unhide()`
+
+![](images/Q83.png)
+
+`r hide("Hint")`
+
+Hint
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A83.png)
+
+`r unhide()`
+
+![](images/Q84.png)
+
+`r hide("Hint")`
+
+Hint
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A84.png)
 
 `r unhide()`
