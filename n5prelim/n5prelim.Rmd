@@ -26,19 +26,19 @@ library(webexercises)
 
 ![](images/Q1.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The formula sheet shows how to calculate the volume of a sphere.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $7400\text{ cm}^3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A1.png)
 
@@ -46,19 +46,19 @@ $7400\text{ cm}^3$
 
 ![](images/Q2.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 What is the height of the cylinder itself, without the hemisphere on top?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $3900\text{ cm}^3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A2.png)
 
@@ -66,19 +66,19 @@ $3900\text{ cm}^3$
 
 ![](images/Q3.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Substitute the values you know into the formula provided on the formula sheet.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $10.0\text{ cm}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A3.png)
 
@@ -90,19 +90,19 @@ $10.0\text{ cm}$
 
 ![](images/Q4.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Be very careful if you find yourself dividing *by a negative number*. It is usually best to avoid it.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $3>x$ or $x<3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A4.png)
 
@@ -110,19 +110,19 @@ $3>x$ or $x<3$
 
 ![](images/Q5.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The bracket in the first line is being multiplied by *negative* 2.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x<\frac{3}{2}$ or $\frac{3}{2}>x$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A5.png)
 
@@ -130,19 +130,19 @@ $x<\frac{3}{2}$ or $\frac{3}{2}>x$
 
 ![](images/Q6.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 *Multiplying* through carefully by the *denominator* will deal with the fraction.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x=\frac{13}{2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A6.png)
 
@@ -150,19 +150,19 @@ $x=\frac{13}{2}$
 
 ![](images/Q7.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Multiplying by the denominator is a good strategy even when the denominator contains a letter.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x=3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A7.png)
 
@@ -170,19 +170,19 @@ $x=3$
 
 ![](images/Q8.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Find an expression for the *perimeter* of each shape first. You are told they have *equal* perimeter...
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $10\text{ cm}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A8.png)
 
@@ -194,19 +194,19 @@ $10\text{ cm}$
 
 ![](images/Q9.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Look for right-angles, and isosceles triangles.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\angle ABD=61^{\circ}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A9.png)
 
@@ -214,19 +214,19 @@ $\angle ABD=61^{\circ}$
 
 ![](images/Q10.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Look for right-angles, and isosceles triangles.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\angle PQR = 34^{\circ}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A10.png)
 
@@ -238,19 +238,19 @@ $\angle PQR = 34^{\circ}$
 
 ![](images/Q11.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Make sure you can enter numbers in scientific notation *into your calculator* to perform calculations.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $8.72\times10^{10}\text{ miles}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A11.png)
 
@@ -258,19 +258,19 @@ $8.72\times10^{10}\text{ miles}$
 
 ![](images/Q12.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Make sure you can enter numbers in scientific notation into your calculator, and consider whether they should be put them in *brackets* when performing calculators. 
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $18$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A12.png)
 
@@ -282,19 +282,19 @@ $18$
 
 ![](images/Q13.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Take care with *negatives* when expanding brackets.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $6x^2+5x-3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A13.png)
 
@@ -302,19 +302,19 @@ $6x^2+5x-3$
 
 ![](images/Q14.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Check the *six terms* obtained from expanding these brackets are correct carefully before you collect like terms.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x^3+2x^2-13x+10$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A14.png)
 
@@ -322,19 +322,19 @@ $x^3+2x^2-13x+10$
 
 ![](images/Q15.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Take care with *multiplying a negative by a negative*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $2x^3-5x^2-13x+4$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A15.png)
 
@@ -342,21 +342,42 @@ $2x^3-5x^2-13x+4$
 
 ![](images/Q16.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Tackle the expansion of $(x-3)(x+1)$ then consider the "$-$" that lies in front of it.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $-x+3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A16.png)
+
+`r unhide()`
+
+
+![](images/Q17.png)
+
+`r hide("Get a hint")`
+
+$(x+2)^3$ can be written as $(x+2)(x+2)(x+2)$.
+
+`r unhide()`
+
+`r hide("Check the answer")`
+
+$x^3+6x^2+12x+8$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
+
+![](images/A17.png)
 
 `r unhide()`
 
@@ -364,66 +385,43 @@ $-x+3$
 
 ## Similar Shapes
 
-![](images/Q17.png)
-
-`r hide("Hint")`
-
-Draw the *two triangles separately*.
-
-`r unhide()`
-
-`r hide("Answer")`
-
-$x=6$
-
-`r unhide()`
-
-`r hide("Solution")`
-
-![](images/A17.png)
-
-`r unhide()`
-
 ![](images/Q18.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Draw the *two triangles separately*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x=6$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A18.png)
 
 `r unhide()`
 
-<hr>
-
-## Percentages
 
 ![](images/Q19.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Obtain the LSF *first*, and then think about which scale factor is *needed*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $7500\text{ cm}^3$
 
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A19.png)
 
@@ -431,39 +429,43 @@ $7500\text{ cm}^3$
 
 ![](images/Q20.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+Since cost is proportional to area, the **area scale factor** is needed. First, find the *length scale factor*.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+£14.40
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A20.png)
 
 `r unhide()`
 
+<hr>
+
+## Percentages
+
 ![](images/Q21.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 *"100\% + 2.5\%"*
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $£344.61$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A21.png)
 
@@ -471,43 +473,40 @@ $£344.61$
 
 ![](images/Q22.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 *"100\% + 1.7\%"*
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $£148,000$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A22.png)
 
 `r unhide()`
 
-<hr>
-
-## Numerical Fractions
 
 ![](images/Q23.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 What percentage *of their original pay* is £11.18?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $£10.75$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A23.png)
 
@@ -515,19 +514,19 @@ $£10.75$
 
 ![](images/Q24.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Without a calculator, finding 1\% will be awkward. What *other percentage* could be reached, which would let you then find 100\% quickly?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $32$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A24.png)
 
@@ -535,63 +534,63 @@ $32$
 
 ![](images/Q25.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Blank
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Blank
+It can be tempting to assume you need to *add* or *subtract* 60% **from 100%**. But that it not needed here: 4800 corresponds to 60% of the total number of spectators when full.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+8,000
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A25.png)
 
 `r unhide()`
 
+<hr>
+
+## Numerical Fractions
+
 ![](images/Q26.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 When multiplying (or dividing) factions, the denominators *don't need to be the same*. However, you don't want either to be a *mixed fraction*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{26}{11}$ or $2\dfrac{4}{11}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A26.png)
 
 `r unhide()`
 
-<hr>
-
-## Pythagoras
-
 ![](images/Q27.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 How can a division by a fraction be rewritten as a *multiplication*?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{20}{9}$ or $2\dfrac{2}{9}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A27.png)
 
@@ -599,19 +598,19 @@ $\dfrac{20}{9}$ or $2\dfrac{2}{9}$
 
 ![](images/Q28.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 When adding (or subtracting) fractions, the *denominators need to be equal*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{193}{30}$ or $6\dfrac{13}{30}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A28.png)
 
@@ -619,19 +618,19 @@ $\dfrac{193}{30}$ or $6\dfrac{13}{30}$
 
 ![](images/Q29.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 "$\dfrac{3}{4}$ *of...*" is the same as "$\dfrac{3}{4}\times$..."
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{15}{8}$ or $1\dfrac{7}{8}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A29.png)
 
@@ -639,23 +638,23 @@ $\dfrac{15}{8}$ or $1\dfrac{7}{8}$
 
 <hr>
 
-## Straight Lines
+## Pythagoras
 
 ![](images/Q30.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Isolate a *right-angled triangle* within the diagram to focus on.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $6.56\text{ mm}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A30.png)
 
@@ -663,19 +662,19 @@ $6.56\text{ mm}$
 
 ![](images/Q31.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Start by calculating the length of line *AC*, which lies *beneath* line AD.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $8.37\text{ m}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A31.png)
 
@@ -683,19 +682,19 @@ $8.37\text{ m}$
 
 ![](images/Q32.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Since line JF lies East-West, the question is asking whether line FS makes a *right-angle* with JF.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 No, the Second Buoy is not directly South of the First Buoy (with justification).
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A32.png)
 
@@ -703,19 +702,19 @@ No, the Second Buoy is not directly South of the First Buoy (with justification)
 
 ![](images/Q33.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Start by using a formula to find the *gradient* between the points.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $y=2x+8$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A33.png)
 
@@ -723,19 +722,19 @@ $y=2x+8$
 
 ![](images/Q34.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Start by using a formula to find the *gradient* between the points.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $y=-\frac{3}{2}x+11$ or $2y=-3x+22$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A34.png)
 
@@ -743,23 +742,23 @@ $y=-\frac{3}{2}x+11$ or $2y=-3x+22$
 
 <hr>
 
-## Functions
+## Straight Lines
 
 ![](images/Q35.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 First rearrange the equation to make $y$ the subject: $y=\dots$
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $(0,2)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A35.png)
 
@@ -767,19 +766,19 @@ $(0,2)$
 
 ![](images/Q36.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 First rearrange the equation to make $y$ the subject: $y=\dots$
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $m=\frac{3}{2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A36.png)
 
@@ -787,13 +786,13 @@ $m=\frac{3}{2}$
 
 ![](images/Q37.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Start by finding two data points which lie *directly on the line of best fit*, and write down their coordinates.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 Equation: $W=10H+10$
 
@@ -801,51 +800,53 @@ Weight: $250\text{ grams}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A37.png)
 
 `r unhide()`
 
+<hr>
+
+## Functions
+
 ![](images/Q38.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Use brackets when *substituting* values into functions.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $68$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A38.png)
 
 `r unhide()`
 
-<hr>
 
-## Factorising
 
 ![](images/Q39.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Take care with *negatives*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $-2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A39.png)
 
@@ -853,19 +854,19 @@ $-2$
 
 ![](images/Q40.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The questions is *not* asking for 17 to be substituted *into* the function in place of $x$.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $a=7$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A40.png)
 
@@ -873,39 +874,43 @@ $a=7$
 
 ![](images/Q41.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 You can always *check* your answer for $t$ is correct by substituting into *into* the function afterwards.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $t=-\frac{4}{3}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A41.png)
 
 `r unhide()`
 
+<hr>
+
+## Factorising
+
 ![](images/Q42.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 There are three kinds of factorising to consider in turn: *common factor*, *difference of two squares* and *trinomials/double brackets*. Sometimes more than one kind is needed in a single factorising question.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $2(x+3)(x-3)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A42.png)
 
@@ -913,19 +918,19 @@ $2(x+3)(x-3)$
 
 ![](images/Q43.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 $9m^2$ can be written as $(\dots)^2$?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $(3m+5)(3m-5)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A43.png)
 
@@ -933,19 +938,19 @@ $(3m+5)(3m-5)$
 
 ![](images/Q44.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 *"Think of two numbers that multiple to give... and add to give..."*
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $(x-4)(x-2)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A44.png)
 
@@ -953,43 +958,39 @@ $(x-4)(x-2)$
 
 ![](images/Q45.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 It can help to write out all of the possible pairs of whole numbers that *multiply to give -20*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $(y+5)(y-4)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A45.png)
 
 `r unhide()`
 
-<hr>
-
-## Statistics
-
 ![](images/Q46.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Always look to take a *common factor* first. However, there may still be *more to do* afterwards...
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $3(x+3)(x-1)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A46.png)
 
@@ -997,19 +998,19 @@ $3(x+3)(x-1)$
 
 ![](images/Q47.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 One approach is to find a pair of numbers that multiply to give 5, but that add to give -11 *when one of them is multiplied by 2 first.*
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $(2x-1)(x-5)$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A47.png)
 
@@ -1021,40 +1022,46 @@ $(2x-1)(x-5)$
 
 ![](images/Q48.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Blank
+Trying to find numbers for a solution of the form $(6x...)(x...)$ is a good place to start, but it won't work.
 
-`r unhide()`
-
-`r hide("Answer")`
-
-Blank
+When that fails, try looking for a solution of the form $(3x...)(2x...)$. This means we need numbers which **multiply** to give $-5$, which also add to give $-13$ when *one of them is tripled* and *one of them is doubled*.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$(3x+2)(x-5)$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A48.png)
 
 `r unhide()`
 
+<hr>
+
+## Statistics
+
 ![](images/Q49.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Start by putting the numbers *in order*...
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 a) Median = 21, interquartile range = 16.
 b) Compare your comments to those in the solution, or ask your teacher to check them.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A49.png)
 
@@ -1062,44 +1069,40 @@ b) Compare your comments to those in the solution, or ask your teacher to check 
 
 ![](images/Q50.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 There are *two formulae* on the formula sheet for standard deviation. Check your notes to see *which one* your teacher taught you how to use.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 a) Mean = 17, standard deviation = 9.7.
 b) Compare your comments to those in the solution, or ask your teacher to check them.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A50.png)
 
 `r unhide()`
 
-<hr>
-
-## Arcs and Sectors
-
 ![](images/Q51.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 To solve a quadratic equation, you will usually want to *factorise* first.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x=-2,x=5$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A51.png)
 
@@ -1107,63 +1110,63 @@ $x=-2,x=5$
 
 ![](images/Q52.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+First factorise the left hand side.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$x=-3,x=5$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A52.png)
 
 `r unhide()`
 
-<hr>
-
-## Changing the Subject
-
 ![](images/Q53.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+First rearrange the quadratic equation to the form $...=0$.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$x=-\frac{1}{2},x=3$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A53.png)
 
 `r unhide()`
 
+<hr>
+
+## Arcs and Sectors
+
 ![](images/Q54.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 An arc is a *fraction of a circumference*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $59.9\text{ cm}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A54.png)
 
@@ -1171,19 +1174,19 @@ $59.9\text{ cm}$
 
 ![](images/Q55.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 This is another example of substituting into a formula then *rearranging*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $60.8^{\circ}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A55.png)
 
@@ -1191,23 +1194,25 @@ $60.8^{\circ}$
 
 <hr>
 
-## Surds
+## Changing the Subject
+
+
 
 ![](images/Q56.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Deal with $r$ being within a *fraction* first.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $r=\dfrac{3P+k}{2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A56.png)
 
@@ -1215,19 +1220,19 @@ $r=\dfrac{3P+k}{2}$
 
 ![](images/Q57.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Deal with $m$ being within a *square root* first.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $m=t^2+a^2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A57.png)
 
@@ -1235,39 +1240,43 @@ $m=t^2+a^2$
 
 ![](images/Q58.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 As with the previous example, the letter is within a square root. But that doesn't mean you should deal with the square root *right away*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $k=(y-pr)^2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A58.png)
 
 `r unhide()`
 
+<hr>
+
+## Surds
+
 ![](images/Q59.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Think of the *highest square factor* of each number within a root.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $11\sqrt{3}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A59.png)
 
@@ -1275,43 +1284,39 @@ $11\sqrt{3}$
 
 ![](images/Q60.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Take care not to forget the 3 *in front of the first surd*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $19\sqrt{2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A60.png)
 
 `r unhide()`
 
-<hr>
-
-## Indices
-
 ![](images/Q61.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 *Multiply by* $\dfrac{?}{?}$...
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{3\sqrt{35}}{7}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A61.png)
 
@@ -1319,19 +1324,19 @@ $\dfrac{3\sqrt{35}}{7}$
 
 ![](images/Q62.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Always check whether the *surd can be simplified*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{2\sqrt{3}}{3}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A62.png)
 
@@ -1339,63 +1344,64 @@ $\dfrac{2\sqrt{3}}{3}$
 
 ![](images/Q63.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Numerical terms can be collected together, and surds which are alike can be collected together. *It isn't always possible to collect things together...*
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $2\sqrt{3}-6$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A63.png)
 
 `r unhide()`
 
+<hr>
+
+## Indices
+
 ![](images/Q64.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Learn your *index laws* carefully.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $6x^2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A64.png)
 
 `r unhide()`
 
-<hr>
-
-## Trig Graphs
 
 ![](images/Q65.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Remember that a *negative power* means *division*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{4}{x^2}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A65.png)
 
@@ -1403,19 +1409,19 @@ $\dfrac{4}{x^2}$
 
 ![](images/Q66.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The *order of operations* means apply the *power* (of a power) before the *multiplication* (of powers).
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{1}{p^5}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A66.png)
 
@@ -1423,63 +1429,63 @@ $\dfrac{1}{p^5}$
 
 ![](images/Q67.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Remember that both the $y$ *term* and the *fraction in front* are being *squared*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{9}{16}y^{10}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A67.png)
 
 `r unhide()`
 
-<hr>
-
-## Simultaneous Equations
-
 ![](images/Q68.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+The form $x^{\frac{a}{b}}$ can be rewritten as $\sqrt[b]{x}^a$.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+4
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A68.png)
 
 `r unhide()`
 
+<hr>
+
+## Trig Graphs
+
 ![](images/Q69.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 One of the letters is the *amplitude*, the other is the *number of waves in 360 degrees*.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $a=5,b=3$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A69.png)
 
@@ -1487,43 +1493,39 @@ $a=5,b=3$
 
 ![](images/Q70.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The graph is only shown up to *180 degrees*...
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $a=3,b=2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A70.png)
 
 `r unhide()`
 
-<hr>
-
-## Area, Cosine and Sine Rules
-
 ![](images/Q71.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The graphs has been *moved up*, compared to a $y=a\sin{x^\circ}$ graph.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $a=3,b=2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A71.png)
 
@@ -1531,63 +1533,63 @@ $a=3,b=2$
 
 ![](images/Q72.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 For the value of $b$, look at how far the $\sin{x}$ wave has been shifted horizontally.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $a=4,b=30$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A72.png)
 
 `r unhide()`
 
+<hr>
+
+## Simultaneous Equations
+
 ![](images/Q73.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The equations must be *scaled* first.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $x=5,y=1$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A73.png)
 
 `r unhide()`
 
-<hr>
-
-## Algebraic Fractions
-
 ![](images/Q74.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Take care with *negatives*, as usual.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $p=3,q=-2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A74.png)
 
@@ -1595,39 +1597,43 @@ $p=3,q=-2$
 
 ![](images/Q75.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 First find the cost of **one** full price ticket and the price of **one** concession ticket, before finding the total for Betty's family.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 £38
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A75.png)
 
 `r unhide()`
 
+<hr>
+
+## Area, Cosine and Sine Rules
+
 ![](images/Q76.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 The formula sheet gives a method for calculating the area of a triangle using two sides and the angle between them.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $11.6\text{cm}^2$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A76.png)
 
@@ -1635,19 +1641,19 @@ $11.6\text{cm}^2$
 
 ![](images/Q77.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $3.7 \text{ cm}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A77.png)
 
@@ -1655,19 +1661,19 @@ $3.7 \text{ cm}$
 
 ![](images/Q78.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 Remember that the Sine Rule can be written in *two different ways*. Do you want *sides* or *angles* on top?
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $34.0^\circ$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A78.png)
 
@@ -1675,19 +1681,19 @@ $34.0^\circ$
 
 ![](images/Q79.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+Since we know two of the sides and are looking to find the third, this problem involved **all three sides** of a triangle which is not right-angled. The **Cosine Rule for a Side** is needed here, found on the formula sheet.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+6.02m
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A80.png)
 
@@ -1695,39 +1701,43 @@ Answer
 
 ![](images/Q80.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+This problem involves finding an angle in a non-right-angled triangle for which **all three sides** are known. The **Cosine Rule for an Angle** is needed here, found on the formula sheet.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$100.9^{\circ}$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A80.png)
 
 `r unhide()`
 
+<hr>
+
+## Algebraic Fractions
+
 ![](images/Q81.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
 In an exam question, it is likely that the numerator and denominator will have *something in common* after factorising.
 
 `r unhide()`
 
-`r hide("Answer")`
+`r hide("Check the answer")`
 
 $\dfrac{x-5}{x-3}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A81.png)
 
@@ -1735,19 +1745,19 @@ $\dfrac{x-5}{x-3}$
 
 ![](images/Q82.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+First express both fractions with a *denominator of 15*.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$\dfrac{-2x+19}{15}$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A82.png)
 
@@ -1755,19 +1765,19 @@ Answer
 
 ![](images/Q83.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+First express both fractions with a *denominator* of $(x+3)(x-2)$.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$\dfrac{9x+7}{(x+3)(x-2)}$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A83.png)
 
@@ -1775,19 +1785,19 @@ Answer
 
 ![](images/Q84.png)
 
-`r hide("Hint")`
+`r hide("Get a hint")`
 
-Hint
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer
+Dividing by $\frac{a}{b}$ is the same thing as **multiplying** by $\frac{b}{a}$.
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Check the answer")`
+
+$\dfrac{4x}{5}$
+
+`r unhide()`
+
+`r hide("Solution - check your notes first, if stuck!")`
 
 ![](images/A84.png)
 
