@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>Junior Maths Challenge Rooms</title>
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="/images/favicon.ico"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- =========================================
+         MATHJAX
+         Renders LaTeX mathematical notation
+         ========================================= -->
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [["\\(", "\\)"]],
+                displayMath: [["\\[", "\\]"]]
+            }
+        };
+    </script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <!-- =========================================
+         TIKZJAX
+
+         TikZ support is retained so that diagrams
+         can be added to individual rooms later.
+         ========================================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/fonts.min.css"
+    >
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/tikzjax.min.js">
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #234b7c;
+            text-align: center;
+        }
+
+        .instructions {
+            margin-bottom: 30px;
+            color: #444444;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        /* =========================================
+           ROOMS
+           ========================================= */
+
+        .room {
+            display: none;
+            margin-bottom: 25px;
+            padding: 25px;
+            border: 2px solid #3568a8;
+            border-radius: 10px;
+            background-color: #eef5ff;
+        }
+
+        .room.visible {
+            display: block;
+        }
+
+        .room h2 {
+            margin-top: 0;
+            color: #234b7c;
+        }
+
+        .question {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* =========================================
+           OPTIONAL TIKZ DIAGRAMS
+           ========================================= */
+
+        .tikz-diagram {
+            margin: 20px 0;
+            padding: 20px;
+            overflow-x: auto;
+            border: 1px solid #d6e1ee;
+            border-radius: 8px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .tikz-diagram svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        /* =========================================
+           LATEX EXPRESSIONS
+           ========================================= */
+
+        .equation {
+            margin: 20px 0;
+            padding: 18px;
+            overflow-x: auto;
+            border-radius: 8px;
+            background-color: #ffffff;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        /* =========================================
+           ANSWER ENTRY
+           ========================================= */
+
+        .answer-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition:
+                background-color 0.2s,
+                border-color 0.2s;
+        }
+
+        .answer-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .answer-input:focus {
+            border-color: #3568a8;
+            outline: 2px solid #b9d2ed;
+        }
+
+        .answer-input:disabled {
+            color: #222222;
+            background-color: #ffffff;
+        }
+
+        .check-button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3568a8;
+            color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .check-button:hover {
+            background-color: #244e80;
+        }
+
+        .check-button:disabled {
+            background-color: #7b9abb;
+            cursor: default;
+        }
+
+        /* Correct answer */
+
+        .answer-entry.correct {
+            border-color: #71aa79;
+            background-color: #dff3e3;
+        }
+
+        /* Incorrect answer */
+
+        .answer-entry.incorrect {
+            border-color: #d27b7b;
+            background-color: #f8dddd;
+        }
+
+        /* Tick and cross */
+
+        .answer-icon {
+            min-width: 35px;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .answer-entry.correct .answer-icon {
+            color: #287a37;
+        }
+
+        .answer-entry.incorrect .answer-icon {
+            color: #ad3030;
+        }
+
+        /* =========================================
+           FINAL ROOM
+           ========================================= */
+
+        .final-room {
+            border-color: #b38b22;
+            background-color: #fff4c9;
+        }
+
+        .final-room h2 {
+            color: #795d12;
+            text-align: center;
+        }
+
+        .completion-message {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            border: 2px solid #71aa79;
+            border-radius: 10px;
+            background-color: #dff3e3;
+            color: #287a37;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .completion-message.visible {
+            display: block;
+        }
+
+        /* =========================================
+           SMALL-SCREEN LAYOUT
+           ========================================= */
+
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 12px;
+            }
+
+            .room {
+                padding: 18px;
+            }
+
+            .answer-entry {
+                flex-wrap: wrap;
+            }
+
+            .answer-input {
+                flex-basis: 100%;
+            }
+
+            .check-button {
+                flex: 1;
+            }
+
+            .equation {
+                font-size: 1.3rem;
+            }
+
+            .tikz-diagram {
+                padding: 10px;
+            }
+        }
+    </style>
+
+    <!-- Privacy-friendly analytics by Plausible -->
+
+    <script
+        async
+        src="https://plausible.io/js/pa-2VhzmnRfGrq9wRgciW3VF.js">
+    </script>
+
+    <script>
+        window.plausible =
+            window.plausible ||
+            function () {
+                (plausible.q = plausible.q || []).push(arguments);
+            };
+
+        plausible.init =
+            plausible.init ||
+            function (options) {
+                plausible.o = options || {};
+            };
+
+        plausible.init();
+    </script>
+</head>
+
+<body>
+
+    <h1>Junior Maths Challenge Rooms</h1>
+
+    <p class="instructions">
+        Solve each problem to unlock the next room.<br>
+        Enter numerical answers only. Fractions such as
+        <strong>1/4</strong> are accepted.
+    </p>
+
+    <!-- =========================================
+         ROOM 1
+         Based on JMC 2020 Question 1
+         Answer: 111
+         ========================================= -->
+
+    <div
+        class="room visible"
+        id="room1"
+        data-answer="111"
+        data-next-room="room2"
+    >
+        <h2>Room 1</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 1
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            Four of the following numbers are prime.
+            Enter the number which is not prime.
+        </p>
+
+        <div class="equation">
+            \[
+                101,\quad 103,\quad 107,\quad 109,\quad 111
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 1"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 2
+         Based on JMC 2020 Question 2
+         Answer: 101
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room2"
+        data-answer="101"
+        data-next-room="room3"
+    >
+        <h2>Room 2</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 2
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            Calculate the value of the following expression.
+        </p>
+
+        <div class="equation">
+            \[
+                2020 \div 20
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 2"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 3
+         Based on JMC 2020 Question 4
+         Answer: 6660
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room3"
+        data-answer="6660"
+        data-next-room="room4"
+    >
+        <h2>Room 3</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 3
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            How many centimetres are equal to
+            \(66.6\) metres?
+        </p>
+
+        <div class="equation">
+            \[
+                66.6\text{ m} = \ ?\text{ cm}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the number of centimetres"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 3"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 4
+         Based on JMC 2020 Question 5
+         Answer: 6
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room4"
+        data-answer="6"
+        data-next-room="room5"
+    >
+        <h2>Room 4</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 4
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            Amrita chooses a number. She doubles it, adds
+            \(9\), divides the result by \(3\), and then
+            subtracts \(1\). Her final result is the number
+            she chose originally. What was her number?
+        </p>
+
+        <div class="equation">
+            \[
+                \frac{2x+9}{3}-1=x
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the original number"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 4"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 5
+         Based on JMC 2020 Question 6
+         Answer: 1/4
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room5"
+        data-answer="1/4"
+        data-next-room="room6"
+    >
+        <h2>Room 5</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 5
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            Calculate the value of the following expression.
+            Give your answer as a fraction or decimal.
+        </p>
+
+        <div class="equation">
+            \[
+                \frac{6}{12}
+                -\frac{5}{12}
+                +\frac{4}{12}
+                -\frac{3}{12}
+                +\frac{2}{12}
+                -\frac{1}{12}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 5"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 6
+         Based on JMC 2020 Question 7
+         Answer: 19
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room6"
+        data-answer="19"
+        data-next-room="room7"
+    >
+        <h2>Room 6</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 6
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            Four different positive integers have a product
+            of \(110\). What is their sum?
+        </p>
+
+        <div class="equation">
+            \[
+                a \times b \times c \times d=110
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the sum"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 6"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 7
+         Based on JMC 2020 Question 9
+         Answer: 240
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room7"
+        data-answer="240"
+        data-next-room="room8"
+    >
+        <h2>Room 7</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 7
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            One half of one third of one quarter of one
+            fifth of a number is \(2\). What is the number?
+        </p>
+
+        <div class="equation">
+            \[
+                \frac{1}{2}
+                \times\frac{1}{3}
+                \times\frac{1}{4}
+                \times\frac{1}{5}
+                \times x
+                =2
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the number"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 7"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         FINAL ROOM
+         Based on JMC 2020 Question 10
+         Answer: 1
+         ========================================= -->
+
+    <div
+        class="room final-room"
+        id="room8"
+        data-answer="1"
+        data-completion="complete"
+    >
+        <h2>Final Room</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR THE FINAL ROOM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            How many of these four equations are satisfied
+            when \(x=12\)?
+        </p>
+
+        <div class="equation">
+            \[
+                x-2=10
+            \]
+
+            \[
+                \frac{x}{2}=24
+            \]
+
+            \[
+                10-x=2
+            \]
+
+            \[
+                2x-1=25
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter how many equations"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for the Final Room"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+
+        <div
+            class="completion-message"
+            id="completionMessage"
+            aria-live="polite"
+        >
+            ✓ Congratulations! You have completed all the rooms.
+        </div>
+    </div>
+
+    <!-- =========================================
+         ANSWER-CHECKING SCRIPT
+         ========================================= -->
+
+    <script>
+        const rooms =
+            document.querySelectorAll(".room[data-answer]");
+
+        /*
+        Converts an entered answer into a number.
+
+        Accepted examples:
+        12
+        -5
+        0.25
+        1/4
+        -3/5
+        */
+
+        function parseNumericalAnswer(value) {
+            const cleanedValue =
+                value.trim().replace(/\s+/g, "");
+
+            if (cleanedValue === "") {
+                return NaN;
+            }
+
+            /*
+            Check for a fraction consisting of exactly
+            one numerator and one denominator.
+            */
+
+            if (cleanedValue.includes("/")) {
+                const fractionParts =
+                    cleanedValue.split("/");
+
+                if (fractionParts.length !== 2) {
+                    return NaN;
+                }
+
+                const numerator =
+                    Number(fractionParts[0]);
+
+                const denominator =
+                    Number(fractionParts[1]);
+
+                if (
+                    !Number.isFinite(numerator) ||
+                    !Number.isFinite(denominator) ||
+                    denominator === 0
+                ) {
+                    return NaN;
+                }
+
+                return numerator / denominator;
+            }
+
+            return Number(cleanedValue);
+        }
+
+        rooms.forEach(room => {
+            const input =
+                room.querySelector(".answer-input");
+
+            const button =
+                room.querySelector(".check-button");
+
+            const answerEntry =
+                room.querySelector(".answer-entry");
+
+            const answerIcon =
+                room.querySelector(".answer-icon");
+
+            function checkAnswer() {
+                const enteredAnswer =
+                    parseNumericalAnswer(input.value);
+
+                const correctAnswer =
+                    parseNumericalAnswer(
+                        room.dataset.answer
+                    );
+
+                /*
+                A small tolerance allows equivalent
+                decimal and fractional answers.
+                */
+
+                const tolerance = 0.000000001;
+
+                const isCorrect =
+                    Number.isFinite(enteredAnswer) &&
+                    Number.isFinite(correctAnswer) &&
+                    Math.abs(
+                        enteredAnswer - correctAnswer
+                    ) < tolerance;
+
+                if (isCorrect) {
+                    showCorrect();
+                } else {
+                    showIncorrect();
+                }
+            }
+
+            function showCorrect() {
+                answerEntry.classList.remove("incorrect");
+                answerEntry.classList.add("correct");
+
+                answerIcon.textContent = "✓";
+
+                input.disabled = true;
+                button.disabled = true;
+
+                const nextRoomId =
+                    room.dataset.nextRoom;
+
+                if (nextRoomId) {
+                    const nextRoom =
+                        document.getElementById(
+                            nextRoomId
+                        );
+
+                    if (nextRoom) {
+                        nextRoom.classList.add("visible");
+
+                        const nextInput =
+                            nextRoom.querySelector(
+                                ".answer-input"
+                            );
+
+                        /*
+                        Typeset the mathematical content
+                        inside the newly revealed room.
+                        */
+
+                        if (
+                            window.MathJax &&
+                            MathJax.typesetPromise
+                        ) {
+                            MathJax.typesetPromise(
+                                [nextRoom]
+                            );
+                        }
+
+                        nextRoom.scrollIntoView({
+                            behavior: "smooth",
+                            block: "center"
+                        });
+
+                        if (nextInput) {
+                            setTimeout(() => {
+                                nextInput.focus();
+                            }, 500);
+                        }
+                    }
+                }
+
+                if (
+                    room.dataset.completion ===
+                    "complete"
+                ) {
+                    const completionMessage =
+                        document.getElementById(
+                            "completionMessage"
+                        );
+
+                    completionMessage.classList.add(
+                        "visible"
+                    );
+
+                    completionMessage.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center"
+                    });
+                }
+            }
+
+            function showIncorrect() {
+                answerEntry.classList.remove("correct");
+                answerEntry.classList.add("incorrect");
+
+                answerIcon.textContent = "✕";
+
+                input.focus();
+                input.select();
+            }
+
+            button.addEventListener(
+                "click",
+                checkAnswer
+            );
+
+            input.addEventListener(
+                "keydown",
+                event => {
+                    if (event.key === "Enter") {
+                        checkAnswer();
+                    }
+                }
+            );
+
+            input.addEventListener(
+                "input",
+                () => {
+                    if (
+                        !answerEntry.classList.contains(
+                            "correct"
+                        )
+                    ) {
+                        answerEntry.classList.remove(
+                            "incorrect"
+                        );
+
+                        answerIcon.textContent = "";
+                    }
+                }
+            );
+        });
+    </script>
+
+</body>
+
+</html>
