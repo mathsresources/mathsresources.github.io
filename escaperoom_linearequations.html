@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>Linear Equation Escape Rooms</title>
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="/images/favicon.ico"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- =========================================
+         MATHJAX
+         Renders the LaTeX equations
+         ========================================= -->
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [["\\(", "\\)"]],
+                displayMath: [["\\[", "\\]"]]
+            }
+        };
+    </script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <!-- =========================================
+         TIKZJAX
+         Kept in place for optional TikZ diagrams
+         ========================================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/fonts.min.css"
+    >
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/tikzjax.min.js">
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #234b7c;
+            text-align: center;
+        }
+
+        .instructions {
+            margin-bottom: 30px;
+            color: #444444;
+            text-align: center;
+        }
+
+        /* =========================================
+           ROOMS
+           ========================================= */
+
+        .room {
+            display: none;
+            margin-bottom: 25px;
+            padding: 25px;
+            border: 2px solid #3568a8;
+            border-radius: 10px;
+            background-color: #eef5ff;
+        }
+
+        .room.visible {
+            display: block;
+        }
+
+        .room h2 {
+            margin-top: 0;
+            color: #234b7c;
+        }
+
+        /* =========================================
+           OPTIONAL TIKZ DIAGRAMS
+
+           This styling is kept in place in case
+           you add diagrams to any room later.
+           ========================================= */
+
+        .tikz-diagram {
+            margin: 20px 0;
+            padding: 20px;
+            overflow-x: auto;
+            border: 1px solid #d6e1ee;
+            border-radius: 8px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .tikz-diagram svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        /* =========================================
+           LATEX EQUATIONS
+           ========================================= */
+
+        .equation {
+            margin: 20px 0;
+            padding: 18px;
+            overflow-x: auto;
+            border-radius: 8px;
+            background-color: #ffffff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* =========================================
+           ANSWER ENTRY
+           ========================================= */
+
+        .answer-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition:
+                background-color 0.2s,
+                border-color 0.2s;
+        }
+
+        .answer-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .answer-input:focus {
+            border-color: #3568a8;
+            outline: 2px solid #b9d2ed;
+        }
+
+        .answer-input:disabled {
+            color: #222222;
+            background-color: #ffffff;
+        }
+
+        .check-button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3568a8;
+            color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .check-button:hover {
+            background-color: #244e80;
+        }
+
+        .check-button:disabled {
+            background-color: #7b9abb;
+            cursor: default;
+        }
+
+        /* Correct answer */
+
+        .answer-entry.correct {
+            border-color: #71aa79;
+            background-color: #dff3e3;
+        }
+
+        /* Incorrect answer */
+
+        .answer-entry.incorrect {
+            border-color: #d27b7b;
+            background-color: #f8dddd;
+        }
+
+        /* Tick and cross */
+
+        .answer-icon {
+            min-width: 35px;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .answer-entry.correct .answer-icon {
+            color: #287a37;
+        }
+
+        .answer-entry.incorrect .answer-icon {
+            color: #ad3030;
+        }
+
+        /* =========================================
+           FINAL ROOM
+           ========================================= */
+
+        .final-room {
+            border-color: #b38b22;
+            background-color: #fff4c9;
+        }
+
+        .final-room h2 {
+            color: #795d12;
+            text-align: center;
+        }
+
+        /* Completion message */
+
+        .completion-message {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            border: 2px solid #71aa79;
+            border-radius: 10px;
+            background-color: #dff3e3;
+            color: #287a37;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .completion-message.visible {
+            display: block;
+        }
+
+        /* =========================================
+           SMALL-SCREEN LAYOUT
+           ========================================= */
+
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 12px;
+            }
+
+            .room {
+                padding: 18px;
+            }
+
+            .answer-entry {
+                flex-wrap: wrap;
+            }
+
+            .answer-input {
+                flex-basis: 100%;
+            }
+
+            .check-button {
+                flex: 1;
+            }
+
+            .equation {
+                font-size: 1.4rem;
+            }
+
+            .tikz-diagram {
+                padding: 10px;
+            }
+        }
+    </style>
+
+    <!-- =========================================
+         PLAUSIBLE ANALYTICS
+         ========================================= -->
+
+    <script
+        async
+        src="https://plausible.io/js/pa-2VhzmnRfGrq9wRgciW3VF.js">
+    </script>
+
+    <script>
+        window.plausible =
+            window.plausible ||
+            function () {
+                (plausible.q = plausible.q || []).push(arguments);
+            };
+
+        plausible.init =
+            plausible.init ||
+            function (options) {
+                plausible.o = options || {};
+            };
+
+        plausible.init();
+    </script>
+</head>
+
+<body>
+
+    <h1>Linear Equation Escape Rooms</h1>
+
+    <p class="instructions">
+        Solve each equation to unlock the next room.
+    </p>
+
+    <!-- =========================================
+         ROOM 1
+         Answer: x = 8
+         ========================================= -->
+
+    <div
+        class="room visible"
+        id="room1"
+        data-answer="8"
+        data-next-room="room2"
+    >
+        <h2>Room 1</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 1
+
+        To add a diagram, remove the HTML comment
+        markers surrounding the div below.
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                x + 7 = 15
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 1"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 2
+         Answer: x = 9
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room2"
+        data-answer="9"
+        data-next-room="room3"
+    >
+        <h2>Room 2</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 2
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                3x = 27
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 2"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 3
+         Answer: x = 11
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room3"
+        data-answer="11"
+        data-next-room="room4"
+    >
+        <h2>Room 3</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 3
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                2x - 5 = 17
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 3"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 4
+         Answer: x = -6
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room4"
+        data-answer="-6"
+        data-next-room="room5"
+    >
+        <h2>Room 4</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 4
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                4x + 7 = -17
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 4"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 5
+         Answer: x = 8
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room5"
+        data-answer="8"
+        data-next-room="room6"
+    >
+        <h2>Room 5</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 5
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                5x + 4 = 3x + 20
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 5"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 6
+         Answer: x = 7
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room6"
+        data-answer="7"
+        data-next-room="room7"
+    >
+        <h2>Room 6</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 6
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                7x - 9 = 4x + 12
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 6"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 7
+         Answer: x = 5
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room7"
+        data-answer="5"
+        data-next-room="room8"
+    >
+        <h2>Room 7</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 7
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                3(x + 4) = 27
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 7"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 8
+         Answer: x = 10
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room8"
+        data-answer="10"
+        data-next-room="room9"
+    >
+        <h2>Room 8</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 8
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                2(x - 3) + 5 = 19
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 8"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         ROOM 9
+         Answer: x = 7
+         ========================================= -->
+
+    <div
+        class="room"
+        id="room9"
+        data-answer="7"
+        data-next-room="room10"
+    >
+        <h2>Room 9</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR ROOM 9
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the equation:</p>
+
+        <div class="equation">
+            \[
+                4(x + 2) = 2x + 22
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 9"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- =========================================
+         FINAL ROOM
+         Answer: x = 7
+         ========================================= -->
+
+    <div
+        class="room final-room"
+        id="room10"
+        data-answer="7"
+        data-completion="complete"
+    >
+        <h2>Final Room</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM FOR THE FINAL ROOM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p>Solve the final equation:</p>
+
+        <div class="equation">
+            \[
+                5(2x - 3) - 2(x + 4) = 3x + 12
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the value of x"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for the Final Room"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+
+        <div
+            class="completion-message"
+            id="completionMessage"
+            aria-live="polite"
+        >
+            ✓ Congratulations! You have completed all ten rooms.
+        </div>
+    </div>
+
+    <!-- =========================================
+         ANSWER-CHECKING SCRIPT
+         ========================================= -->
+
+    <script>
+        const rooms =
+            document.querySelectorAll(".room[data-answer]");
+
+        rooms.forEach(room => {
+            const input =
+                room.querySelector(".answer-input");
+
+            const button =
+                room.querySelector(".check-button");
+
+            const answerEntry =
+                room.querySelector(".answer-entry");
+
+            const answerIcon =
+                room.querySelector(".answer-icon");
+
+            function checkAnswer() {
+                const enteredAnswer =
+                    input.value.trim();
+
+                const correctAnswer =
+                    Number(room.dataset.answer);
+
+                const numericalAnswer =
+                    Number(enteredAnswer);
+
+                const isCorrect =
+                    enteredAnswer !== "" &&
+                    Number.isFinite(numericalAnswer) &&
+                    numericalAnswer === correctAnswer;
+
+                if (isCorrect) {
+                    showCorrect();
+                } else {
+                    showIncorrect();
+                }
+            }
+
+            function showCorrect() {
+                answerEntry.classList.remove("incorrect");
+                answerEntry.classList.add("correct");
+
+                answerIcon.textContent = "✓";
+
+                input.disabled = true;
+                button.disabled = true;
+
+                const nextRoomId =
+                    room.dataset.nextRoom;
+
+                if (nextRoomId) {
+                    const nextRoom =
+                        document.getElementById(nextRoomId);
+
+                    if (nextRoom) {
+                        nextRoom.classList.add("visible");
+
+                        const nextInput =
+                            nextRoom.querySelector(
+                                ".answer-input"
+                            );
+
+                        /*
+                        Render the mathematical content
+                        inside the newly revealed room.
+                        */
+
+                        if (
+                            window.MathJax &&
+                            MathJax.typesetPromise
+                        ) {
+                            MathJax.typesetPromise(
+                                [nextRoom]
+                            );
+                        }
+
+                        nextRoom.scrollIntoView({
+                            behavior: "smooth",
+                            block: "center"
+                        });
+
+                        if (nextInput) {
+                            setTimeout(() => {
+                                nextInput.focus();
+                            }, 500);
+                        }
+                    }
+                }
+
+                if (
+                    room.dataset.completion ===
+                    "complete"
+                ) {
+                    const completionMessage =
+                        document.getElementById(
+                            "completionMessage"
+                        );
+
+                    completionMessage.classList.add(
+                        "visible"
+                    );
+
+                    completionMessage.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center"
+                    });
+                }
+            }
+
+            function showIncorrect() {
+                answerEntry.classList.remove("correct");
+                answerEntry.classList.add("incorrect");
+
+                answerIcon.textContent = "✕";
+
+                input.focus();
+                input.select();
+            }
+
+            button.addEventListener(
+                "click",
+                checkAnswer
+            );
+
+            input.addEventListener(
+                "keydown",
+                event => {
+                    if (event.key === "Enter") {
+                        checkAnswer();
+                    }
+                }
+            );
+
+            input.addEventListener(
+                "input",
+                () => {
+                    if (
+                        !answerEntry.classList.contains(
+                            "correct"
+                        )
+                    ) {
+                        answerEntry.classList.remove(
+                            "incorrect"
+                        );
+
+                        answerIcon.textContent = "";
+                    }
+                }
+            );
+        });
+    </script>
+
+</body>
+
+</html>
