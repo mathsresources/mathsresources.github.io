@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>10 Problems: Compound Change</title>
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="/images/favicon.ico"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- MathJax -->
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [["\\(", "\\)"]],
+                displayMath: [["\\[", "\\]"]]
+            }
+        };
+    </script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <!--
+    TikZJax is retained so that TikZ diagrams can
+    be added to individual rooms later.
+    -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/fonts.min.css"
+    >
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@rod2ik/tikzjax@1.6.0/dist/tikzjax.min.js">
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #222222;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #234b7c;
+            text-align: center;
+        }
+
+        .instructions {
+            margin-bottom: 20px;
+            color: #444444;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Reset control */
+
+        .game-controls {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .reset-button {
+            padding: 10px 18px;
+            border: 2px solid #707070;
+            border-radius: 6px;
+            color: #333333;
+            background-color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .reset-button:hover {
+            color: #ffffff;
+            background-color: #555555;
+        }
+
+        .reset-button:focus {
+            outline: 3px solid #b9d2ed;
+            outline-offset: 2px;
+        }
+
+        /* Rooms */
+
+        .room {
+            display: none;
+            margin-bottom: 25px;
+            padding: 25px;
+            border: 2px solid #3568a8;
+            border-radius: 10px;
+            background-color: #eef5ff;
+        }
+
+        .room.visible {
+            display: block;
+        }
+
+        .room h2 {
+            margin-top: 0;
+            color: #234b7c;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* Optional TikZ diagrams */
+
+        .tikz-diagram {
+            margin: 20px 0;
+            padding: 20px;
+            overflow-x: auto;
+            border: 1px solid #d6e1ee;
+            border-radius: 8px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .tikz-diagram svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        /* Answer-entry area */
+
+        .answer-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition:
+                background-color 0.2s,
+                border-color 0.2s;
+        }
+
+        .answer-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .answer-input:focus {
+            border-color: #3568a8;
+            outline: 3px solid #b9d2ed;
+            outline-offset: 1px;
+        }
+
+        .answer-input:disabled {
+            color: #222222;
+            background-color: #ffffff;
+            opacity: 1;
+        }
+
+        .check-button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color: #3568a8;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .check-button:hover:not(:disabled) {
+            background-color: #244e80;
+        }
+
+        .check-button:focus {
+            outline: 3px solid #b9d2ed;
+            outline-offset: 2px;
+        }
+
+        .check-button:disabled {
+            background-color: #7b9abb;
+            cursor: default;
+        }
+
+        /* Correct answer */
+
+        .answer-entry.correct {
+            border-color: #71aa79;
+            background-color: #dff3e3;
+        }
+
+        /* Incorrect answer */
+
+        .answer-entry.incorrect {
+            border-color: #d27b7b;
+            background-color: #f8dddd;
+        }
+
+        /* Tick and cross */
+
+        .answer-icon {
+            min-width: 35px;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .answer-entry.correct .answer-icon {
+            color: #287a37;
+        }
+
+        .answer-entry.incorrect .answer-icon {
+            color: #ad3030;
+        }
+
+        /* Final Room */
+
+        .final-room {
+            border-color: #b38b22;
+            background-color: #fff4c9;
+        }
+
+        .final-room h2 {
+            color: #795d12;
+            text-align: center;
+        }
+
+        /* Completion message */
+
+        .completion-message {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            border: 2px solid #71aa79;
+            border-radius: 10px;
+            color: #287a37;
+            background-color: #dff3e3;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .completion-message.visible {
+            display: block;
+        }
+
+        /* Small-screen layout */
+
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 12px;
+            }
+
+            .room {
+                padding: 18px;
+            }
+
+            .answer-entry {
+                flex-wrap: wrap;
+            }
+
+            .answer-input {
+                flex-basis: 100%;
+            }
+
+            .check-button {
+                flex: 1;
+            }
+
+            .tikz-diagram {
+                padding: 10px;
+            }
+        }
+    </style>
+
+    <!-- Privacy-friendly analytics by Plausible -->
+
+    <script
+        async
+        src="https://plausible.io/js/pa-2VhzmnRfGrq9wRgciW3VF.js">
+    </script>
+
+    <script>
+        window.plausible =
+            window.plausible ||
+            function () {
+                (plausible.q = plausible.q || []).push(arguments);
+            };
+
+        plausible.init =
+            plausible.init ||
+            function (options) {
+                plausible.o = options || {};
+            };
+
+        plausible.init();
+    </script>
+</head>
+
+<body>
+
+    <h1>10 Problems: Compound Change</h1>
+
+    <p class="instructions">
+        Solve each problem to unlock the next.<br>
+        Enter numbers only, without units, pound signs,
+        percentage signs or commas.
+    </p>
+
+    <div class="game-controls">
+        <button
+            type="button"
+            class="reset-button"
+            id="resetButton"
+        >
+            Reset problems
+        </button>
+    </div>
+
+    <!-- ROOM 1 -->
+
+    <div
+        class="room visible"
+        id="room1"
+        data-answer="11842.78"
+        data-next-room="room2"
+    >
+        <h2>Problem 1</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A savings account contains £11,200 on
+            15th March 2026.
+            Its balance increases by 0.7% each month.
+            Calculate the balance on 15th November 2026.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 1"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 2 -->
+
+    <div
+        class="room"
+        id="room2"
+        data-answer="10300"
+        data-next-room="room3"
+    >
+        <h2>Problem 2</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A nature reserve has a population of 14,800
+            rabbits at the beginning of 2027.
+            The population decreases by 7% each year.
+            Calculate the expected population at the
+            beginning of 2032.
+            Give your answer to the nearest hundred.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your rounded answer"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 2"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 3 -->
+
+    <div
+        class="room"
+        id="room3"
+        data-answer="515.74"
+        data-next-room="room4"
+    >
+        <h2>Problem 3</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A camera is bought for £860.
+            Its value depreciates by 12% each year.
+            Calculate its value after 4 years.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 3"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 4 -->
+
+    <div
+        class="room"
+        id="room4"
+        data-answer="11000"
+        data-next-room="room5"
+    >
+        <h2>Problem 4</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A laboratory culture contains 7,200 cells
+            at 8 am.
+            The number of cells increases by 6% every hour.
+            Calculate the number of cells in the culture
+            at 3 pm.
+            Give your answer to the nearest thousand.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your rounded answer"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 4"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 5 -->
+
+    <div
+        class="room"
+        id="room5"
+        data-answer="2818.18"
+        data-next-room="room6"
+    >
+        <h2>Problem 5</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A painting is valued at £2,400.
+            Its value appreciates by 5.5% each year.
+            Calculate its value after 3 years.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 5"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 6 -->
+
+    <div
+        class="room"
+        id="room6"
+        data-answer="2110"
+        data-next-room="room7"
+    >
+        <h2>Problem 6</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A tank contains 3,200 litres of water at 6 am.
+            The amount of water decreases by 8% every hour.
+            Calculate the amount of water remaining at
+            11 am.
+            Give your answer to the nearest ten.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your rounded answer"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 6"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 7 -->
+
+    <div
+        class="room"
+        id="room7"
+        data-answer="26238.62"
+        data-next-room="room8"
+    >
+        <h2>Problem 7</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A car is valued at £31,500 on 1st March.
+            Its value decreases by 3% each month.
+            Calculate its value on 1st September.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 7"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 8 -->
+
+    <div
+        class="room"
+        id="room8"
+        data-answer="307117.92"
+        data-next-room="room9"
+    >
+        <h2>Problem 8</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A house is valued at £275,000 at the beginning
+            of 2024.
+            Its value increases by 2.8% each year.
+            Calculate its value at the beginning of 2028.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your answer"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Answer for Room 8"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- ROOM 9 -->
+
+    <div
+        class="room"
+        id="room9"
+        data-answer="24100"
+        data-next-room="room10"
+    >
+        <h2>Problem 9</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A forest contains approximately 18,500 trees
+            at the beginning of 2025.
+            The number of trees increases by 4.5% each year.
+            Calculate the expected number of trees at the
+            beginning of 2031.
+            Give your answer to the nearest hundred.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter your rounded answer"
+                inputmode="numeric"
+                autocomplete="off"
+                aria-label="Answer for Room 9"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+    </div>
+
+    <!-- FINAL ROOM -->
+
+    <div
+        class="room final-room"
+        id="room10"
+        data-answer="42.3"
+        data-completion="complete"
+    >
+        <h2>Final Room</h2>
+
+        <!--
+        OPTIONAL TIKZ DIAGRAM
+
+        <div class="tikz-diagram">
+            <script type="text/tikz">
+                \begin{tikzpicture}
+                    % Put your TikZ code here.
+                \end{tikzpicture}
+            </script>
+        </div>
+        -->
+
+        <p class="question">
+            A machine is initially worth £36,000.
+            During the first 3 years, its value depreciates
+            by 12% each year.
+            During the next 2 years, its value depreciates
+            by 8% each year.
+        </p>
+
+        <p class="question">
+            Calculate the value of the machine after 5 years.
+            Then calculate the overall percentage decrease
+            in its value.
+        </p>
+
+        <p class="question">
+            Submit the overall percentage decrease, giving
+            your answer to three significant figures.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the percentage decrease"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Overall percentage decrease for the Final Room"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true">
+            </span>
+        </div>
+
+        <div
+            class="completion-message"
+            id="completionMessage"
+            aria-live="polite"
+        >
+            ✓ Congratulations! You have completed all ten rooms.
+        </div>
+    </div>
+
+    <!-- Game script -->
+
+    <script>
+        const rooms =
+            document.querySelectorAll(".room[data-answer]");
+
+        const resetButton =
+            document.getElementById("resetButton");
+
+        const completionMessage =
+            document.getElementById("completionMessage");
+
+        /*
+        Turn the entered text into a number.
+
+        Spaces, commas, pound signs and percentage signs
+        are ignored if pupils enter them accidentally.
+        */
+
+        function parseNumericalAnswer(value) {
+            const cleanedValue = value
+                .trim()
+                .replace(/£/g, "")
+                .replace(/%/g, "")
+                .replace(/,/g, "")
+                .replace(/\s+/g, "");
+
+            if (cleanedValue === "") {
+                return NaN;
+            }
+
+            return Number(cleanedValue);
+        }
+
+        function revealNextRoom(room) {
+            const nextRoomId =
+                room.dataset.nextRoom;
+
+            if (!nextRoomId) {
+                return;
+            }
+
+            const nextRoom =
+                document.getElementById(nextRoomId);
+
+            if (!nextRoom) {
+                return;
+            }
+
+            nextRoom.classList.add("visible");
+
+            if (
+                window.MathJax &&
+                MathJax.typesetPromise
+            ) {
+                MathJax.typesetPromise([nextRoom]);
+            }
+
+            nextRoom.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+
+            const nextInput =
+                nextRoom.querySelector(".answer-input");
+
+            if (nextInput) {
+                setTimeout(() => {
+                    nextInput.focus();
+                }, 500);
+            }
+        }
+
+        function completeGame() {
+            completionMessage.classList.add("visible");
+
+            completionMessage.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+        }
+
+        rooms.forEach(room => {
+            const input =
+                room.querySelector(".answer-input");
+
+            const button =
+                room.querySelector(".check-button");
+
+            const answerEntry =
+                room.querySelector(".answer-entry");
+
+            const answerIcon =
+                room.querySelector(".answer-icon");
+
+            function showCorrect() {
+                answerEntry.classList.remove("incorrect");
+                answerEntry.classList.add("correct");
+
+                answerIcon.textContent = "✓";
+
+                input.disabled = true;
+                button.disabled = true;
+
+                revealNextRoom(room);
+
+                if (
+                    room.dataset.completion ===
+                    "complete"
+                ) {
+                    completeGame();
+                }
+            }
+
+            function showIncorrect() {
+                answerEntry.classList.remove("correct");
+                answerEntry.classList.add("incorrect");
+
+                answerIcon.textContent = "✕";
+
+                input.focus();
+                input.select();
+            }
+
+            function checkAnswer() {
+                const enteredAnswer =
+                    parseNumericalAnswer(input.value);
+
+                const correctAnswer =
+                    parseNumericalAnswer(
+                        room.dataset.answer
+                    );
+
+                const tolerance = 0.000001;
+
+                const isCorrect =
+                    Number.isFinite(enteredAnswer) &&
+                    Number.isFinite(correctAnswer) &&
+                    Math.abs(
+                        enteredAnswer - correctAnswer
+                    ) < tolerance;
+
+                if (isCorrect) {
+                    showCorrect();
+                } else {
+                    showIncorrect();
+                }
+            }
+
+            button.addEventListener(
+                "click",
+                checkAnswer
+            );
+
+            input.addEventListener(
+                "keydown",
+                event => {
+                    if (event.key === "Enter") {
+                        checkAnswer();
+                    }
+                }
+            );
+
+            input.addEventListener(
+                "input",
+                () => {
+                    if (
+                        !answerEntry.classList.contains(
+                            "correct"
+                        )
+                    ) {
+                        answerEntry.classList.remove(
+                            "incorrect"
+                        );
+
+                        answerIcon.textContent = "";
+                    }
+                }
+            );
+        });
+
+        /*
+        Reset the game.
+
+        This clears every input, removes all ticks
+        and crosses, hides Rooms 2 to 10, and returns
+        the pupil to Room 1.
+        */
+
+        resetButton.addEventListener("click", () => {
+            rooms.forEach((room, index) => {
+                const input =
+                    room.querySelector(".answer-input");
+
+                const button =
+                    room.querySelector(".check-button");
+
+                const answerEntry =
+                    room.querySelector(".answer-entry");
+
+                const answerIcon =
+                    room.querySelector(".answer-icon");
+
+                input.value = "";
+                input.disabled = false;
+                button.disabled = false;
+
+                answerEntry.classList.remove(
+                    "correct",
+                    "incorrect"
+                );
+
+                answerIcon.textContent = "";
+
+                if (index === 0) {
+                    room.classList.add("visible");
+                } else {
+                    room.classList.remove("visible");
+                }
+            });
+
+            completionMessage.classList.remove("visible");
+
+            const firstRoom =
+                document.getElementById("room1");
+
+            const firstInput =
+                firstRoom.querySelector(".answer-input");
+
+            firstRoom.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            setTimeout(() => {
+                firstInput.focus();
+            }, 500);
+        });
+    </script>
+
+</body>
+
+</html>
