@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>10 Problems: Fractions</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['\\(', '\\)']],
+                displayMath: [['\\[', '\\]']]
+            }
+        };
+    </script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+        async
+    ></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #222222;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #234b7c;
+            text-align: center;
+        }
+
+        .instructions {
+            margin-bottom: 20px;
+            color: #444444;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .game-controls {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .reset-button {
+            padding: 10px 18px;
+            border: 2px solid #707070;
+            border-radius: 6px;
+            color: #333333;
+            background-color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .reset-button:hover {
+            color: #ffffff;
+            background-color: #555555;
+        }
+
+        .room {
+            display: none;
+            margin-bottom: 25px;
+            padding: 25px;
+            border: 2px solid #3568a8;
+            border-radius: 10px;
+            background-color: #eef5ff;
+        }
+
+        .room.visible {
+            display: block;
+        }
+
+        .room h2 {
+            margin-top: 0;
+            color: #234b7c;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .question-maths {
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+
+        .answer-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+
+        .answer-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .check-button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: #3568a8;
+            cursor: pointer;
+        }
+
+        .answer-entry.correct {
+            border-color: #71aa79;
+            background-color: #dff3e3;
+        }
+
+        .answer-entry.incorrect {
+            border-color: #d27b7b;
+            background-color: #f8dddd;
+        }
+
+        .answer-icon {
+            min-width: 35px;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .answer-entry.correct .answer-icon {
+            color: #287a37;
+        }
+
+        .answer-entry.incorrect .answer-icon {
+            color: #ad3030;
+        }
+
+        .final-room {
+            border-color: #b38b22;
+            background-color: #fff4c9;
+        }
+
+        .completion-message {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            border: 2px solid #71aa79;
+            border-radius: 10px;
+            background-color: #dff3e3;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+            color: #287a37;
+        }
+
+        .completion-message.visible {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>10 Problems: Multiplying and Dividing Fractions</h1>
+
+    <p class="instructions">
+        Give all answers as fully simplified fractions in the form
+        <strong>a/b</strong>.<br>
+        Enter fractions using a forward slash, for example
+        <strong>3/5</strong>.
+    </p>
+
+    <div class="game-controls">
+        <button
+            type="button"
+            class="reset-button"
+            id="resetButton"
+        >
+            Reset problems
+        </button>
+    </div>
+
+    <!-- Problem 1 -->
+
+    <section
+        class="room visible"
+        id="room1"
+        data-answer="3/35"
+        data-next-room="room2"
+    >
+        <h2>Problem 1</h2>
+
+        <p class="question">
+            Calculate
+        </p>
+
+        <div class="question-maths">
+            \[
+            \frac{3}{5}\times\frac{1}{7}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 2 -->
+
+    <section
+        class="room"
+        id="room2"
+        data-answer="2/9"
+        data-next-room="room3"
+    >
+        <h2>Problem 2</h2>
+
+        <div class="question-maths">
+            \[
+            \frac{4}{9}\times\frac{1}{2}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 3 -->
+
+    <section
+        class="room"
+        id="room3"
+        data-answer="3/8"
+        data-next-room="room4"
+    >
+        <h2>Problem 3</h2>
+
+        <div class="question-maths">
+            \[
+            \frac{9}{10}\times\frac{5}{12}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 4 -->
+
+    <section
+        class="room"
+        id="room4"
+        data-answer="7/15"
+        data-next-room="room5"
+    >
+        <h2>Problem 4</h2>
+
+        <div class="question-maths">
+            \[
+            \frac{14}{25}\times\frac{5}{6}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 5 -->
+
+    <section
+        class="room"
+        id="room5"
+        data-answer="5/6"
+        data-next-room="room6"
+    >
+        <h2>Problem 5</h2>
+
+        <div class="question-maths">
+            \[
+            1\dfrac{2}{3}\times\dfrac{1}{2}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 6 -->
+
+    <section
+        class="room"
+        id="room6"
+        data-answer="21/20"
+        data-next-room="room7"
+    >
+        <h2>Problem 6</h2>
+
+        <div class="question-maths">
+            \[
+            1\dfrac{1}{2}\times\dfrac{7}{10}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 7 -->
+
+    <section
+        class="room"
+        id="room7"
+        data-answer="10/9"
+        data-next-room="room8"
+    >
+        <h2>Problem 7</h2>
+
+        <div class="question-maths">
+            \[
+            \frac{2}{3}\div\frac{3}{5}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 8 -->
+
+    <section
+        class="room"
+        id="room8"
+        data-answer="4/7"
+        data-next-room="room9"
+    >
+        <h2>Problem 8</h2>
+
+        <div class="question-maths">
+            \[
+            \frac{8}{21}\div\frac{2}{3}
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 9 -->
+
+    <section
+        class="room"
+        id="room9"
+        data-answer="15/16"
+        data-next-room="room10"
+    >
+        <h2>Problem 9</h2>
+
+        <div class="question-maths">
+            \[
+            1\dfrac{7}{8}\div2
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+    </section>
+
+    <!-- Problem 10 -->
+
+    <section
+        class="room final-room"
+        id="room10"
+        data-answer="35/36"
+        data-completion="complete"
+    >
+        <h2>Problem 10</h2>
+
+        <div class="question-maths">
+            \[
+            2\dfrac{11}{12}\div3
+            \]
+        </div>
+
+        <div class="answer-entry">
+            <input type="text" class="answer-input">
+            <button type="button" class="check-button">Check</button>
+            <span class="answer-icon"></span>
+        </div>
+
+        <div
+            class="completion-message"
+            id="completionMessage"
+        >
+            ✓ Congratulations! You have completed all ten
+            problems.
+        </div>
+    </section>
+
+    <script>
+        const rooms =
+            document.querySelectorAll(".room[data-answer]");
+
+        const resetButton =
+            document.getElementById("resetButton");
+
+        const completionMessage =
+            document.getElementById("completionMessage");
+
+        function normaliseFraction(value) {
+            return value
+                .trim()
+                .replace(/\s+/g, "");
+        }
+
+        function revealNextRoom(room) {
+            const nextRoomId =
+                room.dataset.nextRoom;
+
+            if (!nextRoomId) return;
+
+            const nextRoom =
+                document.getElementById(nextRoomId);
+
+            nextRoom.classList.add("visible");
+
+            nextRoom.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+        }
+
+        function completeQuiz() {
+            completionMessage.classList.add("visible");
+        }
+
+        rooms.forEach(room => {
+
+            const input =
+                room.querySelector(".answer-input");
+
+            const button =
+                room.querySelector(".check-button");
+
+            const answerEntry =
+                room.querySelector(".answer-entry");
+
+            const answerIcon =
+                room.querySelector(".answer-icon");
+
+            function checkAnswer() {
+
+                const enteredAnswer =
+                    normaliseFraction(input.value);
+
+                const correctAnswer =
+                    normaliseFraction(
+                        room.dataset.answer
+                    );
+
+                if (
+                    enteredAnswer === correctAnswer
+                ) {
+                    answerEntry.classList.remove(
+                        "incorrect"
+                    );
+
+                    answerEntry.classList.add(
+                        "correct"
+                    );
+
+                    answerIcon.textContent = "✓";
+
+                    input.disabled = true;
+                    button.disabled = true;
+
+                    revealNextRoom(room);
+
+                    if (
+                        room.dataset.completion ===
+                        "complete"
+                    ) {
+                        completeQuiz();
+                    }
+
+                } else {
+
+                    answerEntry.classList.remove(
+                        "correct"
+                    );
+
+                    answerEntry.classList.add(
+                        "incorrect"
+                    );
+
+                    answerIcon.textContent = "✕";
+                }
+            }
+
+            button.addEventListener(
+                "click",
+                checkAnswer
+            );
+
+            input.addEventListener(
+                "keydown",
+                event => {
+                    if (event.key === "Enter") {
+                        checkAnswer();
+                    }
+                }
+            );
+
+        });
+
+        resetButton.addEventListener(
+            "click",
+            () => {
+
+                rooms.forEach(
+                    (room, index) => {
+
+                        const input =
+                            room.querySelector(
+                                ".answer-input"
+                            );
+
+                        const button =
+                            room.querySelector(
+                                ".check-button"
+                            );
+
+                        const answerEntry =
+                            room.querySelector(
+                                ".answer-entry"
+                            );
+
+                        const answerIcon =
+                            room.querySelector(
+                                ".answer-icon"
+                            );
+
+                        input.value = "";
+                        input.disabled = false;
+                        button.disabled = false;
+
+                        answerEntry.classList.remove(
+                            "correct",
+                            "incorrect"
+                        );
+
+                        answerIcon.textContent = "";
+
+                        if (index === 0) {
+                            room.classList.add(
+                                "visible"
+                            );
+                        } else {
+                            room.classList.remove(
+                                "visible"
+                            );
+                        }
+                    }
+                );
+
+                completionMessage.classList.remove(
+                    "visible"
+                );
+            }
+        );
+    </script>
+
+</body>
+
+</html>
