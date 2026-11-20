@@ -34,7 +34,7 @@ Perpendicular bisectors pass through the *midpoint* of a line segment, and run *
 
 `r hide("Answer")`
 
-$4y=-3x+29$ or $y=-\frac{3}{4}x+\frac{29}{2}$
+$4y=-3x+29$ or $y=-\frac{3}{4}x+\frac{29}{4}$
 
 *For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 15, Exercise 1.8, Questions 1(a), 1(b) and 1(c)**
 
@@ -208,7 +208,7 @@ c) You can use $y=y$ as a first step to finding points of intersection.
 
 (a) $-4$
 
-(b) $a>1$, valid statement *(see solution)*.
+(b) $a<-1$, valid statement *(see solution)*.
 
 *For more practice, try:* **[Zeta Higher Textbook](https://ebooks.zetapress.co.uk/yyrtww), Page 93, Exercise 6.3, Questions 1(f), 1(i) and 1(l)**
 
