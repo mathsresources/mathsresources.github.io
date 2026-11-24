@@ -14,11 +14,10 @@ library(webexercises)
 #style_widgets(incorrect = "goldenrod", correct = "purple")
 ```
 
-`r hide("Links")`
+`r hide("Data Booklet")`
 
 [Click here](https://www.sqa.org.uk/files_ccc/ah-statistics-data-booklet.pdf) to open the Data Booklet.
 
-The textbook up to chapter 13 can be found [here](pdf/textbook_to_13.pdf).
 
 `r unhide()`
 
