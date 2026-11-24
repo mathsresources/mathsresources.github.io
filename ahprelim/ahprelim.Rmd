@@ -1,0 +1,851 @@
+---
+title: "AH Statistics Prelim Topic Revision - Web Version"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+`r hide("Links")`
+
+[Click here](https://www.sqa.org.uk/files_ccc/ah-statistics-data-booklet.pdf) to open the Data Booklet.
+
+The textbook up to chapter 13 can be found [here](pdf/textbook_to_13.pdf).
+
+`r unhide()`
+
+<hr>
+
+## 1 Exploratory Data Analysis
+
+<hr>
+
+![](images/Q01.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A01.png)
+
+`r unhide()`
+
+![](images/Q02.png)
+
+`r hide("Hint")`
+
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A02.png)
+
+`r unhide()`
+
+![](images/Q03.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A03.png)
+
+
+`r unhide()`
+
+<hr>
+
+## 2 Probability Theory I
+
+<hr>
+
+![](images/Q04.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A04.png)
+
+`r unhide()`
+
+![](images/Q05.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A05a.png)
+
+`r unhide()`
+
+![](images/Q06.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A06.png)
+
+`r unhide()`
+
+![](images/Q07.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A07.png)
+
+`r unhide()`
+
+<hr>
+
+## 3 Sampling Theory
+
+<hr>
+
+![](images/Q08.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A08.png)
+
+`r unhide()`
+
+
+![](images/Q09.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A09.png)
+
+`r unhide()`
+
+![](images/Q10.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/a10.png)
+
+`r unhide()`
+
+<hr>
+
+## 4 Probability Theory II
+
+<hr>
+
+![](images/Q11.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A11.png)
+
+`r unhide()`
+
+![](images/Q12.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A12.png)
+
+`r unhide()`
+
+
+![](images/Q13.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A13.png)
+
+`r unhide()`
+
+![](images/Q14.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A14.png)
+
+`r unhide()`
+
+<hr>
+
+## 5 Linear Regression I
+
+<hr>
+
+![](images/Q15.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A15.png)
+
+`r unhide()`
+
+![](images/Q16.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A16.png)
+
+`r unhide()`
+
+<hr>
+
+## 6 Random Variables
+
+<hr>
+
+![](images/Q17.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A17.png)
+
+`r unhide()`
+
+![](images/Q18a.png)
+
+![](images/Q18b.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A18.png)
+
+`r unhide()`
+
+<hr>
+
+## 7 Discrete Distributions
+
+<hr>
+
+![](images/Q19.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A19.png)
+
+`r unhide()`
+
+![](images/Q20.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A20.png)
+
+`r unhide()`
+
+![](images/Q21.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A21.png)
+
+`r unhide()`
+
+![](images/Q22.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A22.png)
+
+`r unhide()`
+
+![](images/Q23.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A23.png)
+
+`r unhide()`
+
+<hr>
+
+## 8 Continuous Distributions
+
+<hr>
+
+![](images/Q24.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A24.png)
+
+`r unhide()`
+
+![](images/Q25.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A25.png)
+
+`r unhide()`
+
+![](images/Q26.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A26.png)
+
+`r unhide()`
+
+![](images/Q27.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A27.png)
+
+`r unhide()`
+
+![](images/Q28.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A28.png)
+
+`r unhide()`
+
+![](images/Q29.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A29.png)
+
+`r unhide()`
+
+
+![](images/Q30.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A30.png)
+
+`r unhide()`
+
+<hr>
+
+## 9 Disribution of the Sample Mean
+
+<hr>
+
+![](images/Q31.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A31.png)
+
+`r unhide()`
+
+![](images/Q32a.png)
+
+![](images/Q32b.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A32.png)
+
+`r unhide()`
+
+<hr>
+
+## 10 Hypothesis Testing I
+
+<hr>
+
+![](images/Q33.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A33.png)
+
+`r unhide()`
+
+![](images/Q34.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A34.png)
+
+`r unhide()`
+
+![](images/Q35.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A35.png)
+
+`r unhide()`
+
+<hr>
+
+## 11 Confidence Intervals
+
+<hr>
+
+![](images/Q36.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A36.png)
+
+`r unhide()`
+
+![](images/Q37.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A37.png)
+
+`r unhide()`
+
+![](images/Q38.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A38.png)
+
+`r unhide()`
+
+<hr>
+
+## 12 Chi-Squared Goodness-of-fit Test
+
+<hr>
+
+![](images/Q39.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A39.png)
+
+`r unhide()`
+
+
+![](images/Q40.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A40.png)
+
+`r unhide()`
+
+<hr>
+
+## 13 Control Charts
+
+<hr>
+
+
+![](images/Q41a.png)
+
+![](images/Q41b.png)
+
+`r hide("Hint")`
+
+
+`r unhide()`
+
+`r hide("Answer")`
+
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A41.png)
+
+`r unhide()`
+
+![](images/Q42.png)
+
+`r hide("Hint")`
+
+`r unhide()`
+
+`r hide("Answer")`
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A42.png)
+
+`r unhide()`
+
+
