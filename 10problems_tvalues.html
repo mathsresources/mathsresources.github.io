@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>10 Problems: t-Test Critical Values</title>
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="/images/favicon.ico"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- MathJax -->
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [["\\(", "\\)"]],
+                displayMath: [["\\[", "\\]"]]
+            }
+        };
+    </script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #222222;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #234b7c;
+            text-align: center;
+        }
+
+        .instructions {
+            margin-bottom: 20px;
+            color: #444444;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .game-controls {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .reset-button {
+            padding: 10px 18px;
+            border: 2px solid #707070;
+            border-radius: 6px;
+            color: #333333;
+            background-color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .reset-button:hover {
+            color: #ffffff;
+            background-color: #555555;
+        }
+
+        .reset-button:focus {
+            outline: 3px solid #b9d2ed;
+            outline-offset: 2px;
+        }
+
+        .room {
+            display: none;
+            margin-bottom: 25px;
+            padding: 25px;
+            border: 2px solid #3568a8;
+            border-radius: 10px;
+            background-color: #eef5ff;
+        }
+
+        .room.visible {
+            display: block;
+        }
+
+        .room h2 {
+            margin-top: 0;
+            color: #234b7c;
+        }
+
+        .question {
+            margin-bottom: 14px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .hypotheses {
+            margin: 18px 0;
+            padding: 14px;
+            border-left: 5px solid #3568a8;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .given-statistic {
+            margin: 18px 0;
+            padding: 12px;
+            border: 1px solid #c6d6e8;
+            border-radius: 6px;
+            background-color: #f8fbff;
+            font-size: 1.05rem;
+            text-align: center;
+        }
+
+        .answer-entry {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition:
+                background-color 0.2s,
+                border-color 0.2s;
+        }
+
+        .answer-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .answer-input:focus {
+            border-color: #3568a8;
+            outline: 3px solid #b9d2ed;
+            outline-offset: 1px;
+        }
+
+        .answer-input:disabled {
+            color: #222222;
+            background-color: #ffffff;
+            opacity: 1;
+        }
+
+        .check-button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            background-color: #3568a8;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .check-button:hover:not(:disabled) {
+            background-color: #244e80;
+        }
+
+        .check-button:focus {
+            outline: 3px solid #b9d2ed;
+            outline-offset: 2px;
+        }
+
+        .check-button:disabled {
+            background-color: #7b9abb;
+            cursor: default;
+        }
+
+        .answer-entry.correct {
+            border-color: #71aa79;
+            background-color: #dff3e3;
+        }
+
+        .answer-entry.incorrect {
+            border-color: #d27b7b;
+            background-color: #f8dddd;
+        }
+
+        .answer-icon {
+            min-width: 35px;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+        }
+
+        .answer-entry.correct .answer-icon {
+            color: #287a37;
+        }
+
+        .answer-entry.incorrect .answer-icon {
+            color: #ad3030;
+        }
+
+        .final-room {
+            border-color: #b38b22;
+            background-color: #fff4c9;
+        }
+
+        .final-room h2 {
+            color: #795d12;
+            text-align: center;
+        }
+
+        .completion-message {
+            display: none;
+            margin-top: 20px;
+            padding: 25px;
+            border: 2px solid #71aa79;
+            border-radius: 10px;
+            color: #287a37;
+            background-color: #dff3e3;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .completion-message.visible {
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+                padding: 12px;
+            }
+
+            .room {
+                padding: 18px;
+            }
+
+            .answer-entry {
+                flex-wrap: wrap;
+            }
+
+            .answer-input {
+                flex-basis: 100%;
+            }
+
+            .check-button {
+                flex: 1;
+            }
+        }
+    </style>
+
+    <!-- Privacy-friendly analytics by Plausible -->
+
+    <script
+        async
+        src="https://plausible.io/js/pa-2VhzmnRfGrq9wRgciW3VF.js"
+    ></script>
+
+    <script>
+        window.plausible =
+            window.plausible ||
+            function () {
+                (plausible.q = plausible.q || []).push(arguments);
+            };
+
+        plausible.init =
+            plausible.init ||
+            function (options) {
+                plausible.o = options || {};
+            };
+
+        plausible.init();
+    </script>
+</head>
+
+<body>
+
+    <h1>10 Problems: \(t\)-Test Critical Values</h1>
+
+    <p class="instructions">
+        Use the Student's \(t\) distribution table in the
+        Advanced Higher Statistics Data Booklet.<br>
+        For each test, determine the degrees of freedom \(\nu\) and enter
+        the required critical value to three decimal places.<br>
+        For a two-tailed test, enter only the critical value having
+        the same sign as the stated test statistic.
+    </p>
+
+    <div class="game-controls">
+        <button
+            type="button"
+            class="reset-button"
+            id="resetButton"
+        >
+            Reset problems
+        </button>
+    </div>
+
+    <!-- ROOM 1 -->
+
+    <div
+        class="room visible"
+        id="room1"
+        data-answer="1.895"
+        data-next-room="room2"
+    >
+        <h2>Problem 1</h2>
+
+        <p class="question">
+            A baker claims that the mean mass of a particular type
+            of loaf is \(800\) grams. A random sample of \(8\)
+            loaves is used to investigate whether the mean mass is
+            greater than \(800\) grams.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=800
+                \qquad
+                \mathrm{H}_1:\mu>800
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(5\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=1.420\)
+        </div>
+
+        <p class="question">
+            State the critical value to three decimal places.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 1"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 2 -->
+
+    <div
+        class="room"
+        id="room2"
+        data-answer="-1.383"
+        data-next-room="room3"
+    >
+        <h2>Problem 2</h2>
+
+        <p class="question">
+            A machine is intended to fill packets with a mean mass of
+            \(250\) grams. A random sample of \(10\) packets is used
+            to investigate whether the mean mass is less than
+            \(250\) grams.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=250
+                \qquad
+                \mathrm{H}_1:\mu<250
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(10\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=-1.100\)
+        </div>
+
+        <p class="question">
+            State the critical value to three decimal places.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Include the sign"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 2"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 3 -->
+
+    <div
+        class="room"
+        id="room3"
+        data-answer="-1.796"
+        data-next-room="room4"
+    >
+        <h2>Problem 3</h2>
+
+        <p class="question">
+            The historic mean journey time for a bus route is
+            \(35\) minutes. A random sample of \(12\) journeys is
+            used to investigate whether the mean journey time has
+            changed.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=35
+                \qquad
+                \mathrm{H}_1:\mu\ne35
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(10\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=-2.050\)
+        </div>
+
+        <p class="question">
+            State, to three decimal places, only the critical value
+            having the same sign as the test statistic.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the negative critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 3"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 4 -->
+
+    <div
+        class="room"
+        id="room4"
+        data-answer="2.624"
+        data-next-room="room5"
+    >
+        <h2>Problem 4</h2>
+
+        <p class="question">
+            A school claims that pupils spend a mean of \(60\)
+            minutes completing a revision exercise. A random sample
+            of \(15\) pupils is used to investigate whether the mean
+            time is greater than \(60\) minutes.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=60
+                \qquad
+                \mathrm{H}_1:\mu>60
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(1\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=2.700\)
+        </div>
+
+        <p class="question">
+            State the critical value to three decimal places.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 4"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 5 -->
+
+    <div
+        class="room"
+        id="room5"
+        data-answer="2.110"
+        data-next-room="room6"
+    >
+        <h2>Problem 5</h2>
+
+        <p class="question">
+            A manufacturer states that the mean lifetime of a battery
+            is \(20\) hours. A random sample of \(18\) batteries is
+            used to investigate whether the true mean lifetime
+            differs from \(20\) hours.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=20
+                \qquad
+                \mathrm{H}_1:\mu\ne20
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(5\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=2.310\)
+        </div>
+
+        <p class="question">
+            State, to three decimal places, only the critical value
+            having the same sign as the test statistic.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the positive critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 5"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 6 -->
+
+    <div
+        class="room"
+        id="room6"
+        data-answer="-2.086"
+        data-next-room="room7"
+    >
+        <h2>Problem 6</h2>
+
+        <p class="question">
+            A café previously sold cups containing a mean of
+            \(300\) millilitres of coffee. A random sample of
+            \(21\) cups is used to investigate whether the current
+            mean volume is less than \(300\) millilitres.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=300
+                \qquad
+                \mathrm{H}_1:\mu<300
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(2.5\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=-2.200\)
+        </div>
+
+        <p class="question">
+            State the critical value to three decimal places.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Include the sign"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 6"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 7 -->
+
+    <div
+        class="room"
+        id="room7"
+        data-answer="-2.492"
+        data-next-room="room8"
+    >
+        <h2>Problem 7</h2>
+
+        <p class="question">
+            The mean height of a particular variety of plant is
+            believed to be \(45\) centimetres. A random sample of
+            \(25\) plants is used to investigate whether the true
+            mean height differs from \(45\) centimetres.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=45
+                \qquad
+                \mathrm{H}_1:\mu\ne45
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(2\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=-2.550\)
+        </div>
+
+        <p class="question">
+            State, to three decimal places, only the critical value
+            having the same sign as the test statistic.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the negative critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 7"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 8 -->
+
+    <div
+        class="room"
+        id="room8"
+        data-answer="1.311"
+        data-next-room="room9"
+    >
+        <h2>Problem 8</h2>
+
+        <p class="question">
+            A delivery company states that its drivers complete a
+            mean of \(40\) deliveries each day. A random sample of
+            \(30\) working days is used to investigate whether the
+            mean number of deliveries is greater than \(40\).
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=40
+                \qquad
+                \mathrm{H}_1:\mu>40
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(10\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=1.350\)
+        </div>
+
+        <p class="question">
+            State the critical value to three decimal places.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 8"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- ROOM 9 -->
+
+    <div
+        class="room"
+        id="room9"
+        data-answer="-2.712"
+        data-next-room="room10"
+    >
+        <h2>Problem 9</h2>
+
+        <p class="question">
+            A company claims that the mean response time for its
+            customer service team is \(12\) minutes. A random sample
+            of \(39\) calls is used to investigate whether the true
+            mean response time differs from \(12\) minutes.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=12
+                \qquad
+                \mathrm{H}_1:\mu\ne12
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(1\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=-2.800\)
+        </div>
+
+        <p class="question">
+            State, to three decimal places, only the critical value
+            having the same sign as the test statistic.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the negative critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 9"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+    </div>
+
+    <!-- FINAL ROOM -->
+
+    <div
+        class="room final-room"
+        id="room10"
+        data-answer="2.010"
+        data-completion="complete"
+    >
+        <h2>Final Problem</h2>
+
+        <p class="question">
+            A bottling company states that its bottles contain a mean
+            of \(500\) millilitres. A random sample of \(50\) bottles
+            is used to investigate whether the true mean volume
+            differs from \(500\) millilitres.
+        </p>
+
+        <div class="hypotheses">
+            \[
+                \mathrm{H}_0:\mu=500
+                \qquad
+                \mathrm{H}_1:\mu\ne500
+            \]
+        </div>
+
+        <p class="question">
+            The test is conducted at the \(5\%\) significance level.
+        </p>
+
+        <div class="given-statistic">
+            Test statistic: \(t=2.100\)
+        </div>
+
+        <p class="question">
+            State, to three decimal places, only the critical value
+            having the same sign as the test statistic.
+        </p>
+
+        <div class="answer-entry">
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="Enter the positive critical value"
+                inputmode="decimal"
+                autocomplete="off"
+                aria-label="Critical value for Problem 10"
+            >
+
+            <button type="button" class="check-button">
+                Check
+            </button>
+
+            <span
+                class="answer-icon"
+                aria-hidden="true"
+            ></span>
+        </div>
+
+        <div
+            class="completion-message"
+            id="completionMessage"
+            aria-live="polite"
+        >
+            ✓ Congratulations! You have completed all ten problems.
+        </div>
+    </div>
+
+    <!-- Game script -->
+
+    <script>
+        const rooms =
+            document.querySelectorAll(".room[data-answer]");
+
+        const resetButton =
+            document.getElementById("resetButton");
+
+        const completionMessage =
+            document.getElementById("completionMessage");
+
+        /*
+        Convert the entered text into a number.
+
+        Spaces and commas are ignored. A leading negative sign
+        is retained because some critical values are negative.
+        */
+
+        function parseNumericalAnswer(value) {
+            const cleanedValue = value
+                .trim()
+                .replace(/,/g, "")
+                .replace(/\s+/g, "");
+
+            if (cleanedValue === "") {
+                return NaN;
+            }
+
+            return Number(cleanedValue);
+        }
+
+        function revealNextRoom(room) {
+            const nextRoomId =
+                room.dataset.nextRoom;
+
+            if (!nextRoomId) {
+                return;
+            }
+
+            const nextRoom =
+                document.getElementById(nextRoomId);
+
+            if (!nextRoom) {
+                return;
+            }
+
+            nextRoom.classList.add("visible");
+
+            if (
+                window.MathJax &&
+                MathJax.typesetPromise
+            ) {
+                MathJax.typesetPromise([nextRoom]);
+            }
+
+            nextRoom.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+
+            const nextInput =
+                nextRoom.querySelector(".answer-input");
+
+            if (nextInput) {
+                setTimeout(() => {
+                    nextInput.focus();
+                }, 500);
+            }
+        }
+
+        function completeGame() {
+            completionMessage.classList.add("visible");
+
+            completionMessage.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+        }
+
+        rooms.forEach(room => {
+            const input =
+                room.querySelector(".answer-input");
+
+            const button =
+                room.querySelector(".check-button");
+
+            const answerEntry =
+                room.querySelector(".answer-entry");
+
+            const answerIcon =
+                room.querySelector(".answer-icon");
+
+            function showCorrect() {
+                answerEntry.classList.remove("incorrect");
+                answerEntry.classList.add("correct");
+
+                answerIcon.textContent = "✓";
+
+                input.disabled = true;
+                button.disabled = true;
+
+                revealNextRoom(room);
+
+                if (
+                    room.dataset.completion ===
+                    "complete"
+                ) {
+                    completeGame();
+                }
+            }
+
+            function showIncorrect() {
+                answerEntry.classList.remove("correct");
+                answerEntry.classList.add("incorrect");
+
+                answerIcon.textContent = "✕";
+
+                input.focus();
+                input.select();
+            }
+
+            function checkAnswer() {
+                const enteredAnswer =
+                    parseNumericalAnswer(input.value);
+
+                const correctAnswer =
+                    parseNumericalAnswer(
+                        room.dataset.answer
+                    );
+
+                const tolerance = 0.000001;
+
+                const isCorrect =
+                    Number.isFinite(enteredAnswer) &&
+                    Number.isFinite(correctAnswer) &&
+                    Math.abs(
+                        enteredAnswer - correctAnswer
+                    ) < tolerance;
+
+                if (isCorrect) {
+                    showCorrect();
+                } else {
+                    showIncorrect();
+                }
+            }
+
+            button.addEventListener(
+                "click",
+                checkAnswer
+            );
+
+            input.addEventListener(
+                "keydown",
+                event => {
+                    if (event.key === "Enter") {
+                        checkAnswer();
+                    }
+                }
+            );
+
+            input.addEventListener(
+                "input",
+                () => {
+                    if (
+                        !answerEntry.classList.contains(
+                            "correct"
+                        )
+                    ) {
+                        answerEntry.classList.remove(
+                            "incorrect"
+                        );
+
+                        answerIcon.textContent = "";
+                    }
+                }
+            );
+        });
+
+        /*
+        Reset the activity.
+
+        This clears every answer, removes all ticks and crosses,
+        hides Problems 2 to 10, and returns to Problem 1.
+        */
+
+        resetButton.addEventListener("click", () => {
+            rooms.forEach((room, index) => {
+                const input =
+                    room.querySelector(".answer-input");
+
+                const button =
+                    room.querySelector(".check-button");
+
+                const answerEntry =
+                    room.querySelector(".answer-entry");
+
+                const answerIcon =
+                    room.querySelector(".answer-icon");
+
+                input.value = "";
+                input.disabled = false;
+                button.disabled = false;
+
+                answerEntry.classList.remove(
+                    "correct",
+                    "incorrect"
+                );
+
+                answerIcon.textContent = "";
+
+                if (index === 0) {
+                    room.classList.add("visible");
+                } else {
+                    room.classList.remove("visible");
+                }
+            });
+
+            completionMessage.classList.remove("visible");
+
+            const firstRoom =
+                document.getElementById("room1");
+
+            const firstInput =
+                firstRoom.querySelector(".answer-input");
+
+            firstRoom.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            setTimeout(() => {
+                firstInput.focus();
+            }, 500);
+        });
+    </script>
+
+</body>
+
+</html>
